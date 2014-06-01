@@ -1,0 +1,1 @@
+C:\Users\Simon\Documents\Visual Studio 2010\Projects\AStarPathfinding\AStarPathfinding\AStarPathfindingContent\obj\x86\Debug\ResolveAssemblyReference.cache

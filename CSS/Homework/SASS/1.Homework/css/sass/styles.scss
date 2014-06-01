@@ -1,0 +1,305 @@
+$main-font: normal Arial, "Helvetica Neue", Helvetica, sans-serif;
+$time-font: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+
+$main-text-color: #FFFFFF;
+$special-text-color: #AAAAAA;
+$bg-color: #B35EF3;
+
+$form-border: 1px solid #603382;
+$common-border: 1px solid #000000;
+
+@mixin linear-gradient($top_color, $top_stop, $middle_color, $middle_stop, $bottom_color, $bottom_stop) {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background: $top_color;
+	background: -moz-linear-gradient(top,  $top_color $top_stop, $middle_color $middle_stop, $bottom_color $bottom_stop);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop($top_stop,$top_color), color-stop($middle_stop,$middle_color), color-stop($bottom_stop,$bottom_color)); 
+	background: -webkit-linear-gradient(top,  $top_color $top_stop,$middle_color $middle_stop,$bottom_color $bottom_stop);
+	background: -o-linear-gradient(top,  $top_color $top_stop,$middle_color $middle_stop,$bottom_color $bottom_stop);
+	background: -ms-linear-gradient(top,  $top_color $top_stop,$middle_color $middle_stop,$bottom_color $bottom_stop);
+	background: linear-gradient(to bottom,  $top_color $top_stop,$middle_color $middle_stop,$bottom_color $bottom_stop);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top_color', endColorstr='$bottom_color',GradientType=0 );
+}
+
+@mixin clearfix() {
+	& {
+		ms-zoom: 1;
+	}
+
+	&:before,
+    &:after {
+        content: "\0020";
+        display: block;
+        height: 0;
+        overflow: hidden
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin reset() {
+	margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@mixin fontsize($size: 24, $base: 16) {
+	font-size: $size + px;
+	font-size: ($size / $base) * 1rem;
+}
+
+.clearfix, #header-container, body header nav, body header nav ul, .sub-nav-list, body section, body aside {
+	@include clearfix();
+}
+
+body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+	@include reset();
+}
+
+div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
+    display: block;
+}
+
+html {
+	height: 100%;
+	font-size: 100%;
+}
+
+body {
+	height: 100%;
+	font: $main-font;
+	color: $main-text-color;
+	@include fontsize(14);
+	@include linear-gradient(#d392fd, 0%, #8f1aef, 16%, #9215f2, 100%);
+
+	header{
+    padding: 25px 15px 5px;
+
+		nav {
+			display: inline-block;
+			border-radius: 15px;
+            width: 75%;
+            margin: 20px 20px 20px 20px;
+            padding: 12px;
+            border: $common-border;
+
+            ul li {
+                float: left;
+                margin: 0;
+
+                a {
+                    text-decoration: none;
+                    padding: 0 10px 0 10px;
+                    color: $main-text-color;
+                    font: $main-font;
+                    @include fontsize(20);
+
+                    .selected {
+                        font-weight: bold;
+                    }
+                }
+
+                &:hover > a {
+                    text-decoration: underline;
+                    color: darken($special-text-color, 0);
+
+                    & + ul {
+                    	display: block;
+                    }
+                }
+
+                ul li {
+                    float: none;
+                    margin: 0 15px;
+                    padding: 10px 0;
+                    border-bottom: $common-border;
+
+                    &:last-of-type {
+                        border-bottom: none;
+                    }
+
+                    & > a {
+                        @include fontsize(17);
+                        color: #fff;
+                    }
+                }
+            }
+		}
+	}
+
+	section {
+        width: 75%;
+        float: left;
+        color: $main-text-color;
+
+        article {
+            margin: 20px;
+            padding: 20px;
+            border: $common-border;
+			border-radius: 15px;
+
+			header {
+                background: none;
+                padding: 5px;
+
+                h1 {
+                    @include fontsize(20);
+                    padding: 0;
+                }
+            }
+
+            footer {
+                padding: 5px;
+
+                p {
+                    @include fontsize(16);
+                    text-align: right;
+                    font-weight: normal;
+
+                    time {
+                    	font-family: $time-font;
+                    }
+
+                    a {
+                        text-decoration: none;
+						color: $special-text-color;
+
+						a:hover {
+							text-decoration: underline;
+						}
+                    }
+                }
+            }
+        }
+    }
+
+    aside {
+        float: left;
+        width: 20%;
+        margin: 20px;
+
+        & > ul {
+            list-style-type: none;
+
+            & > li {
+                margin: 15px 0;
+                padding: 15px;
+                border: $common-border;
+                border-radius: 5px;
+
+                h2 {
+                    @include fontsize(15);
+                    font-weight: bold;
+                }
+
+                p {
+                    margin: 10px 5px 10px 5px;
+                    @include fontsize(14);
+
+                    a {
+                        color: $special-text-color;
+                        text-decoration: none;
+                    }
+
+                    strong {
+                        color: lighten($special-text-color, 13);
+                        font-weight: bold;
+                        font-style: normal;
+                    }
+
+                    em {
+                        color: lighten($special-text-color, 13);
+                        font-weight: normal;
+                        font-style: italic;
+                    }
+                }
+
+                ul {
+                    list-style-type: none;
+                    margin: 10px 0 10px 0;
+
+                    li {
+                        margin: 5px 0 0 10px ;
+                        background: url(../images/li-dot.png) no-repeat;
+                        background-position: 0 50%;
+                        padding-left: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        clear: both;
+        padding: 15px 0 25px 0;
+
+        p {
+            @include fontsize(17);
+            font-weight: bold;
+			text-align: center
+        }
+    }
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.sub-nav-list {
+    position: absolute;
+    display: none;
+    background-color: rgba($bg-color, 0.9);
+    border-radius: 5px;
+}
+
+#logo-container {
+	float: left;
+	position: relative;
+}
+
+#reg-form-container {
+        float: right;
+        position: relative;
+        right: 5%;
+        top: 50%;
+
+        div {
+            text-align: right;
+
+            label {
+                width: 50px;
+                margin: 5px;
+            }
+
+            input {
+                width: 130px;
+                border: $form-border;
+                border-radius: 10px;
+                padding: 2px 5px;
+                margin: 5px;
+				background-color: $bg-color;
+            }
+        }
+
+        button {
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: bold;
+            border: $form-border;
+            border-style: outset;
+            border-radius: 10px;
+            padding: 5px 8px;
+			background-color: $bg-color;
+			color: $main-text-color;
+
+			&:hover {
+				background-color: darken($bg-color, 18);
+                border-style: inset;
+			}
+        }
+}
+
+
+

@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\MagicWords\bin\Debug\MagicWords.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\MagicWords\bin\Debug\MagicWords.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\MagicWords\bin\Debug\MagicWords.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\MagicWords\obj\Debug\MagicWords.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\MagicWords\obj\Debug\MagicWords.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\MagicWords\obj\Debug\MagicWords.pdb

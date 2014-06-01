@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\1.IntroductionToProgramming-Homework\3.PrintMyName\bin\Debug\3.PrintMyName.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\1.IntroductionToProgramming-Homework\3.PrintMyName\bin\Debug\3.PrintMyName.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\1.IntroductionToProgramming-Homework\3.PrintMyName\bin\Debug\3.PrintMyName.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\1.IntroductionToProgramming-Homework\3.PrintMyName\obj\Debug\Ex03.PrintMyName.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\1.IntroductionToProgramming-Homework\3.PrintMyName\obj\Debug\3.PrintMyName.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\1.IntroductionToProgramming-Homework\3.PrintMyName\obj\Debug\3.PrintMyName.pdb

@@ -1,0 +1,136 @@
+@mixin clearfix() {
+	&:after {
+	    display: table;
+	    content: " ";
+	    clear: both;
+	    height: 0;
+     }
+}
+
+@mixin linear-gradient($startColor, $endColor) {
+	background: $startColor;
+	background: -moz-linear-gradient(top,  $startColor 0%, $endColor 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$startColor), color-stop(100%,$endColor));
+	background: -webkit-linear-gradient(top,  $startColor 0%,$endColor 100%);
+	background: -o-linear-gradient(top,  $startColor 0%,$endColor 100%);
+	background: -ms-linear-gradient(top,  $startColor 0%,$endColor 100%);
+	background: linear-gradient(to bottom,  $startColor 0%,$endColor 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$startColor', endColorstr='$endColor',GradientType=0 );
+}
+
+/*
+*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet
+*/
+html,body,div,span,h1,p,ul,li {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}
+input,select{vertical-align:middle}
+
+html {
+	font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+	font-size: 62.5%;
+
+	body {
+		font-size: 1.6em;
+	}
+
+}
+#wrapper {
+	width: 960px;
+
+	div {
+		width: 380px;
+		display: inline-block;
+		border: 1px solid black;
+		border-radius: 15px;
+		margin: 30px;
+		@include linear-gradient(#EEEEEE, #AAAAAA);
+
+		h1 {
+			margin: 15px 0px 10px 0px;
+			font-size: 2.9rem;
+			text-align: center;
+			color: #555555;
+		}
+	}
+}
+
+.messages-list {
+	list-style-type: none;
+	color: #555555;
+
+	li {
+		width: 200px;
+		margin: 0 15px 5px 15px;
+		padding: 5px 15px;
+		border: 1px solid black;
+		border-radius: 15px;
+
+		span:first-of-type {
+			font-size: 1.8rem;
+			font-weight: bold;
+		}
+
+		p {
+			clear: both;
+		}
+	}
+}
+
+.me-item {
+	float: right;
+	@include linear-gradient(#2BEDFF, #C0FAFF);
+
+	span.date {
+			float:right;
+		}
+}
+
+.toshko-item {
+	float: left;
+	@include linear-gradient(#DDFFD0, #6FFF3B);
+
+	span:first-of-type {
+			float: right;
+		}
+
+	span.date {
+		float:left;
+	}
+}
+
+.date {
+	font-family: Consolas, monaco, monospace;
+	font-size: 1.2rem;
+	margin-top: 1px;
+}
+
+input[type='text'] {
+	display: inline-block;
+	margin: 2px 0px 7px 15px;
+	padding: 4px 0 6px 15px;
+	width: 260px;
+	height: 25px;
+	border: none;
+	border-radius: 5px;
+	background-color: #eeeeee;
+	color: #555555;
+
+	&:focus { outline: none; }
+}
+
+button {
+	display: inline-block;
+	width: 69px;
+	height: 31px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: 5px;
+	vertical-align: baseline;
+	font-size: 1.8rem;
+	@include linear-gradient(#EDEDED, #ADADAD);
+
+	&:hover {
+		background: none;
+		background-color: #EEEEEE;
+	}
+}

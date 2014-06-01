@@ -1,0 +1,5 @@
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\StudentWithGroupProperty\bin\Debug\StudentWithGroupProperty.exe.config
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\StudentWithGroupProperty\bin\Debug\StudentWithGroupProperty.exe
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\StudentWithGroupProperty\bin\Debug\StudentWithGroupProperty.pdb
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\StudentWithGroupProperty\obj\Debug\StudentWithGroupProperty.exe
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\StudentWithGroupProperty\obj\Debug\StudentWithGroupProperty.pdb

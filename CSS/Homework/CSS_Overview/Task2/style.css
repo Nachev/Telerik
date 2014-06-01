@@ -1,0 +1,70 @@
+#table {
+	font-family: "Arial",sans-serif;
+	font-size: 65%;
+	text-align: left;
+	vertical-align: middle;
+	width: 457px;
+	height: 134px;
+	margin: 5px;
+	border-bottom: 1px ridge #BBB99D;
+	box-shadow: 0px 0px 5px #888888;
+}
+
+thead tr th {
+	font-weight: normal;
+	color: white;
+	padding: 3px;
+	padding-left: 5px;
+	border: 1px solid #27710A;
+	border-bottom: 1px solid #27710A;
+	border-right: 1px solid #72C530;
+}
+
+table tr td {
+	padding: 3px;
+	padding-left: 5px;
+	border-left: 1px solid #BBB99D
+}
+
+tr:nth-child(2n) {
+	background-color: #ECECD8
+}
+
+/*theader gradient*/
+thead tr {
+	background: rgb(94,195,6); /* Old browsers */
+	background: -moz-linear-gradient(top, rgb(94,195,6) 0%, rgb(78,177,6) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(94,195,6)), color-stop(100%,rgb(78,177,6))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgb(94,195,6) 0%,rgb(78,177,6) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgb(94,195,6) 0%,rgb(78,177,6) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgb(94,195,6) 0%,rgb(78,177,6) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgb(94,195,6) 0%,rgb(78,177,6) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ec306', endColorstr='#4eb106',GradientType=0 ); /* IE6-9 */
+	zoom: 1
+}
+
+.flag:before{
+	content: "";
+	width: 16px;
+	height: 11px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 3px;
+	background:url(flags.png) no-repeat
+}
+
+.flag.de:before {background-position: -16px 0}
+.flag.gb:before {background-position: 0 -11px}
+.flag.mx:before {background-position: -16px -11px}
+
+.name {
+	width: 30%;
+}
+
+.city {
+	width: 24%;
+}
+
+.country {
+	width: 27%;
+}

@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Test100Mult2\bin\Debug\Test100Mult2.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Test100Mult2\bin\Debug\Test100Mult2.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Test100Mult2\bin\Debug\Test100Mult2.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Test100Mult2\obj\Debug\Test100Mult2.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Test100Mult2\obj\Debug\Test100Mult2.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Test100Mult2\obj\Debug\Test100Mult2.csprojResolveAssemblyReference.cache

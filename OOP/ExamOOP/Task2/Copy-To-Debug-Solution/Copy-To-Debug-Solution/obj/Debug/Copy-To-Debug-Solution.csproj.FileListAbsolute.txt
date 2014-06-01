@@ -1,0 +1,6 @@
+F:\Telerik\OOP\ExamOOP\Task2\Copy-To-Debug-Solution\Copy-To-Debug-Solution\obj\Debug\Copy-To-Debug-Solution.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\ExamOOP\Task2\Copy-To-Debug-Solution\Copy-To-Debug-Solution\bin\Debug\Infestation.exe.config
+F:\Telerik\OOP\ExamOOP\Task2\Copy-To-Debug-Solution\Copy-To-Debug-Solution\bin\Debug\Infestation.exe
+F:\Telerik\OOP\ExamOOP\Task2\Copy-To-Debug-Solution\Copy-To-Debug-Solution\bin\Debug\Infestation.pdb
+F:\Telerik\OOP\ExamOOP\Task2\Copy-To-Debug-Solution\Copy-To-Debug-Solution\obj\Debug\Infestation.exe
+F:\Telerik\OOP\ExamOOP\Task2\Copy-To-Debug-Solution\Copy-To-Debug-Solution\obj\Debug\Infestation.pdb

@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckBitOfInt\bin\Debug\CheckBitOfInt.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckBitOfInt\bin\Debug\CheckBitOfInt.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckBitOfInt\bin\Debug\CheckBitOfInt.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckBitOfInt\obj\Debug\CheckBitOfInt.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckBitOfInt\obj\Debug\CheckBitOfInt.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckBitOfInt\obj\Debug\CheckBitOfInt.pdb

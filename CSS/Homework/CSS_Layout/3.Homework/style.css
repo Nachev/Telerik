@@ -1,0 +1,124 @@
+/*
+*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+html {
+	font-size: 62.5%
+}
+
+body {
+	color: #A4A4A4;
+    font: 1.3rem Verdana,Arial,Helvetica,sans-serif;
+	line-height:1;
+	width: 660px;
+	height: 297px
+}
+
+header {
+	width: 100%;
+	height: 19.19%;
+	padding-top: 3.03%;
+
+	background: #3b3b3b;
+	background: -moz-linear-gradient(top,  #3b3b3b 0%, #3a3a3a 48%, #343434 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b3b3b), color-stop(48%,#3a3a3a), color-stop(100%,#343434));
+	background: -webkit-linear-gradient(top,  #3b3b3b 0%,#3a3a3a 48%,#343434 100%);
+	background: -o-linear-gradient(top,  #3b3b3b 0%,#3a3a3a 48%,#343434 100%);
+	background: -ms-linear-gradient(top,  #3b3b3b 0%,#3a3a3a 48%,#343434 100%);
+	background: linear-gradient(to bottom,  #3b3b3b 0%,#3a3a3a 48%,#343434 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3b3b', endColorstr='#343434',GradientType=0 );
+	zoom: 1
+}
+
+section {
+	width: 98.34%;
+	height: 77.44%;
+	background-color: #3B3B3B;
+	padding-left: 1.66%;
+	position: relative
+}
+
+section:before {
+	background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 50% / 20px;
+    bottom: 0;
+    box-shadow: 0 5px 43px rgba(0, 0, 0, 0.5);
+    clip: rect(-20px, auto, 11px, 0px);
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -11px;
+}
+
+fieldset {
+	border: none;
+}
+
+fieldset legend {
+	font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+	float: left;
+	position: relative;
+	display: inline-block;
+	margin: 0.4% 2.57% 0 10.91%;
+}
+
+	fieldset legend:before {
+		background-image: url("pc_ico.png");
+	    content: " ";
+	    height: 210%;
+	    left: -37.5%;
+	    position: absolute;
+	    top: -58%;
+	    width: 35px;
+	}
+
+	fieldset legend:after {
+		content: ":";
+		margin-right: 1px
+	}
+
+#sbt_button {
+	background: url('Button.png');
+	width: 54px;
+	height: 26px;
+	border: 1px solid white;
+	border-radius: 9px;
+	color: white;
+}
+
+input {
+	width: 145px;
+	height: 18px;
+	padding: 0;
+	vertical-align: baseline;
+	margin-right: 3%;
+	border: 1px solid #819DB3
+}
+
+h1 {
+	color: #FBD61A;
+    display: block;
+    font: 2.8rem/6.8rem Georgia,"Times New Roman",Times,serif;
+    height: 68px;
+    width: 400px;
+}
+
+p {
+	width: 93%;
+	line-height: 1.7rem
+}
+
+p span {
+	color: white
+}

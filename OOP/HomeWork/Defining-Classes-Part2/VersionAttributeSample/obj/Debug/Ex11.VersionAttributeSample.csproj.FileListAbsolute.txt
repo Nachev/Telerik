@@ -1,0 +1,3 @@
+F:\Telerik\OOP\HomeWork\Defining-Classes-Part2\VersionAttributeSample\bin\Debug\VersionAttributeSample.exe.config
+F:\Telerik\OOP\HomeWork\Defining-Classes-Part2\VersionAttributeSample\obj\Debug\VersionAttributeSample.exe
+F:\Telerik\OOP\HomeWork\Defining-Classes-Part2\VersionAttributeSample\obj\Debug\VersionAttributeSample.pdb

@@ -1,0 +1,15 @@
+D:\Dropbox\Телерик\C# Part 2\PacMan\PacMan\bin\Debug\PacMan.exe.config
+D:\Dropbox\Телерик\C# Part 2\PacMan\PacMan\bin\Debug\PacMan.exe
+D:\Dropbox\Телерик\C# Part 2\PacMan\PacMan\bin\Debug\PacMan.pdb
+D:\Dropbox\Телерик\C# Part 2\PacMan\PacMan\obj\Debug\PacMan.exe
+D:\Dropbox\Телерик\C# Part 2\PacMan\PacMan\obj\Debug\PacMan.pdb
+D:\Dropbox\Телерик\C# Part 2\Pacman\PacMan\obj\Debug\PacMan.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\TeamWork_C#2\Pacman\PacMan\bin\Debug\PacMan.exe.config
+C:\Users\Nachev\Documents\Telerik\TeamWork_C#2\Pacman\PacMan\obj\Debug\PacMan.exe
+C:\Users\Nachev\Documents\Telerik\TeamWork_C#2\Pacman\PacMan\obj\Debug\PacMan.pdb
+F:\Telerik_BackUp\Telerik\TeamWork_C#2\Pacman\PacMan\bin\Debug\PacMan.exe.config
+F:\Telerik_BackUp\Telerik\TeamWork_C#2\Pacman\PacMan\obj\Debug\PacMan.exe
+F:\Telerik_BackUp\Telerik\TeamWork_C#2\Pacman\PacMan\obj\Debug\PacMan.pdb
+F:\Telerik_BackUp\Telerik\TeamWork_C#2\Pacman\PacMan\bin\Debug\PacMan.exe
+F:\Telerik_BackUp\Telerik\TeamWork_C#2\Pacman\PacMan\bin\Debug\PacMan.pdb
+F:\Telerik_BackUp\Telerik\TeamWork_C#2\Pacman\PacMan\obj\Debug\PacMan.csprojResolveAssemblyReference.cache

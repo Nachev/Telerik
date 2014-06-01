@@ -1,0 +1,6 @@
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-II\CustomExeption\bin\Debug\CustomExeption.exe.config
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-II\CustomExeption\obj\Debug\CustomExeption.exe
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-II\CustomExeption\obj\Debug\CustomExeption.pdb
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-II\CustomExeption\bin\Debug\CustomExeption.exe
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-II\CustomExeption\bin\Debug\CustomExeption.pdb
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-II\CustomExeption\obj\Debug\Ex03.CustomExeption.csprojResolveAssemblyReference.cache

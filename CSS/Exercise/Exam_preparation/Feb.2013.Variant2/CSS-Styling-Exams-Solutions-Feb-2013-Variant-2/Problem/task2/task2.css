@@ -1,0 +1,139 @@
+/*
+*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html {
+  font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+  font-size: 62.5%;
+}
+
+body {
+  width: 960px;
+  font-size: 1.6em;
+}
+
+.notification-list {
+  display: inline-block;
+  margin: 25px;
+  position: relative;
+}
+.notification-list > li {
+  position: static;
+  display: inline-block;
+}
+.notification-list > li:first-child > a {
+  border-right: none;
+  border-radius: 15px 0 0 0;
+}
+.notification-list > li:last-child > a {
+  border-left: none;
+  border-radius: 0 15px 0 0;
+  padding-right: 18px;
+}
+.notification-list > li > a {
+  height: 24px;
+  position: relative;
+  z-index: 2;
+  border: 1px solid black;
+  display: block;
+  font-size: 1.9rem;
+  padding: 6px 15px 0px 15px;
+  background: #ababab;
+  background: -moz-linear-gradient(top, #ababab 0%, #dddddd 83%, #dddddd 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ababab), color-stop(83%, #dddddd), color-stop(100%, #dddddd));
+  background: -webkit-linear-gradient(top, #ababab 0%, #dddddd 83%, #dddddd 100%);
+  background: -o-linear-gradient(top, #ababab 0%, #dddddd 83%, #dddddd 100%);
+  background: -ms-linear-gradient(top, #ababab 0%, #dddddd 83%, #dddddd 100%);
+  background: linear-gradient(to bottom, #ababab 0%, #dddddd 83%, #dddddd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$startColor', endColorstr='$endColor',GradientType=0 );
+  	/*
+  	background: #ababab;
+  	background: -moz-linear-gradient(top, #ababab 0%, #dddddd 83%, #dddddd 100%);
+  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ababab), color-stop(83%,#dddddd), color-stop(100%,#dddddd));
+  	background: -webkit-linear-gradient(top, #ababab 0%,#dddddd 83%,#dddddd 100%);
+  	background: -o-linear-gradient(top, #ababab 0%,#dddddd 83%,#dddddd 100%);
+  	background: -ms-linear-gradient(top, #ababab 0%,#dddddd 83%,#dddddd 100%);
+  	background: linear-gradient(to bottom, #ababab 0%,#dddddd 83%,#dddddd 100%);
+  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ababab', endColorstr='#dddddd',GradientType=0 );
+  */
+}
+.notification-list > li:hover > a {
+  border-bottom: hidden;
+}
+.notification-list > li:hover .content {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #777777;
+}
+
+img {
+  width: 15px;
+  height: 15px;
+}
+
+strong {
+  color: #5e5e5e;
+}
+
+.content {
+  width: 470px;
+  display: none;
+  position: absolute;
+  line-height: 1.1;
+  z-index: 1;
+  top: 30px;
+  left: 0;
+  border: 1px solid black;
+  border-top: none;
+  background: #dddddd;
+  background: -moz-linear-gradient(top, #dddddd 0%, #dddddd 17%, #cccccc 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(17%, #dddddd), color-stop(100%, #cccccc));
+  background: -webkit-linear-gradient(top, #dddddd 0%, #dddddd 17%, #cccccc 100%);
+  background: -o-linear-gradient(top, #dddddd 0%, #dddddd 17%, #cccccc 100%);
+  background: -ms-linear-gradient(top, #dddddd 0%, #dddddd 17%, #cccccc 100%);
+  background: linear-gradient(to bottom, #dddddd 0%, #dddddd 17%, #cccccc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$startColor', endColorstr='$endColor',GradientType=0 );
+}
+.content ul {
+  margin: 3px 0 -1px 15px;
+}
+.content ul a {
+  display: block;
+  margin-top: 10px;
+}
+.content ul a:hover {
+  text-decoration: underline;
+}
+.content ul img {
+  margin-right: 5px;
+}

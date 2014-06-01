@@ -1,0 +1,12 @@
+c:\users\nachev\documents\visual studio 2012\Projects\ExamExercise_2011\5.SubsetSum\bin\Debug\5.SubsetSum.exe.config
+c:\users\nachev\documents\visual studio 2012\Projects\ExamExercise_2011\5.SubsetSum\bin\Debug\5.SubsetSum.exe
+c:\users\nachev\documents\visual studio 2012\Projects\ExamExercise_2011\5.SubsetSum\bin\Debug\5.SubsetSum.pdb
+c:\users\nachev\documents\visual studio 2012\Projects\ExamExercise_2011\5.SubsetSum\obj\Debug\5.SubsetSum.csprojResolveAssemblyReference.cache
+c:\users\nachev\documents\visual studio 2012\Projects\ExamExercise_2011\5.SubsetSum\obj\Debug\5.SubsetSum.exe
+c:\users\nachev\documents\visual studio 2012\Projects\ExamExercise_2011\5.SubsetSum\obj\Debug\5.SubsetSum.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\ExamExercise_2011\5.SubsetSum\bin\Debug\5.SubsetSum.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\ExamExercise_2011\5.SubsetSum\obj\Debug\5.SubsetSum.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\ExamExercise_2011\5.SubsetSum\obj\Debug\5.SubsetSum.pdb
+F:\Telerik_BackUp\Telerik\Course_C#Part1\Exam_Exercises_BG_Coder\ExamExercise_2011\5.SubsetSum\bin\Debug\5.SubsetSum.exe.config
+F:\Telerik_BackUp\Telerik\Course_C#Part1\Exam_Exercises_BG_Coder\ExamExercise_2011\5.SubsetSum\obj\Debug\5.SubsetSum.exe
+F:\Telerik_BackUp\Telerik\Course_C#Part1\Exam_Exercises_BG_Coder\ExamExercise_2011\5.SubsetSum\obj\Debug\5.SubsetSum.pdb

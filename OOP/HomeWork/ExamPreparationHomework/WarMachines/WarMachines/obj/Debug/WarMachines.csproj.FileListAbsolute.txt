@@ -1,0 +1,6 @@
+F:\Telerik\OOP\ExamExersice\OOP-12December2013\WarMachines-Skeleton\WarMachines\bin\Debug\WarMachines.exe.config
+F:\Telerik\OOP\ExamExersice\OOP-12December2013\WarMachines-Skeleton\WarMachines\obj\Debug\WarMachines.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\ExamExersice\OOP-12December2013\WarMachines-Skeleton\WarMachines\bin\Debug\WarMachines.exe
+F:\Telerik\OOP\ExamExersice\OOP-12December2013\WarMachines-Skeleton\WarMachines\bin\Debug\WarMachines.pdb
+F:\Telerik\OOP\ExamExersice\OOP-12December2013\WarMachines-Skeleton\WarMachines\obj\Debug\WarMachines.exe
+F:\Telerik\OOP\ExamExersice\OOP-12December2013\WarMachines-Skeleton\WarMachines\obj\Debug\WarMachines.pdb

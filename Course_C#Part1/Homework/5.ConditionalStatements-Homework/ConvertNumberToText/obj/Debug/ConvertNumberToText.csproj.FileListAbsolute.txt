@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\ConvertNumberToText\bin\Debug\ConvertNumberToText.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\ConvertNumberToText\bin\Debug\ConvertNumberToText.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\ConvertNumberToText\bin\Debug\ConvertNumberToText.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\ConvertNumberToText\obj\Debug\ConvertNumberToText.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\ConvertNumberToText\obj\Debug\ConvertNumberToText.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\ConvertNumberToText\obj\Debug\ConvertNumberToText.csprojResolveAssemblyReference.cache

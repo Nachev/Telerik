@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem1–MathExpression\bin\Debug\Problem1–MathExpression.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem1–MathExpression\bin\Debug\Problem1–MathExpression.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem1–MathExpression\bin\Debug\Problem1–MathExpression.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem1–MathExpression\obj\Debug\Problem1–MathExpression.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem1–MathExpression\obj\Debug\Problem1–MathExpression.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem1–MathExpression\obj\Debug\Problem1–MathExpression.pdb

@@ -1,0 +1,6 @@
+D:\JavaScript\Homework\Arrays\JS-Arrays\JS-Arrays\bin\JS-Arrays.dll.config
+D:\JavaScript\Homework\Arrays\JS-Arrays\JS-Arrays\bin\JS-Arrays.dll
+D:\JavaScript\Homework\Arrays\JS-Arrays\JS-Arrays\bin\JS-Arrays.pdb
+D:\JavaScript\Homework\Arrays\JS-Arrays\JS-Arrays\obj\Debug\JS-Arrays.csprojResolveAssemblyReference.cache
+D:\JavaScript\Homework\Arrays\JS-Arrays\JS-Arrays\obj\Debug\JS-Arrays.dll
+D:\JavaScript\Homework\Arrays\JS-Arrays\JS-Arrays\obj\Debug\JS-Arrays.pdb

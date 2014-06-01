@@ -1,0 +1,43 @@
+﻿5X=-1
+6IFX=-1THENX=0
+7 PRINT X
+8 CLS
+10        PRINT X
+20 X=X+1
+30IFX<4               THEN GOTO 10
+40 STOP
+50 PRINT X
+RUN
+
+10        PRINT X
+20 X=X+1
+30IFX<4               THEN GOTO 10
+40 STOP
+50 PRINT X
+5X=-1
+6IFX=-1THENX=0
+7 PRINT X
+8 CLS
+RUN
+
+0    X   =    1
+1    Y     =     2
+2 Z    =    Y    -    X
+5    PRINT          X
+6    PRINT     Z
+10          X   =   X    +1
+20   IF  X  =  Y  THEN  GOTO 2
+RUN
+
+0    X   =    1 +4
+30 PRINT4
+1    Y     = Y+    2
+2 Z    =    Y    -    X
+5    PRINT          X
+6    PRINT     Z
+9 W = -X
+11 PRINTW
+10          X   =   X    +1
+20   IF  X  =  Y  THEN  GOTO 2
+RUN
+

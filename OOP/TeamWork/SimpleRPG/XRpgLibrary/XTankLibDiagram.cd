@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="XTankWarsLibrary.Controls.Control" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACEAAAAgoAggKCAIAQAAAAFACCIASQgiAQAAAI=</HashCode>
+      <FileName>Controls\Control.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.Controls.ControlManager" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEgAAAAgAIACAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Controls\ControlManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.Controls.Label" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\Label.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.Controls.LinkLabel" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAgAAAAAAAAAAAAAAAAAABAAAAAQAAAA=</HashCode>
+      <FileName>Controls\LinkLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.Controls.PictureBox" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAADAAAAAQgAAAAAAAAAAEEAAAhBAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\PictureBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.Exeptions.MapLayerIncompatibilityException" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exeptions\MapLayerIncompatibilityException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.GameState" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAAAAAiA4AAEgAAAAAAAAAEAAAAAAAAAAAAACQ=</HashCode>
+      <FileName>GameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.GameStateManager" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAAAABQFAQAACACAAAAAAAAAQBAAAIAAACAA=</HashCode>
+      <FileName>GameStateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.InputHandler" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAAACAQAAAAAAAAABAACAAAAAACAAQAAJAAA=</HashCode>
+      <FileName>InputHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.RandomGenerator" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RandomGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.TxtMapReader" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgQAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>TxtMapReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.SpriteClasses.MovableSprite" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBCAAABAAAIgAgAAAEIFABAAAgAUAAIQQAAAAEQQA=</HashCode>
+      <FileName>SpriteClasses\MovableSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.TileEngine.Camera" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAAAABAAgEAAAIBAFAAAAAQAAgAAAAAQAAAA=</HashCode>
+      <FileName>TileEngine\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.TileEngine.Engine" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAQBAAAE=</HashCode>
+      <FileName>TileEngine\Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.TileEngine.MapLayer" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAEAAABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TileEngine\MapLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.TileEngine.TanksSprite" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAA=</HashCode>
+      <FileName>TileEngine\TanksSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.TileEngine.TileMap" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAQAAAAAAAgAAABAAAAAAAAIAAAAAgAAAEAAAABA=</HashCode>
+      <FileName>TileEngine\TileMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XTankWarsLibrary.TileEngine.Tileset" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAACAAEQAgBAEAAAYAAQAgAAE=</HashCode>
+      <FileName>TileEngine\Tileset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="XTankWarsLibrary.TileEngine.Tile" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAEAAAAAAAAAAAAgAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>TileEngine\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="XTankWarsLibrary.SpriteClasses.Direction" Collapsed="true">
+    <Position X="10" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>SpriteClasses\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,6 @@
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-II\Bank\bin\Debug\Bank.exe.config
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-II\Bank\obj\Debug\Bank.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-II\Bank\bin\Debug\Bank.exe
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-II\Bank\bin\Debug\Bank.pdb
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-II\Bank\obj\Debug\Bank.exe
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-II\Bank\obj\Debug\Bank.pdb

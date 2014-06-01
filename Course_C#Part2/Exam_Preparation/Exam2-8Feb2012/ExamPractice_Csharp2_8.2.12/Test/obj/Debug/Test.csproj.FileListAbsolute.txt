@@ -1,0 +1,5 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\Exam2-8Feb2012\ExamPractice_Csharp2_8.2.12\Test\bin\Debug\Test.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\Exam2-8Feb2012\ExamPractice_Csharp2_8.2.12\Test\bin\Debug\Test.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\Exam2-8Feb2012\ExamPractice_Csharp2_8.2.12\Test\bin\Debug\Test.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\Exam2-8Feb2012\ExamPractice_Csharp2_8.2.12\Test\obj\Debug\Test.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\Exam2-8Feb2012\ExamPractice_Csharp2_8.2.12\Test\obj\Debug\Test.pdb

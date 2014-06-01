@@ -1,0 +1,3 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\QuadraticEquation\bin\Debug\QuadraticEquation.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\QuadraticEquation\obj\Debug\QuadraticEquation.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\QuadraticEquation\obj\Debug\QuadraticEquation.pdb

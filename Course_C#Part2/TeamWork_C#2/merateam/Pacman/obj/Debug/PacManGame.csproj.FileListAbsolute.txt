@@ -1,0 +1,6 @@
+F:\Telerik_BackUp\Telerik\TeamWork_C#2\merateam\Pacman\bin\Debug\PacMan.exe.config
+F:\Telerik_BackUp\Telerik\TeamWork_C#2\merateam\Pacman\bin\Debug\PacMan.exe
+F:\Telerik_BackUp\Telerik\TeamWork_C#2\merateam\Pacman\bin\Debug\PacMan.pdb
+F:\Telerik_BackUp\Telerik\TeamWork_C#2\merateam\Pacman\obj\Debug\PacManGame.csprojResolveAssemblyReference.cache
+F:\Telerik_BackUp\Telerik\TeamWork_C#2\merateam\Pacman\obj\Debug\PacMan.exe
+F:\Telerik_BackUp\Telerik\TeamWork_C#2\merateam\Pacman\obj\Debug\PacMan.pdb

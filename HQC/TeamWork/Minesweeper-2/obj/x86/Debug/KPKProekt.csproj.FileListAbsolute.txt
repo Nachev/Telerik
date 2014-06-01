@@ -1,0 +1,9 @@
+D:\HQC\TeamWork\Minesweeper-2\bin\Debug\xxx.exe.manifest
+D:\HQC\TeamWork\Minesweeper-2\bin\Debug\xxx.application
+D:\HQC\TeamWork\Minesweeper-2\bin\Debug\xxx.exe
+D:\HQC\TeamWork\Minesweeper-2\bin\Debug\xxx.pdb
+D:\HQC\TeamWork\Minesweeper-2\obj\x86\Debug\KPKProekt.csprojResolveAssemblyReference.cache
+D:\HQC\TeamWork\Minesweeper-2\obj\x86\Debug\xxx.exe.manifest
+D:\HQC\TeamWork\Minesweeper-2\obj\x86\Debug\xxx.application
+D:\HQC\TeamWork\Minesweeper-2\obj\x86\Debug\xxx.exe
+D:\HQC\TeamWork\Minesweeper-2\obj\x86\Debug\xxx.pdb

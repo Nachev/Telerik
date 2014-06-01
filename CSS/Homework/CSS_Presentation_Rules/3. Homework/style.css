@@ -1,0 +1,10 @@
+body {
+	width: 1920px;
+}
+
+.div_element {    
+	background-color: #000000;
+    border: 2px solid #ff0000;
+    border-radius: 95px;
+    padding: 0 3% 0 0;
+}

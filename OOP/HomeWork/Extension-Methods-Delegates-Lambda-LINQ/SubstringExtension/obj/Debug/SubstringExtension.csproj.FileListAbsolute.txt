@@ -1,0 +1,1 @@
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SubstringExtension\bin\Debug\SubstringExtension.exe.config

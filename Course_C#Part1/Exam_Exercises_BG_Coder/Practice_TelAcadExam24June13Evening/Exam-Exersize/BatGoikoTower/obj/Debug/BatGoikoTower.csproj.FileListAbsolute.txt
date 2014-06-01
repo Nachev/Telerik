@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\BatGoikoTower\bin\Debug\BatGoikoTower.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\BatGoikoTower\bin\Debug\BatGoikoTower.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\BatGoikoTower\bin\Debug\BatGoikoTower.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\BatGoikoTower\obj\Debug\BatGoikoTower.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\BatGoikoTower\obj\Debug\BatGoikoTower.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\BatGoikoTower\obj\Debug\BatGoikoTower.pdb

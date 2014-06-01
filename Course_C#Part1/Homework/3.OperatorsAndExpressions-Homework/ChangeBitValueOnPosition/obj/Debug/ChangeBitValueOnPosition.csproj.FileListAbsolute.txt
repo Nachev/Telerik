@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\ChangeBitValueOnPosition\bin\Debug\ChangeBitValueOnPosition.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\ChangeBitValueOnPosition\bin\Debug\ChangeBitValueOnPosition.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\ChangeBitValueOnPosition\bin\Debug\ChangeBitValueOnPosition.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\ChangeBitValueOnPosition\obj\Debug\ChangeBitValueOnPosition.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\ChangeBitValueOnPosition\obj\Debug\ChangeBitValueOnPosition.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\ChangeBitValueOnPosition\obj\Debug\ChangeBitValueOnPosition.pdb

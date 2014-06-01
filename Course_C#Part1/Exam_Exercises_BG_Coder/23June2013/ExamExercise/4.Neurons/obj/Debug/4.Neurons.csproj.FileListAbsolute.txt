@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\4.Neurons\bin\Debug\4.Neurons.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\4.Neurons\bin\Debug\4.Neurons.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\4.Neurons\bin\Debug\4.Neurons.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\4.Neurons\obj\Debug\4.Neurons.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\4.Neurons\obj\Debug\4.Neurons.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\4.Neurons\obj\Debug\4.Neurons.pdb

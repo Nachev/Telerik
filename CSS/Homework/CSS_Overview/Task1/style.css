@@ -1,0 +1,79 @@
+article {
+	font-family: "Arial",sans-serif;
+	font-size: 10px;
+	width: 306px;
+	height: 205px;
+	background-color: #595959;
+	border: 1px none black
+}
+
+h1 {
+	padding-left: 3px;
+	padding-top: 5px;
+	font-weight: normal;
+	font-size: 16px;
+	color: #BBBBBB
+}
+
+#warning {
+	position: relative;
+	top: 5px;
+}
+
+a[title="public_link"] {
+	position: relative;
+	top: 10px
+}	
+		
+#name {
+	color: #E5DA87;
+}
+
+#warning {
+	color: red
+}
+
+.table {
+	display: table;
+	width: 306px;
+	height: 171px;
+	margin-top: 10px
+}
+
+.row {
+	display: table-row
+}
+
+.cell {
+	display: table-cell
+}
+
+.ordinary {
+	color: #BBBBBB
+}
+
+#status {
+	color: #CB6B1F
+}
+
+dt.cell {
+	padding-left: 3px;
+	font-style: italic;
+	color: #FFF;
+	width: 32%;
+}
+
+a {				
+	text-decoration: none;
+	color: #E5DA87
+}
+
+#name:before {
+	 content: " ";
+	 display: inline-block;
+	 border-radius: 100%;
+	 height: 10px;
+	 width: 10px;
+	 background-color: #71B47A;
+	 margin-right: 2px;
+}

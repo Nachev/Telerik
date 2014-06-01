@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E982A5A6-E6BF-4F5C-81B1-34C5AE9240EE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TankWarsLibrary</RootNamespace>
+    <AssemblyName>TankWarsLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\IlligalOperationException.cs" />
+    <Compile Include="Common\IMovable.cs" />
+    <Compile Include="Common\ItemPosition.cs" />
+    <Compile Include="Common\Machine.cs" />
+    <Compile Include="Engine\TankFactory.cs" />
+    <Compile Include="Player\IPlayer.cs" />
+    <Compile Include="Player\Player.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tanks\HeavyDutyTank.cs" />
+    <Compile Include="Tanks\IStealth.cs" />
+    <Compile Include="Tanks\ISwim.cs" />
+    <Compile Include="Tanks\StealthTank.cs" />
+    <Compile Include="Tanks\SwimTank.cs" />
+    <Compile Include="Tanks\Tank.cs" />
+    <Compile Include="Tanks\TankModeEnum.cs" />
+    <Compile Include="Weapons\Bullet.cs" />
+    <Compile Include="Weapons\IShootSpeed.cs" />
+    <Compile Include="Weapons\Megagun.cs" />
+    <Compile Include="Weapons\Minigun.cs" />
+    <Compile Include="Weapons\OneShot.cs" />
+    <Compile Include="Weapons\PrimaryWeapon.cs" />
+    <Compile Include="Weapons\SecondaryWeapon.cs" />
+    <Compile Include="Weapons\SuperShot.cs" />
+    <Compile Include="Weapons\Weapon.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Units\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="TankLibraryDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

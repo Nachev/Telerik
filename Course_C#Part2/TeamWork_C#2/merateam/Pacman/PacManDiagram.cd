@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PacmanGame.Cherry" Collapsed="true">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAACAAAwAAAAAAAgAACAAAAwAAAAAA=</HashCode>
+      <FileName>Cherry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacmanGame.ConsoleManager" Collapsed="true">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GhAgYKAAoQBEgAEAhJAIjEgAFiYARIQAAWsCDQAWSoA=</HashCode>
+      <FileName>ConsoleManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacmanGame.Ghosts" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACIAAAAAAAKAAwAAAAAAAgACCAAAAwEAAAgA=</HashCode>
+      <FileName>Ghosts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacmanGame.Gold" Collapsed="true">
+    <Position X="12.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAACAAAwAAAAAAAgAAAAAAAwAgAAAA=</HashCode>
+      <FileName>Gold.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacmanGame.Maze" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAACAAAACAAAAAAAQAAgAAAAAAAAAA=</HashCode>
+      <FileName>Maze.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacmanGame.PacMan" Collapsed="true">
+    <Position X="7.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAgAAAIAIAAAAAAAAwCAAAAAAgACCAAAAwAAABgA=</HashCode>
+      <FileName>PacMan.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="PacmanGame.MoveDirection" Collapsed="true">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>DirectionEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

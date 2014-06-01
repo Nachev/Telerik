@@ -1,0 +1,5 @@
+F:\Telerik\OOP\ExamExersice\OOP2013Sample\1.DocumentSystem\obj\Debug\DocumentSystem.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\ExamExersice\OOP2013Sample\1.DocumentSystem\bin\Debug\DocumentSystem.exe
+F:\Telerik\OOP\ExamExersice\OOP2013Sample\1.DocumentSystem\bin\Debug\DocumentSystem.pdb
+F:\Telerik\OOP\ExamExersice\OOP2013Sample\1.DocumentSystem\obj\Debug\DocumentSystem.exe
+F:\Telerik\OOP\ExamExersice\OOP2013Sample\1.DocumentSystem\obj\Debug\DocumentSystem.pdb

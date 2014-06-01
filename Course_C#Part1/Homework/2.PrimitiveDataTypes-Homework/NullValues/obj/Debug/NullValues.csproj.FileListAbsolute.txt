@@ -1,0 +1,5 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\2.PrimitiveDataTypes-Homework\NullValues\bin\Debug\NullValues.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\2.PrimitiveDataTypes-Homework\NullValues\bin\Debug\NullValues.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\2.PrimitiveDataTypes-Homework\NullValues\bin\Debug\NullValues.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\2.PrimitiveDataTypes-Homework\NullValues\obj\Debug\NullValues.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\2.PrimitiveDataTypes-Homework\NullValues\obj\Debug\NullValues.pdb

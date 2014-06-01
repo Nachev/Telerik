@@ -1,0 +1,5 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\PrintNumbersInRow\bin\Debug\PrintNumbersInRow.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\PrintNumbersInRow\bin\Debug\PrintNumbersInRow.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\PrintNumbersInRow\bin\Debug\PrintNumbersInRow.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\PrintNumbersInRow\obj\Debug\PrintNumbersInRow.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\PrintNumbersInRow\obj\Debug\PrintNumbersInRow.pdb

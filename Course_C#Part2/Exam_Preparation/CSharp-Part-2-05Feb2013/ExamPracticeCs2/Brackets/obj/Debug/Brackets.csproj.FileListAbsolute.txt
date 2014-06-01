@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\Brackets\bin\Debug\Brackets.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\Brackets\bin\Debug\Brackets.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\Brackets\bin\Debug\Brackets.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\Brackets\obj\Debug\Brackets.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\Brackets\obj\Debug\Brackets.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\Brackets\obj\Debug\Brackets.pdb

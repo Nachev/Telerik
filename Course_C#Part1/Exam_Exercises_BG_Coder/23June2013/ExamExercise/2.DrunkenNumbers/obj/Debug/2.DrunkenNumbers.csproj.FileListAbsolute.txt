@@ -1,0 +1,9 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\1.CofeeMachine\2.DrunkenNumbers\bin\Debug\2.DrunkenNumbers.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\1.CofeeMachine\2.DrunkenNumbers\bin\Debug\2.DrunkenNumbers.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\1.CofeeMachine\2.DrunkenNumbers\bin\Debug\2.DrunkenNumbers.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\1.CofeeMachine\2.DrunkenNumbers\obj\Debug\2.DrunkenNumbers.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\1.CofeeMachine\2.DrunkenNumbers\obj\Debug\2.DrunkenNumbers.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\1.CofeeMachine\2.DrunkenNumbers\obj\Debug\2.DrunkenNumbers.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\2.DrunkenNumbers\bin\Debug\2.DrunkenNumbers.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\2.DrunkenNumbers\obj\Debug\2.DrunkenNumbers.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\2.DrunkenNumbers\obj\Debug\2.DrunkenNumbers.pdb

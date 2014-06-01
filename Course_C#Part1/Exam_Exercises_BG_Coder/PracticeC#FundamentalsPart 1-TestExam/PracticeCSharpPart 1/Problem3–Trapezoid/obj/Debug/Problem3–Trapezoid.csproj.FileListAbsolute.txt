@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem3–Trapezoid\bin\Debug\Problem3–Trapezoid.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem3–Trapezoid\bin\Debug\Problem3–Trapezoid.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem3–Trapezoid\bin\Debug\Problem3–Trapezoid.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem3–Trapezoid\obj\Debug\Problem3–Trapezoid.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem3–Trapezoid\obj\Debug\Problem3–Trapezoid.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem3–Trapezoid\obj\Debug\Problem3–Trapezoid.pdb

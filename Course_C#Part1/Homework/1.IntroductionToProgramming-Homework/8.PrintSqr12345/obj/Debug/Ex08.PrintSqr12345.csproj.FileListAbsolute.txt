@@ -1,0 +1,3 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\1.IntroductionToProgramming-Homework\8.PrintSqr12345\bin\Debug\8.PrintSqr12345.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\1.IntroductionToProgramming-Homework\8.PrintSqr12345\obj\Debug\8.PrintSqr12345.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\1.IntroductionToProgramming-Homework\8.PrintSqr12345\obj\Debug\8.PrintSqr12345.pdb

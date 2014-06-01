@@ -1,0 +1,5 @@
+F:\Telerik\OOP\HomeWork\Common-Type-System\PersonClass\bin\Debug\PersonClass.exe.config
+F:\Telerik\OOP\HomeWork\Common-Type-System\PersonClass\obj\Debug\PersonClass.exe
+F:\Telerik\OOP\HomeWork\Common-Type-System\PersonClass\obj\Debug\PersonClass.pdb
+F:\Telerik\OOP\HomeWork\Common-Type-System\PersonClass\bin\Debug\PersonClass.exe
+F:\Telerik\OOP\HomeWork\Common-Type-System\PersonClass\bin\Debug\PersonClass.pdb

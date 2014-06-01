@@ -1,0 +1,5 @@
+F:\Telerik_BackUp\Telerik\OOP\TeamWork\SimpleRPG\RpgLibrary\bin\Debug\TankWarsLibrary.dll
+F:\Telerik_BackUp\Telerik\OOP\TeamWork\SimpleRPG\RpgLibrary\bin\Debug\TankWarsLibrary.pdb
+F:\Telerik_BackUp\Telerik\OOP\TeamWork\SimpleRPG\RpgLibrary\obj\Debug\TankWarsLibrary.csprojResolveAssemblyReference.cache
+F:\Telerik_BackUp\Telerik\OOP\TeamWork\SimpleRPG\RpgLibrary\obj\Debug\TankWarsLibrary.dll
+F:\Telerik_BackUp\Telerik\OOP\TeamWork\SimpleRPG\RpgLibrary\obj\Debug\TankWarsLibrary.pdb

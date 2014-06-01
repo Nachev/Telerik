@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\test\bin\Debug\test.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\test\bin\Debug\test.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\test\bin\Debug\test.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\test\obj\Debug\test.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\test\obj\Debug\test.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\test\obj\Debug\test.csprojResolveAssemblyReference.cache

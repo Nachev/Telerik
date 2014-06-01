@@ -1,0 +1,6 @@
+F:\Telerik\OOP\HomeWork\Common-Type-System\BinaryTests\bin\Debug\BinaryTests.exe.config
+F:\Telerik\OOP\HomeWork\Common-Type-System\BinaryTests\bin\Debug\BinaryTests.exe
+F:\Telerik\OOP\HomeWork\Common-Type-System\BinaryTests\bin\Debug\BinaryTests.pdb
+F:\Telerik\OOP\HomeWork\Common-Type-System\BinaryTests\obj\Debug\BinaryTests.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\HomeWork\Common-Type-System\BinaryTests\obj\Debug\BinaryTests.exe
+F:\Telerik\OOP\HomeWork\Common-Type-System\BinaryTests\obj\Debug\BinaryTests.pdb

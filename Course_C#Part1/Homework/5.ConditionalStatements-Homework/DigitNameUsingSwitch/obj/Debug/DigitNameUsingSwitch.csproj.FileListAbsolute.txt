@@ -1,0 +1,5 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\DigitNameUsingSwitch\bin\Debug\DigitNameUsingSwitch.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\DigitNameUsingSwitch\bin\Debug\DigitNameUsingSwitch.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\DigitNameUsingSwitch\bin\Debug\DigitNameUsingSwitch.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\DigitNameUsingSwitch\obj\Debug\DigitNameUsingSwitch.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\DigitNameUsingSwitch\obj\Debug\DigitNameUsingSwitch.pdb

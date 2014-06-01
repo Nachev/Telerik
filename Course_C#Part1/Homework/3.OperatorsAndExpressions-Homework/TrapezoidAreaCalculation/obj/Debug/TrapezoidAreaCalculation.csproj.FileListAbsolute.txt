@@ -1,0 +1,1 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\TrapezoidAreaCalculation\bin\Debug\TrapezoidAreaCalculation.exe.config

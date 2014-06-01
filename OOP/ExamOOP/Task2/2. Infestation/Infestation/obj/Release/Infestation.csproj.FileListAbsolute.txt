@@ -1,0 +1,6 @@
+F:\Telerik\OOP\Task2\2. Infestation\Infestation\bin\Release\Infestation.exe.config
+F:\Telerik\OOP\Task2\2. Infestation\Infestation\bin\Release\Infestation.exe
+F:\Telerik\OOP\Task2\2. Infestation\Infestation\bin\Release\Infestation.pdb
+F:\Telerik\OOP\Task2\2. Infestation\Infestation\obj\Release\Infestation.exe
+F:\Telerik\OOP\Task2\2. Infestation\Infestation\obj\Release\Infestation.pdb
+F:\Telerik\OOP\Task2\2. Infestation\Infestation\obj\Release\Infestation.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\ExchangeIfGreater\bin\Debug\ExchangeIfGreater.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\ExchangeIfGreater\bin\Debug\ExchangeIfGreater.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\ExchangeIfGreater\bin\Debug\ExchangeIfGreater.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\ExchangeIfGreater\obj\Debug\ExchangeIfGreater.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\ExchangeIfGreater\obj\Debug\ExchangeIfGreater.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\ExchangeIfGreater\obj\Debug\ExchangeIfGreater.pdb

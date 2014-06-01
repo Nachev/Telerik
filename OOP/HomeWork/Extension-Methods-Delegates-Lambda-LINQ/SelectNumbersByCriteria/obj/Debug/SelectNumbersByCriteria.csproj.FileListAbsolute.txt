@@ -1,0 +1,6 @@
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SelectNumbersByCriteria\bin\Debug\SelectNumbersByCriteria.exe.config
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SelectNumbersByCriteria\obj\Debug\SelectNumbersByCriteria.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SelectNumbersByCriteria\bin\Debug\SelectNumbersByCriteria.exe
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SelectNumbersByCriteria\bin\Debug\SelectNumbersByCriteria.pdb
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SelectNumbersByCriteria\obj\Debug\SelectNumbersByCriteria.exe
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SelectNumbersByCriteria\obj\Debug\SelectNumbersByCriteria.pdb

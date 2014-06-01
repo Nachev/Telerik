@@ -1,0 +1,12 @@
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-I\School\School\bin\Debug\School.exe.config
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-I\School\School\bin\Debug\School.exe
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-I\School\School\bin\Debug\School.pdb
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-I\School\School\obj\Debug\School.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-I\School\School\obj\Debug\School.exe
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-I\School\School\obj\Debug\School.pdb
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-I\School\bin\Debug\School.exe.config
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-I\School\obj\Debug\School.exe
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-I\School\obj\Debug\School.pdb
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-I\School\obj\Debug\School.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-I\School\bin\Debug\School.exe
+F:\Telerik\OOP\HomeWork\Object-Oriented-Programming-Principles-Part-I\School\bin\Debug\School.pdb

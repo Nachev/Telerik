@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\DurankulakNumbers\bin\Debug\DurankulakNumbers.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\DurankulakNumbers\bin\Debug\DurankulakNumbers.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\DurankulakNumbers\bin\Debug\DurankulakNumbers.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\DurankulakNumbers\obj\Debug\DurankulakNumbers.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\DurankulakNumbers\obj\Debug\DurankulakNumbers.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\DurankulakNumbers\obj\Debug\DurankulakNumbers.pdb

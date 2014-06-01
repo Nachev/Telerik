@@ -1,0 +1,3 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\1.IntroductionToProgramming-Homework\9.PrintFirst10MembersOfSequence\bin\Debug\9.PrintFirst10MembersOfSequence.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\1.IntroductionToProgramming-Homework\9.PrintFirst10MembersOfSequence\obj\Debug\9.PrintFirst10MembersOfSequence.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\1.IntroductionToProgramming-Homework\9.PrintFirst10MembersOfSequence\obj\Debug\9.PrintFirst10MembersOfSequence.pdb

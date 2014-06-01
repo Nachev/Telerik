@@ -1,0 +1,5 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\NumbersDivisibleByFiveInRange\bin\Debug\NumbersDivisibleByFiveInRange.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\NumbersDivisibleByFiveInRange\bin\Debug\NumbersDivisibleByFiveInRange.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\NumbersDivisibleByFiveInRange\bin\Debug\NumbersDivisibleByFiveInRange.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\NumbersDivisibleByFiveInRange\obj\Debug\NumbersDivisibleByFiveInRange.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\NumbersDivisibleByFiveInRange\obj\Debug\NumbersDivisibleByFiveInRange.pdb

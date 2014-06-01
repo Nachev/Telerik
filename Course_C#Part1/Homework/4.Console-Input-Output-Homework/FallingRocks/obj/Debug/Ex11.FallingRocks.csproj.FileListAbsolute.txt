@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\FallingRocks\bin\Debug\FallingRocks.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\FallingRocks\bin\Debug\FallingRocks.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\FallingRocks\bin\Debug\FallingRocks.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\FallingRocks\obj\Debug\FallingRocks.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\FallingRocks\obj\Debug\FallingRocks.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\FallingRocks\obj\Debug\Ex11.FallingRocks.csprojResolveAssemblyReference.cache

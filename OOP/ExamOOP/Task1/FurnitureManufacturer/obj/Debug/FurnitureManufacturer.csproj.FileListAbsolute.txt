@@ -1,0 +1,6 @@
+C:\Users\Nachev\Desktop\ExamOOP\Task1\FurnitureManufacturer\bin\Debug\Furnitures.exe.config
+C:\Users\Nachev\Desktop\ExamOOP\Task1\FurnitureManufacturer\bin\Debug\Furnitures.exe
+C:\Users\Nachev\Desktop\ExamOOP\Task1\FurnitureManufacturer\bin\Debug\Furnitures.pdb
+C:\Users\Nachev\Desktop\ExamOOP\Task1\FurnitureManufacturer\obj\Debug\FurnitureManufacturer.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Desktop\ExamOOP\Task1\FurnitureManufacturer\obj\Debug\Furnitures.exe
+C:\Users\Nachev\Desktop\ExamOOP\Task1\FurnitureManufacturer\obj\Debug\Furnitures.pdb

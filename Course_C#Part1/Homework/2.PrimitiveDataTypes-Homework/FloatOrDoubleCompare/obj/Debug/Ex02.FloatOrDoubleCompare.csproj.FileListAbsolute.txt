@@ -1,0 +1,5 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\2.PrimitiveDataTypes-Homework\FloatOrDoubleCompare\bin\Debug\FloatOrDoubleCompare.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\2.PrimitiveDataTypes-Homework\FloatOrDoubleCompare\bin\Debug\FloatOrDoubleCompare.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\2.PrimitiveDataTypes-Homework\FloatOrDoubleCompare\bin\Debug\FloatOrDoubleCompare.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\2.PrimitiveDataTypes-Homework\FloatOrDoubleCompare\obj\Debug\FloatOrDoubleCompare.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\2.PrimitiveDataTypes-Homework\FloatOrDoubleCompare\obj\Debug\FloatOrDoubleCompare.pdb

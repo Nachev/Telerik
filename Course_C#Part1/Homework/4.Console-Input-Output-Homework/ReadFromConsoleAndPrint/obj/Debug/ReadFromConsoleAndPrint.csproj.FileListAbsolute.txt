@@ -1,0 +1,5 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\ReadFromConsoleAndPrint\bin\Debug\ReadFromConsoleAndPrint.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\ReadFromConsoleAndPrint\bin\Debug\ReadFromConsoleAndPrint.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\ReadFromConsoleAndPrint\bin\Debug\ReadFromConsoleAndPrint.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\ReadFromConsoleAndPrint\obj\Debug\ReadFromConsoleAndPrint.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\ReadFromConsoleAndPrint\obj\Debug\ReadFromConsoleAndPrint.pdb

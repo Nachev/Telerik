@@ -1,0 +1,5 @@
+F:\Telerik\OOP\ExamOOP\Task2\Infestation-Solution\Infestation-Solution\Infestation\bin\Debug\Infestation.exe
+F:\Telerik\OOP\ExamOOP\Task2\Infestation-Solution\Infestation-Solution\Infestation\bin\Debug\Infestation.pdb
+F:\Telerik\OOP\ExamOOP\Task2\Infestation-Solution\Infestation-Solution\Infestation\obj\Debug\Infestation.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\ExamOOP\Task2\Infestation-Solution\Infestation-Solution\Infestation\obj\Debug\Infestation.exe
+F:\Telerik\OOP\ExamOOP\Task2\Infestation-Solution\Infestation-Solution\Infestation\obj\Debug\Infestation.pdb

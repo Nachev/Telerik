@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\DecodeAndDecrypt\bin\Debug\DecodeAndDecrypt.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\DecodeAndDecrypt\bin\Debug\DecodeAndDecrypt.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\DecodeAndDecrypt\bin\Debug\DecodeAndDecrypt.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\DecodeAndDecrypt\obj\Debug\DecodeAndDecrypt.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\DecodeAndDecrypt\obj\Debug\DecodeAndDecrypt.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\DecodeAndDecrypt\obj\Debug\DecodeAndDecrypt.pdb

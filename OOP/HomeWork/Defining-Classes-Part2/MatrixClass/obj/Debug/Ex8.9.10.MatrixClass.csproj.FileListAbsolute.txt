@@ -1,0 +1,3 @@
+F:\Telerik\OOP\HomeWork\Defining-Classes-Part2\MatrixClass\bin\Debug\MatrixClass.exe.config
+F:\Telerik\OOP\HomeWork\Defining-Classes-Part2\MatrixClass\obj\Debug\MatrixClass.exe
+F:\Telerik\OOP\HomeWork\Defining-Classes-Part2\MatrixClass\obj\Debug\MatrixClass.pdb

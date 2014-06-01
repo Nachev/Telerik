@@ -1,0 +1,9 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\1.CofeeMachine\1.CofeeMachine\bin\Debug\1.CofeeMachine.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\1.CofeeMachine\1.CofeeMachine\bin\Debug\1.CofeeMachine.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\1.CofeeMachine\1.CofeeMachine\bin\Debug\1.CofeeMachine.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\1.CofeeMachine\1.CofeeMachine\obj\Debug\1.CofeeMachine.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\1.CofeeMachine\1.CofeeMachine\obj\Debug\1.CofeeMachine.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\1.CofeeMachine\1.CofeeMachine\obj\Debug\1.CofeeMachine.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\1.CofeeMachine\bin\Debug\1.CofeeMachine.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\1.CofeeMachine\obj\Debug\1.CofeeMachine.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\1.CofeeMachine\obj\Debug\1.CofeeMachine.pdb

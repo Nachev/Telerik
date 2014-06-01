@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Laptop shop</title>
+		<meta charset="UTF-8"/>
+		<style type="text/css">
+			table 
+			{
+				border-spacing: 0px;
+				border-collapse: collapse;
+				font-family: Tahoma, Verdana, Segoe, sans-serif;
+				width:320px;
+			}
+
+			td, th
+			{
+				text-align: center;
+				vertical-align: middle;
+				padding: 5px;
+			}
+
+			thead th
+			{
+				border-bottom: 1px solid black;
+				font-size: 2em;
+				font-weight: bold;
+			}
+
+			thead a
+			{
+				color: #3399FF;
+			}
+
+			thead a:hover
+			{
+				
+				text-decoration: none;
+				color: black;
+			}
+
+			.specifications
+			{
+				border: 1px solid black;
+				border-spacing: 0px;
+				border-collapse: collapse;
+			}
+
+			.specifications td
+			{
+				padding: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<thead>
+				<tr>
+					<th class="header" colspan="2">
+						<a href="http://apple.com">Apple</a>
+						<a href="http://toshiba.com">Toshiba</a>
+						<a href="http://lenovo.com">Lenovo</a>
+						<a href="http://dell.com">Dell</a>
+						<a href="http://asus.com">Asus</a>
+						<a href="http://acer.com">Acer</a>
+						<a href="http://hp.com">HP</a>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<table class="specifications">
+							<tr>
+								<td>
+									<fieldset>
+										<legend>Apple MacBook Air</legend>
+										<table>
+											<tr>
+												<td rowspan="3">
+													<img src="notebook.png" width="130" height="83"/>
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>64GB SSD</td>
+											</tr>
+											<tr>
+												<td>2GB DDR</td>
+											</tr>
+											<tr>
+												<td>1300 USD</td>
+												<td>Intel Core i5</td>
+											</tr>
+										</table>
+									</fieldset>
+								</td>
+								<td>
+									<fieldset>
+										<legend>Apple MacBook Air</legend>
+										<table>
+											<tr>
+												<td rowspan="3">
+													<img src="notebook.png" width="130" height="83"/>
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>64GB SSD</td>
+											</tr>
+											<tr>
+												<td>2GB DDR</td>
+											</tr>
+											<tr>
+												<td>1300 USD</td>
+												<td>Intel Core i5</td>
+											</tr>
+										</table>
+									</fieldset>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<fieldset>
+										<legend>Apple MacBook Air</legend>
+										<table>
+											<tr>
+												<td rowspan="3">
+													<img src="notebook.png" width="130" height="83"/>
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>64GB SSD</td>
+											</tr>
+											<tr>
+												<td>2GB DDR</td>
+											</tr>
+											<tr>
+												<td>1300 USD</td>
+												<td>Intel Core i5</td>
+											</tr>
+										</table>
+									</fieldset>
+								</td>
+								<td>
+									<fieldset>
+										<legend>Apple MacBook Air</legend>
+										<table>
+											<tr>
+												<td rowspan="3">
+													<img src="notebook.png" width="130" height="83"/>
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>64GB SSD</td>
+											</tr>
+											<tr>
+												<td>2GB DDR</td>
+											</tr>
+											<tr>
+												<td>1300 USD</td>
+												<td>Intel Core i5</td>
+											</tr>
+										</table>
+									</fieldset>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<fieldset>
+										<legend>Apple MacBook Air</legend>
+										<table>
+											<tr>
+												<td rowspan="3">
+													<img src="notebook.png" width="130" height="83"/>
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>64GB SSD</td>
+											</tr>
+											<tr>
+												<td>2GB DDR</td>
+											</tr>
+											<tr>
+												<td>1300 USD</td>
+												<td>Intel Core i5</td>
+											</tr>
+										</table>
+									</fieldset>
+								</td>
+								<td>
+									<fieldset>
+										<legend>Apple MacBook Air</legend>
+										<table>
+											<tr>
+												<td rowspan="3">
+													<img src="notebook.png" width="130" height="83"/>
+												</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>64GB SSD</td>
+											</tr>
+											<tr>
+												<td>2GB DDR</td>
+											</tr>
+											<tr>
+												<td>1300 USD</td>
+												<td>Intel Core i5</td>
+											</tr>
+										</table>
+									</fieldset>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table class="selectors">
+							<tr>
+								<td>
+									<label for="min_price">Min price:</label>
+								</td>
+								<td>
+									<span id="min_price_span">500</span> USD
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<input type="range" id="min_price" min="0" max="1000" value="500" step="50" 
+										onchange="getElementById('min_price_span').innerHTML=this.value" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="max_price">Max price:</label>
+								</td>
+								<td>
+									<span id="max_price_span">1500</span> USD
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<input type="range" id="max_price" min="0" max="3000" value="1500" step="50" 
+										onchange="getElementById('max_price_span').innerHTML=this.value" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="min_ram">Min RAM:</label>
+								</td>
+								<td>
+									<span id="min_ram_span">4</span> GB
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<input type="range" id="min_ram" min="0" max="8" value="4" step="1" 
+										onchange="getElementById('min_ram_span').innerHTML=this.value" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="max_ram">Max RAM:</label>
+								</td>
+								<td>
+									<span id="max_ram_span">16</span> GB
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<input type="range" id="max_ram" min="0" max="32" value="16" step="1" 
+										onchange="getElementById('max_ram_span').innerHTML=this.value" />
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

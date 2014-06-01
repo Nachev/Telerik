@@ -1,0 +1,6 @@
+F:\Telerik\OOP\HomeWork\Common-Type-System\BitArray\bin\Debug\BitArray.exe.config
+F:\Telerik\OOP\HomeWork\Common-Type-System\BitArray\obj\Debug\BitArray.exe
+F:\Telerik\OOP\HomeWork\Common-Type-System\BitArray\obj\Debug\BitArray.pdb
+F:\Telerik\OOP\HomeWork\Common-Type-System\BitArray\bin\Debug\BitArray.exe
+F:\Telerik\OOP\HomeWork\Common-Type-System\BitArray\bin\Debug\BitArray.pdb
+F:\Telerik\OOP\HomeWork\Common-Type-System\BitArray\obj\Debug\BitArray.csprojResolveAssemblyReference.cache

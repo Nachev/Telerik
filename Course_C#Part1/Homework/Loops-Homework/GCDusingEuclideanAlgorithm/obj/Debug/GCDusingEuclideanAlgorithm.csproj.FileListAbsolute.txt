@@ -1,0 +1,5 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\GCDusingEuclideanAlgorithm\bin\Debug\GCDusingEuclideanAlgorithm.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\GCDusingEuclideanAlgorithm\bin\Debug\GCDusingEuclideanAlgorithm.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\GCDusingEuclideanAlgorithm\bin\Debug\GCDusingEuclideanAlgorithm.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\GCDusingEuclideanAlgorithm\obj\Debug\GCDusingEuclideanAlgorithm.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\GCDusingEuclideanAlgorithm\obj\Debug\GCDusingEuclideanAlgorithm.pdb

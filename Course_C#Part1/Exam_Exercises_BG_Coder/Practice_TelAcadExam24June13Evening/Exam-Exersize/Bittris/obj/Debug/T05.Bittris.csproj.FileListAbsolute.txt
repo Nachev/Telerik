@@ -1,0 +1,5 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Bittris\bin\Debug\Bittris.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Bittris\bin\Debug\Bittris.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Bittris\bin\Debug\Bittris.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Bittris\obj\Debug\Bittris.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Bittris\obj\Debug\Bittris.pdb

@@ -1,0 +1,10 @@
+﻿8
+....
+using System;    namespace Stars
+{class Program{
+static    string[] separators 
+= new string[] } " " {;}
+Console        .ReadLine ();
+
+int x += 1;
+}

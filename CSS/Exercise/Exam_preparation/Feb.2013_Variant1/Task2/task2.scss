@@ -1,0 +1,151 @@
+@mixin clearfix() {
+	&:after,
+	&:before {
+    	content: "";
+    	display: table;
+	}
+
+	&:after{
+    	clear: both;
+	}
+}
+
+@mixin linear-gradient($startColor, $endColor) {
+	background: $startColor;
+	background: -moz-linear-gradient(top,  $startColor 0%, $endColor 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$startColor), color-stop(100%,$endColor));
+	background: -webkit-linear-gradient(top,  $startColor 0%,$endColor 100%);
+	background: -o-linear-gradient(top,  $startColor 0%,$endColor 100%);
+	background: -ms-linear-gradient(top,  $startColor 0%,$endColor 100%);
+	background: linear-gradient(to bottom,  $startColor 0%,$endColor 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$startColor', endColorstr='$endColor',GradientType=0 );
+}
+
+@mixin boxshadow($xdist, $ydist, $blur, $color, $inset:"") {
+	-webkit-box-shadow:$inset $xdist $ydist $blur #{$color};
+	-moz-box-shadow:$inset $xdist $ydist $blur #{$color};
+	box-shadow:$inset $xdist $ydist $blur #{$color};
+}
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+html {
+	font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+	font-size: 62.5%;
+
+	body {
+		font-size: 1.6rem;
+		line-height: 1.2;
+	}
+}
+
+#wrapper {
+	width: 960px;
+}
+
+.tab-strip {
+	width: 340px;
+	height: 230px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 15px;
+	@include clearfix();
+
+	&>li {					
+		position: relative;
+		list-style-type: none;
+		padding-top: -1px;
+
+		ul>li {
+			list-style-type: disc;
+
+			ul>li {
+				list-style-type: lower-alpha;
+				margin-left: 25px
+			}
+		}
+
+		&:last-child .tab-btn{
+			border-right: none;
+		}
+
+		&:last-child:hover .tab-btn{
+			border-right: none;
+		}
+
+		&:last-child.current .tab-btn{
+			border-right: none;
+		}
+	}
+
+
+
+	.tab-btn {
+		display: inline-block;
+		padding: 5px 15px;
+		border-right: 1px solid black;
+		border-bottom: 1px solid black;
+		border-radius: 5px;
+		float: left;
+		text-decoration: none;
+		color: black;
+		font-size: 2.15rem;
+		@include linear-gradient(#EBEBEB,#ABABAB);
+
+		&:hover {
+			background: none;
+			background-color: #eeeeee;
+		}
+	}
+
+	.tab-content {
+		display: none;
+
+		table, th, td {
+			border: 1px solid black
+
+		}
+
+		table {
+			th {
+				padding: 5px 15px;
+				@include linear-gradient(#ABABAB,#EBEBEB);
+			}
+
+			td {
+				padding: 5px 0 5px 5px;
+				background-color: #EEEEEE;
+			}
+		}
+	}
+
+	&>li.current {
+		.tab-btn {		
+			font-weight: bold;
+			border: none;
+			border-right: 1px solid black;
+			border-radius: 0;
+			background: none;
+		}
+
+		.tab-content{
+			display: block;
+			position: absolute;
+			top: 50px;
+			left: 20px;
+		}
+	}
+}

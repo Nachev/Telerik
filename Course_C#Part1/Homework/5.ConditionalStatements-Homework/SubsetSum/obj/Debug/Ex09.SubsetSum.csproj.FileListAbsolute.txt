@@ -1,0 +1,3 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\SubsetSum\bin\Debug\SubsetSum.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\SubsetSum\obj\Debug\SubsetSum.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\5.ConditionalStatements-Homework\SubsetSum\obj\Debug\SubsetSum.pdb

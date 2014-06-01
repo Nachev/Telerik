@@ -1,0 +1,6 @@
+F:\Telerik\OOP\ExamExersice\OOP-12December2013\TradeAndTravel-Skeleton\TradeAndTravel\bin\Debug\TradeAndTravel.exe.config
+F:\Telerik\OOP\ExamExersice\OOP-12December2013\TradeAndTravel-Skeleton\TradeAndTravel\bin\Debug\TradeAndTravel.exe
+F:\Telerik\OOP\ExamExersice\OOP-12December2013\TradeAndTravel-Skeleton\TradeAndTravel\bin\Debug\TradeAndTravel.pdb
+F:\Telerik\OOP\ExamExersice\OOP-12December2013\TradeAndTravel-Skeleton\TradeAndTravel\obj\Debug\TradeAndTravel.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\ExamExersice\OOP-12December2013\TradeAndTravel-Skeleton\TradeAndTravel\obj\Debug\TradeAndTravel.exe
+F:\Telerik\OOP\ExamExersice\OOP-12December2013\TradeAndTravel-Skeleton\TradeAndTravel\obj\Debug\TradeAndTravel.pdb

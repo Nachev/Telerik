@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Bittris", "Bittris.exe", "{F4F56832-AEEC-499C-B002-2368907EEE02}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Bittris\bin\Debug\Bittris.exe
+		RemoteMachine = NACHEV-HP
+		StartingDirectory = C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Bittris\bin\Debug
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4F56832-AEEC-499C-B002-2368907EEE02}.Debug|x86.ActiveCfg = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Calculator</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="reset.css"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<style type="text/css">
+			
+		</style>
+		<script type="text/javascript">
+
+		</script>
+	</head>
+	<body>
+		<div id="calculator_wrapper">
+			<nav id="menu" class="cf">
+				<ul>
+					<li>
+						<a href="#" title="View">View</a>
+					</li>
+					<li>
+						<a href="#" title="Edit">Edit</a>
+					</li>
+					<li>
+						<a href="#" title="Help">Help</a>
+					</li>
+				</ul>
+			</nav>
+			<form action="" method="post">
+				<textarea id="calc_display"></textarea>
+				<div id="binary">
+					<div class="row">
+						<span class="cell">0000</span>
+						<span class="cell">0000</span>
+						<span class="cell">0000</span>
+						<span class="cell">0000</span>
+						<span class="cell">0000</span>
+						<span class="cell">0000</span>
+						<span class="cell">0000</span>
+						<span class="cell">0000</span>						
+					</div>
+					<div class="row">
+						<span class="label">63</span>
+						<span class="label">47</span>
+						<span class="label">32</span>
+					</div>
+					<div class="row">
+						<span class="cell">0000</span>
+						<span class="cell">0000</span>
+						<span class="cell">0000</span>
+						<span class="cell">0000</span>
+						<span class="cell">0000</span>
+						<span class="cell">0000</span>
+						<span class="cell">0000</span>
+						<span class="cell">0000</span>	
+					</div>
+					<div class="row">
+						<span class="label">31</span>
+						<span class="label">15</span>
+						<span class="label">0</span>
+					</div>
+				</div>
+				<div id="radios">
+					<div id="numeral_sys">
+						<input type="radio" id="hex" name="numeral_sys" value="hex"/>
+						<label for="hex">Hex</label>
+						<input type="radio" id="dec" name="numeral_sys" value="dec"/>
+						<label for="dec">Dec</label>
+						<input type="radio" id="oct" name="numeral_sys" value="oct"/>
+						<label for="oct">Oct</label>
+						<input type="radio" id="bin" name="numeral_sys" value="bin"/>
+						<label for="bin">Bin</label>
+					</div>
+					<div id="word_lenght">
+						<input type="radio" id="qword" name="word_lenght" value="qword"/>
+						<label for="qword">Qword</label>
+						<input type="radio" id="dword" name="word_lenght" value="dword"/>
+						<label for="dword">Dword</label>
+						<input type="radio" id="word" name="word_lenght" value="word"/>
+						<label for="word">Word</label>
+						<input type="radio" id="byte" name="word_lenght" value="byte"/>
+						<label for="byte">Byte</label>
+					</div>
+				</div>
+				<div id="buttons">
+					<button name="empty_button" disabled="disabled"></button>
+					<button name="mod">Mod</button>
+					<button name="a">A</button>
+					<button name="mc">MC</button>
+					<button name="mr">MR</button>
+					<button name="ms">MS</button>
+					<button name="m_plus">M+</button>
+					<button name="m_minus">M-</button>
+					<button name="open_bracket">(</button>
+					<button name="close_bracket">)</button>
+					<button name="b">B</button>
+					<button name="backspace">&larr;</button>
+					<button name="ce">CE</button>
+					<button name="c">C</button>
+					<button name="change_sign">&plusmn;</button>
+					<button name="sqroot">&radic;</button>
+					<button name="rol">RoL</button>
+					<button name="ror">RoR</button>
+					<button name="c">C</button>
+					<button name="number_seven">7</button>
+					<button name="number_eight">8</button>
+					<button name="number_nine">9</button>
+					<button name="divide">&#47;</button>
+					<button name="percent">&#37;</button>
+					<button name="or">Or</button>
+					<button name="xor">Xor</button>
+					<button name="d">D</button>
+					<button name="number_four">4</button>
+					<button name="number_five">5</button>
+					<button name="number_six">6</button>
+					<button name="multiply">&#42;</button>
+					<button name="fraction">1&#47;x</button>
+					<button name="lsh">Lsh</button>
+					<button name="rsh">Rsh</button>
+					<button name="e">E</button>
+					<button name="number_one">1</button>
+					<button name="number_two">2</button>
+					<button name="number_three">3</button>
+					<button name="minus">&#45;</button>
+					<button name="equals" id="equals">&#61;</button>
+					<button name="not">Not</button>
+					<button name="and">And</button>
+					<button name="f">F</button>
+					<button name="zero" id="zero">0</button>
+					<button name="dot">&#46;</button>
+					<button name="plus">&#43;</button>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

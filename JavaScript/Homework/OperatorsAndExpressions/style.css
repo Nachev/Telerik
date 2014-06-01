@@ -1,0 +1,81 @@
+/*
+*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet
+*/
+html,body,div,span,button,input,h2{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}
+body{line-height:1}
+
+html {
+	font-family: Consolas, monaco, monospace;
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6em;
+	width: 1024px;
+	background-color: darkgrey;
+}
+
+h1 {
+	display: inline-block;
+	margin: 10px 95px;
+}
+
+h2 {
+	font-size: 1.6rem;
+}
+
+input, .result {
+	width: 220px;
+	border: 1px solid black;
+	font-size: 2rem;
+	background-color: white;
+}
+
+.two-on-line {
+	width: 104px;
+}
+
+.three-in-line {
+	width: 66px;
+}
+
+.three-in-line:empty {
+	font-size: 1.8rem;
+}
+
+button {
+	border: 1px solid black;
+	background-color: #cc5555;
+	font-size: 2rem;
+}
+
+button:hover {
+	background-color: #aa4444;
+	cursor: pointer;
+}
+
+div {
+	width: 80%;
+	margin: 10px auto;
+}
+
+.result {
+	display: inline-block;
+	height: 24px;
+	color: grey;
+	vertical-align: bottom;
+}
+
+footer {
+	border-top: 1px double #888877;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	margin: 0;
+	padding: 0
+}

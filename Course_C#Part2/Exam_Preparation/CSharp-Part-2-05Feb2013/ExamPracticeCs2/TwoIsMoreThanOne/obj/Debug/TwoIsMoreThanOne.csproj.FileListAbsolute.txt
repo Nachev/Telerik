@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\TwoIsMoreThanOne\bin\Debug\TwoIsMoreThanOne.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\TwoIsMoreThanOne\bin\Debug\TwoIsMoreThanOne.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\TwoIsMoreThanOne\bin\Debug\TwoIsMoreThanOne.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\TwoIsMoreThanOne\obj\Debug\TwoIsMoreThanOne.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\TwoIsMoreThanOne\obj\Debug\TwoIsMoreThanOne.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\CSharp-Part-2-05Feb2013\ExamPracticeCs2\TwoIsMoreThanOne\obj\Debug\TwoIsMoreThanOne.pdb

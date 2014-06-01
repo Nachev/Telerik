@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\FibonacciOneHundred\bin\Debug\FibonacciOneHundred.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\FibonacciOneHundred\bin\Debug\FibonacciOneHundred.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\FibonacciOneHundred\bin\Debug\FibonacciOneHundred.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\FibonacciOneHundred\obj\Debug\FibonacciOneHundred.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\FibonacciOneHundred\obj\Debug\FibonacciOneHundred.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\FibonacciOneHundred\obj\Debug\FibonacciOneHundred.csprojResolveAssemblyReference.cache

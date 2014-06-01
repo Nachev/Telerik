@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Mixed table</title>
+		<style>
+			table{			
+			border-spacing:0px;
+			border-bottom-style:ridge;
+			border-right-style:ridge;
+			border-width:2px;
+			border-color:#FFFAFA;
+			vertical-align:middle;
+			text-align:center;
+			}
+			th, tr, td{ 
+			border-style:ridge solid solid ridge;
+			border-width:2px;
+			border-color:#FFFAFA;
+			}
+			td{
+			height:25px;
+			width:35px;
+			}
+			td.right_align{
+			text-align:right;
+			}
+			td.left_align{
+			text-align:left;
+			}
+			th{
+			font-weight:normal;
+			}
+			#bottom_right_align{
+			text-align:right;
+			vertical-align:bottom;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th colspan="3">Title goes here</th>
+				<td>A</td>
+				<td class="right_align">B</td>
+			</tr>
+			<tr>
+				<td class="left_align" rowspan="3">C</td>
+				<td>D</td>
+				<td>E</td>
+				<td>F</td>
+				<td class="right_align">G</td>
+			</tr>
+			<tr>
+				<td>H</td>
+				<td colspan="2">I</td>
+				<td id ="bottom_right_align" rowspan="2">J</td>
+			</tr>
+			<tr>
+				<td>K</td>
+				<td>L</td>
+				<td>M</td>
+			</tr>
+			<tr>
+				<td class="right_align">N</td>
+				<td colspan="4">O</td>
+			</tr>
+		</table>
+	</body>
+</html>

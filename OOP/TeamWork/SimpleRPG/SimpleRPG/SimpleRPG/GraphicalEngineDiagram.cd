@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TankWarsGraphics.Componenets.Player" Collapsed="true">
+    <Position X="17.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAgAAAgAAAAAAAAAAAAAAABAAAEAAAABAAAA=</HashCode>
+      <FileName>Componenets\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWarsGraphics.Game1" Collapsed="true">
+    <Position X="15.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAEEAAAEACAwAAAAAAAQAAAABACAgAQAgAAAACEAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWarsGraphics.Program" Collapsed="true">
+    <Position X="15.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWarsGraphics.GameScreens.BaseGameState" Collapsed="true">
+    <Position X="9.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAQ=</HashCode>
+      <FileName>GameScreens\BaseGameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWarsGraphics.GameScreens.CreditsScreen" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAABEAAAhAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>GameScreens\CreditsScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWarsGraphics.GameScreens.GamePlayScreen" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAAAAAAAAAEAAAAAAABAAAAAAQAEBQ=</HashCode>
+      <FileName>GameScreens\GamePlayScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWarsGraphics.GameScreens.StartMenuScreen" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAEAAAwAAQDIAAAAAAAAAAAAAAgAAAAAAAAQ=</HashCode>
+      <FileName>GameScreens\StartMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWarsGraphics.GameScreens.TitleScreen" Collapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAAgAAAAAAAAAAAAAAAAAAABAgAAAAAAQ=</HashCode>
+      <FileName>GameScreens\TitleScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

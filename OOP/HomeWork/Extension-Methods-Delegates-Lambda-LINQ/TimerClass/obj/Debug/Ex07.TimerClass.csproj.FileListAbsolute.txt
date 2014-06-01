@@ -1,0 +1,12 @@
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\TimerClass\obj\Debug\Ex07.TimerClass.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\TimerClass\obj\Debug\TimerClass.exe
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\TimerClass\bin\Debug\TimerClass.exe.config
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\TimerClass\bin\Debug\TimerClass.exe
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\TimerClass\bin\Debug\TimerClass.pdb
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\TimerClass\obj\Debug\TimerClass.pdb
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\TimerClass\bin\Debug\TimerClass.exe.config
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\TimerClass\obj\Debug\TimerClass.exe
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\TimerClass\obj\Debug\TimerClass.pdb
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\TimerClass\bin\Debug\TimerClass.exe
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\TimerClass\bin\Debug\TimerClass.pdb
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\TimerClass\obj\Debug\Ex07.TimerClass.csprojResolveAssemblyReference.cache

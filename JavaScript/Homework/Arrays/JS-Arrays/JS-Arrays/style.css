@@ -1,0 +1,106 @@
+﻿html,body,div,span,button,input,h2{margin:0;padding:0;vertical-align:baseline;background:transparent;outline:none}
+body{line-height:1}
+
+html {
+	font-family: Consolas, monaco, monospace;
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6em;
+	background-color: darkgrey;
+}
+
+section, footer {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+h1 {
+	display: block;
+	margin: 10px 95px;
+}
+
+div[id]:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#binary-search>input:first-of-type {
+    width: 350px;
+}
+
+#binary-search>input:last-of-type {
+    width: 50px;
+}
+
+h2 {
+    display: block;
+	margin: 5px 0;
+	font-size: 1.6rem;
+}
+
+input, button, .result {
+	border: 1px solid black;
+	font-size: 2rem;
+	vertical-align:middle;
+}
+
+input, .result {
+	background-color: white;
+}
+
+input {
+    float:left;
+	width: 280px;
+    margin-left: 3px;
+	text-align: center;
+}
+
+button {
+    float: left;
+	width: 90px;
+	height: 26px;
+    margin-left: 3px;
+    margin-right: 5px;
+	background-color: #cc5555;
+}
+
+button:hover {
+	background-color: #aa4444;
+	cursor: pointer;
+}
+
+div[id] {
+	width: 80%;
+	margin: 10px auto;
+}
+
+.two-on-line {
+	width: 137px;
+}
+
+.result {
+	display: block;
+	padding: 2px 0;
+	color: grey;
+	text-align: center;
+	overflow: auto;
+}
+
+footer {
+	border-top: 1px double #888877;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	margin: 0;
+	padding: 0
+}

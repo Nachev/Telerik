@@ -1,0 +1,105 @@
+html,body,div,span,button,input,h2{margin:0;padding:0;vertical-align:baseline;background:transparent}
+body{line-height:1}
+
+html {
+	font-family: Consolas, monaco, monospace;
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6em;
+	background-color: darkgrey;
+}
+
+section, footer {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+h1 {
+	display: inline-block;
+	margin: 10px 95px;
+}
+
+h2 {
+	margin: 5px 0;
+	font-size: 1.6rem;
+}
+
+input, button, .result {
+	border: 1px solid black;
+	font-size: 2rem;
+	vertical-align:middle;
+}
+
+input, .result {
+	background-color: white;
+}
+
+input {
+	width: 280px;
+	text-align: center;
+}
+
+input:focus {
+	text-align: right;
+}
+
+.two-on-line {
+	width: 134px;
+}
+
+.three-in-line {
+	width: 86px;
+}
+
+.five-in-line {
+	width: 47px;
+}
+
+button {
+	width: 90px;
+	height: 27px;
+	background-color: #cc5555;
+}
+
+button:hover {
+	background-color: #aa4444;
+	cursor: pointer;
+}
+
+div {
+	width: 80%;
+	margin: 10px auto;
+}
+
+.result {
+	width: 350px;
+	display: inline-block;
+	padding: 2px 0;
+	color: grey;
+	text-align: center;
+}
+
+.expression {
+	vertical-align: middle;
+	font-size: 2rem;
+}
+
+#calc-quadratic>.three-in-line {
+	width: 41px;
+}
+
+footer {
+	border-top: 1px double #888877;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	margin: 0;
+	padding: 0
+}

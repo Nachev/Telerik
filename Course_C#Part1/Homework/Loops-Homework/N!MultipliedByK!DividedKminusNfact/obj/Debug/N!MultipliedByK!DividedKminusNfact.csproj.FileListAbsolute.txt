@@ -1,0 +1,5 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\N!MultipliedByK!DividedKminusNfact\bin\Debug\N!MultipliedByK!DividedKminusNfact.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\N!MultipliedByK!DividedKminusNfact\bin\Debug\N!MultipliedByK!DividedKminusNfact.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\N!MultipliedByK!DividedKminusNfact\bin\Debug\N!MultipliedByK!DividedKminusNfact.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\N!MultipliedByK!DividedKminusNfact\obj\Debug\N!MultipliedByK!DividedKminusNfact.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\N!MultipliedByK!DividedKminusNfact\obj\Debug\N!MultipliedByK!DividedKminusNfact.pdb

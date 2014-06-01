@@ -1,0 +1,5 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\CirclePerimeterAndRadius\bin\Debug\CirclePerimeterAndRadius.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\CirclePerimeterAndRadius\bin\Debug\CirclePerimeterAndRadius.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\CirclePerimeterAndRadius\bin\Debug\CirclePerimeterAndRadius.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\CirclePerimeterAndRadius\obj\Debug\CirclePerimeterAndRadius.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\4.Console-Input-Output-Homework\CirclePerimeterAndRadius\obj\Debug\CirclePerimeterAndRadius.pdb

@@ -1,0 +1,6 @@
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\GroupStudentsByField\bin\Debug\GroupStudentsByField.exe.config
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\GroupStudentsByField\bin\Debug\GroupStudentsByField.exe
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\GroupStudentsByField\bin\Debug\GroupStudentsByField.pdb
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\GroupStudentsByField\obj\Debug\GroupStudentsByField.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\GroupStudentsByField\obj\Debug\GroupStudentsByField.exe
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\GroupStudentsByField\obj\Debug\GroupStudentsByField.pdb

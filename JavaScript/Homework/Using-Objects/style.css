@@ -1,0 +1,143 @@
+﻿html,body,div,span,button,input,h2,p{margin:0;padding:0;vertical-align:baseline;background:transparent;outline:none}
+body{line-height:1}
+
+html {
+	font-family: Consolas, monaco, monospace;
+	font-size: 62.5%;
+}
+
+html > body {
+	font-size: 1.6em;
+	background-color: darkgrey;
+}
+
+section, footer {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+h1 {
+	display: block;
+	margin: 10px 95px;
+	font-size: 2.0rem;
+}
+
+section>div {
+	width: 80%;
+	margin: 10px auto;
+    border: 2px solid rgb(128, 113, 141);
+}
+
+section>div:hover {
+    border-color: aquamarine;
+}
+
+h2 {
+    display: block;
+	margin: 5px 0;
+	font-size: 1.6rem;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: table;
+  visibility: hidden;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+
+input, button, .result {
+	border: 1px solid black;
+	font-size: 1.9rem;
+	vertical-align:middle;
+}
+
+input, .result {
+	background-color: white;
+}
+
+input[type=radio] {
+    float: none;
+    width: auto;
+    margin: 0;
+}
+
+input, .object {
+    float:left;
+	width: 60%;
+    margin-left: 3px;
+	text-align: center;
+}
+
+.object {
+	min-height: 23px;
+	color: black;
+	text-align: center;
+	overflow: auto;
+    background-color: white;
+    border: 1px solid black;
+	font-size: 1.9rem;
+	vertical-align:middle;
+}
+
+button {
+    float: left;
+	width: 10%;
+	height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+	background-color: #cc5555;
+}
+
+button:hover {
+	background-color: #3a0d0d;
+    color: #eeeede;
+	cursor: pointer;
+}
+
+#calc-distance, #check-triangle {
+    margin-top: 5px;
+}
+
+.sequence {
+    width: 40%;
+}
+
+.dual-value {
+    width: 10%;
+}
+
+#check-triangle .dual-value {
+    width: 8%;
+}
+
+#check-triangle > span {
+    float: left;
+    padding: 6px 0;
+    font-size: 1.1rem;
+}
+
+.result {
+	display: block;
+	min-height: 23px;
+	color: grey;
+	text-align: center;
+	overflow: auto;
+}
+
+footer {
+	border-top: 1px double #888877;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	margin: 0;
+	padding: 0
+}

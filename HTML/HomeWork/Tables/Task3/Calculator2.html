@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Calculator</title>
+		<style type="text/css">
+			.row > *{			
+				border: 1px solid black;
+			}
+			form{
+				display: inline-block;
+				border: 1px solid black;
+				padding: 2px;
+				background: #abf;
+			}
+			button{
+				margin: 0;
+				dispaly: inline-block;
+				width: 50px;
+				height: 40px;
+				text-decoration: none;
+				cursor: pointer;
+				background: #ddd;
+				font: 18px Verdana;
+				text-align: center;
+				margin: 2px;
+			}
+			#input-output{
+				width: 164px;
+				height: 34px;
+				margin: 2px;
+				font: 18px Verdana;
+				text-align: right;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="someScript.php" method="post">
+			<div class="row">
+				<button id="clear">C</button>
+				<input type="text" id="input-output" value="123"></input>
+			</div>
+			<div class="row">
+				<button class="digit">7</button>
+				<button class="digit">8</button>
+				<button class="digit">9</button>
+				<button class="operator">&plus;</button>
+			</div>
+			<div class="row">
+				<button class="digit">4</button>
+				<button class="digit">5</button>
+				<button class="digit">6</button>
+				<button class="operator">&minus;</button>
+			</div>
+			<div class="row">
+				<button class="digit">1</button>
+				<button class="digit">2</button>
+				<button class="digit">3</button>
+				<button class="operator">&divide;</button>
+			</div>
+			<div class="row">
+				<button class="digit">0</button>
+				<button class="digit">.</button>
+				<button class="operator">&equals;</button>
+				<button class="operator">&times;</button>
+			</div>
+		</form>
+	</body>
+</html>

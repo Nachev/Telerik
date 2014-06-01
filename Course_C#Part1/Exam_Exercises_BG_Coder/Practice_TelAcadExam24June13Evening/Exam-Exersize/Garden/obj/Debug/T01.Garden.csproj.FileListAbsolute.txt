@@ -1,0 +1,3 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Garden\bin\Debug\Garden.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Garden\obj\Debug\Garden.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Practice_TelAcadExam24June13Evening\Exam-Exersize\Garden\obj\Debug\Garden.pdb

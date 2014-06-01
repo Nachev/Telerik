@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem2–LeastMajorityMultiple\bin\Debug\Problem2–LeastMajorityMultiple.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem2–LeastMajorityMultiple\bin\Debug\Problem2–LeastMajorityMultiple.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem2–LeastMajorityMultiple\bin\Debug\Problem2–LeastMajorityMultiple.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem2–LeastMajorityMultiple\obj\Debug\Problem2–LeastMajorityMultiple.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem2–LeastMajorityMultiple\obj\Debug\Problem2–LeastMajorityMultiple.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\PracticeC#FundamentalsPart 1-TestExam\PracticeCSharpPart 1\Problem2–LeastMajorityMultiple\obj\Debug\Problem2–LeastMajorityMultiple.pdb

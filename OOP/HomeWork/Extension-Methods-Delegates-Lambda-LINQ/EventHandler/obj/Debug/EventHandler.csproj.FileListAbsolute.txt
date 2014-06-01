@@ -1,0 +1,6 @@
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\EventHandler\bin\Debug\EventHandler.exe.config
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\EventHandler\bin\Debug\EventHandler.exe
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\EventHandler\bin\Debug\EventHandler.pdb
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\EventHandler\obj\Debug\EventHandler.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\EventHandler\obj\Debug\EventHandler.exe
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\EventHandler\obj\Debug\EventHandler.pdb

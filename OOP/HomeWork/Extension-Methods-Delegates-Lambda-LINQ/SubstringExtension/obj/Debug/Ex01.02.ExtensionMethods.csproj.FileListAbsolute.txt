@@ -1,0 +1,12 @@
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SubstringExtension\obj\Debug\Ex01.02.ExtensionMethods.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SubstringExtension\bin\Debug\SubstringExtension.exe.config
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SubstringExtension\bin\Debug\SubstringExtension.exe
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SubstringExtension\bin\Debug\SubstringExtension.pdb
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SubstringExtension\obj\Debug\SubstringExtension.exe
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SubstringExtension\obj\Debug\SubstringExtension.pdb
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\SubstringExtension\bin\Debug\SubstringExtension.exe.config
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\SubstringExtension\obj\Debug\SubstringExtension.exe
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\SubstringExtension\obj\Debug\SubstringExtension.pdb
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\SubstringExtension\bin\Debug\SubstringExtension.exe
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\SubstringExtension\bin\Debug\SubstringExtension.pdb
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\SubstringExtension\obj\Debug\Ex01.02.ExtensionMethods.csprojResolveAssemblyReference.cache

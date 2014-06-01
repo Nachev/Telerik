@@ -1,0 +1,5 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckIfPrime\bin\Debug\CheckIfPrime.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckIfPrime\bin\Debug\CheckIfPrime.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckIfPrime\bin\Debug\CheckIfPrime.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckIfPrime\obj\Debug\CheckIfPrime.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckIfPrime\obj\Debug\CheckIfPrime.pdb

@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\BitsExchangeOnEnteredPosition\bin\Debug\BitsExchangeOnEnteredPosition.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\BitsExchangeOnEnteredPosition\bin\Debug\BitsExchangeOnEnteredPosition.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\BitsExchangeOnEnteredPosition\bin\Debug\BitsExchangeOnEnteredPosition.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\BitsExchangeOnEnteredPosition\obj\Debug\BitsExchangeOnEnteredPosition.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\BitsExchangeOnEnteredPosition\obj\Debug\BitsExchangeOnEnteredPosition.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\BitsExchangeOnEnteredPosition\obj\Debug\BitsExchangeOnEnteredPosition.pdb

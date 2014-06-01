@@ -1,0 +1,5 @@
+F:\Telerik\OOP\ExamExersice\OOP-March2013-Variant1\SoftwareAcademy-Skeleton\bin\Debug\SoftwareAcademy.exe
+F:\Telerik\OOP\ExamExersice\OOP-March2013-Variant1\SoftwareAcademy-Skeleton\bin\Debug\SoftwareAcademy.pdb
+F:\Telerik\OOP\ExamExersice\OOP-March2013-Variant1\SoftwareAcademy-Skeleton\obj\Debug\SoftwareAcademy.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\ExamExersice\OOP-March2013-Variant1\SoftwareAcademy-Skeleton\obj\Debug\SoftwareAcademy.exe
+F:\Telerik\OOP\ExamExersice\OOP-March2013-Variant1\SoftwareAcademy-Skeleton\obj\Debug\SoftwareAcademy.pdb

@@ -1,0 +1,6 @@
+F:\Telerik\OOP\HomeWork\Common-Type-System\StudentClass\bin\Debug\StudentClass.exe.config
+F:\Telerik\OOP\HomeWork\Common-Type-System\StudentClass\bin\Debug\StudentClass.exe
+F:\Telerik\OOP\HomeWork\Common-Type-System\StudentClass\bin\Debug\StudentClass.pdb
+F:\Telerik\OOP\HomeWork\Common-Type-System\StudentClass\obj\Debug\StudentClass.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\HomeWork\Common-Type-System\StudentClass\obj\Debug\StudentClass.exe
+F:\Telerik\OOP\HomeWork\Common-Type-System\StudentClass\obj\Debug\StudentClass.pdb

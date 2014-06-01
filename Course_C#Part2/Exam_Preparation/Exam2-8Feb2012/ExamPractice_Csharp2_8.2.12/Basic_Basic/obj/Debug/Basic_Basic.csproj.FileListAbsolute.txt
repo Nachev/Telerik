@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\Exam2-8Feb2012\ExamPractice_Csharp2_8.2.12\Basic_Basic\bin\Debug\Basic_Basic.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\Exam2-8Feb2012\ExamPractice_Csharp2_8.2.12\Basic_Basic\bin\Debug\Basic_Basic.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\Exam2-8Feb2012\ExamPractice_Csharp2_8.2.12\Basic_Basic\bin\Debug\Basic_Basic.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\Exam2-8Feb2012\ExamPractice_Csharp2_8.2.12\Basic_Basic\obj\Debug\Basic_Basic.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\Exam2-8Feb2012\ExamPractice_Csharp2_8.2.12\Basic_Basic\obj\Debug\Basic_Basic.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\Exam2-8Feb2012\ExamPractice_Csharp2_8.2.12\Basic_Basic\obj\Debug\Basic_Basic.pdb

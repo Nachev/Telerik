@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckIfPointInCircle\bin\Debug\CheckIfPointInCircle.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckIfPointInCircle\bin\Debug\CheckIfPointInCircle.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckIfPointInCircle\bin\Debug\CheckIfPointInCircle.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckIfPointInCircle\obj\Debug\CheckIfPointInCircle.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckIfPointInCircle\obj\Debug\CheckIfPointInCircle.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\3.OperatorsAndExpressions-Homework\CheckIfPointInCircle\obj\Debug\CheckIfPointInCircle.pdb

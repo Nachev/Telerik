@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Nested items</title>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+		<style type="text/css">
+			#roman{
+			list-style-type:upper-roman;
+			list-style-position:inside;
+			}
+			#roman li{ position:relative }
+			span.displaced{
+			position:absolute;
+			left:40px
+			}
+			#small-letter{list-style-type:lower-alpha}
+			#digit{list-style-type:decimal}
+			#circle{list-style-type:circle}
+			#square{list-style-type:square}
+			#disc{list-style-type:disc}
+		</style>
+	</head>
+	<body>
+		<p>Some text</p>
+		<ol id="roman">
+			<li><span class="displaced">List item 1</span><br/>
+				<ol id="small-letter">
+					<li>Nested item 1.1</li>
+					<li>Nested item 1.2</li>
+				</ol>
+			</li>
+			<li><span class="displaced">List item 2</span><br/>
+				<ol id="digit">
+					<li>Nested item 2.1</li>
+					<li>Nested item 2.2
+						<ul id="circle">
+							<li>Nested item 2.2.1</li>
+							<li>Nested item 2.2.2
+								<ul id="square">
+									<li>Nested item 2.2.2.1</li>
+									<li>Nested item 2.2.2.2</li>
+								</ul>
+							</li>
+							<li>Nested item 2.2.3</li>
+						</ul>
+					</li>
+					<li>Nested item 2.3</li>
+				</ol>			
+			</li>
+			<li><span class="displaced">List item 3</span><br/>
+				<ul id="disc">
+					<li>Nested item 3.1</li>
+					<li>Nested item 3.2</li>
+					<li>Nested item 3.3</li>
+				</ul>
+			</li>
+		</ol>
+	</body>
+</html>

@@ -1,0 +1,2 @@
+F:\Telerik\OOP\HomeWork\Defining-Classes-Part2\Defining-Classes-Part2\bin\Debug\Defining-Classes-Part2.exe.config
+F:\Telerik\OOP\HomeWork\Defining-Classes-Part2\Defining-Classes-Part2\obj\Debug\Defining-Classes-Part2.csprojResolveAssemblyReference.cache

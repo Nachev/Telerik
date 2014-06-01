@@ -1,0 +1,1 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\2.PrimitiveDataTypes-Homework\MostApproppriateTypeDecalration\bin\Debug\MostApproppriateTypeDecalration.exe.config

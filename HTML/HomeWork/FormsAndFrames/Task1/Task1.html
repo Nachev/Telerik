@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Web form</title>
+		<style type="text/css">
+			#container{
+				vertical-align:center;
+				display:table;
+				border-collapse:collapse;
+			}
+			.row{
+				display:table-row;
+				width:100%;
+			}
+			.left_cell, .right_cell{
+				display:table-cell;
+				padding: 2px;
+				border:1px solid gray;
+			}
+			textarea {
+				resize: none;
+			}
+			.text_field{
+				width:90%;
+			}
+			#nested_address{
+				display:table;
+				border-collapse:collapse;
+				border:none;
+				width:70%;
+			}
+			.nested_city_cell, .nested_state_cell{
+				display:table-cell;
+				border-right:1px solid grey;
+			}
+		</style>
+		<script type="text/javascript">
+
+		</script>
+	</head>
+	<body>
+		<form id="container" name="container" action="someScript.php" method="post">
+			<div class="row">
+				<div class="left_cell">
+					<label for="last_name">Last Name</label>
+				</div>
+				<div class="right_cell">
+					<input type="text" name="last_name" id="last_name" class="text_field"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="left_cell">
+					<label for="first_name">First Name</label>
+				</div>
+				<div class="right_cell">
+					<input type="text" name="first_name" id="first_name" class="text_field"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="left_cell">
+					<label for="address">Address</label>
+				</div>
+				<div class="right_cell">
+					<textarea name="address" cols="30" rows="3" id="address">
+				</textarea></div>
+			</div>
+			<div class="row">
+				<div class="left_cell" id="nested_city_label">
+					<label for="city">City</label>
+				</div>
+				<div class="right_cell" id="nested_address">
+					<div id="nested_address_row">
+						<div class="nested_city_cell">
+							<input type="text" name="city" id="city"/>
+						</div>
+						<div class="nested_state_cell">
+							<label for="state">State</label>
+						</div>
+						<div class="nested_state_cell">
+							<input type="text" name="state" id="state"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="left_cell"><label for="***">***</label></div>
+				<div class="right_cell"><input type="text" id="***"/></div>
+			</div>
+			<div class="row">
+				<div class="left_cell"><label for="***">***</label></div>
+				<div class="right_cell"><input type="text" id="***"/></div>
+			</div>
+			<div class="row">
+				<div class="left_cell"><label for="***">***</label></div>
+				<div class="right_cell"><input type="text" id="***"/></div>
+			</div>
+		</form>
+	</body>
+</html>

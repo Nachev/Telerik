@@ -1,0 +1,183 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+html {
+  font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+  font-size: 62.5%;
+}
+html body {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+#wrapper {
+  width: 960px;
+}
+
+.tab-strip {
+  width: 340px;
+  height: 230px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 15px;
+}
+.tab-strip:after, .tab-strip:before {
+  content: "";
+  display: table;
+}
+.tab-strip:after {
+  clear: both;
+}
+.tab-strip > li {
+  position: relative;
+  list-style-type: none;
+  padding-top: -1px;
+}
+.tab-strip > li ul > li {
+  list-style-type: disc;
+}
+.tab-strip > li ul > li ul > li {
+  list-style-type: lower-alpha;
+  margin-left: 25px;
+}
+.tab-strip > li:last-child .tab-btn {
+  border-right: none;
+}
+.tab-strip > li:last-child:hover .tab-btn {
+  border-right: none;
+}
+.tab-strip > li:last-child.current .tab-btn {
+  border-right: none;
+}
+.tab-strip .tab-btn {
+  display: inline-block;
+  padding: 5px 15px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  float: left;
+  text-decoration: none;
+  color: black;
+  font-size: 2.15rem;
+  background: #ebebeb;
+  background: -moz-linear-gradient(top, #ebebeb 0%, #ababab 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ebebeb), color-stop(100%, #ababab));
+  background: -webkit-linear-gradient(top, #ebebeb 0%, #ababab 100%);
+  background: -o-linear-gradient(top, #ebebeb 0%, #ababab 100%);
+  background: -ms-linear-gradient(top, #ebebeb 0%, #ababab 100%);
+  background: linear-gradient(to bottom, #ebebeb 0%, #ababab 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$startColor', endColorstr='$endColor',GradientType=0 );
+}
+.tab-strip .tab-btn:hover {
+  background: none;
+  background-color: #eeeeee;
+}
+.tab-strip .tab-content {
+  display: none;
+}
+.tab-strip .tab-content table, .tab-strip .tab-content th, .tab-strip .tab-content td {
+  border: 1px solid black;
+}
+.tab-strip .tab-content table th {
+  padding: 5px 15px;
+  background: #ababab;
+  background: -moz-linear-gradient(top, #ababab 0%, #ebebeb 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ababab), color-stop(100%, #ebebeb));
+  background: -webkit-linear-gradient(top, #ababab 0%, #ebebeb 100%);
+  background: -o-linear-gradient(top, #ababab 0%, #ebebeb 100%);
+  background: -ms-linear-gradient(top, #ababab 0%, #ebebeb 100%);
+  background: linear-gradient(to bottom, #ababab 0%, #ebebeb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$startColor', endColorstr='$endColor',GradientType=0 );
+}
+.tab-strip .tab-content table td {
+  padding: 5px 0 5px 5px;
+  background-color: #EEEEEE;
+}
+.tab-strip > li.current .tab-btn {
+  font-weight: bold;
+  border: none;
+  border-right: 1px solid black;
+  border-radius: 0;
+  background: none;
+}
+.tab-strip > li.current .tab-content {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}

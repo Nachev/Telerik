@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\NfactDividedByKfact\bin\Debug\NfactDividedByKfact.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\NfactDividedByKfact\bin\Debug\NfactDividedByKfact.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\NfactDividedByKfact\bin\Debug\NfactDividedByKfact.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\NfactDividedByKfact\obj\Debug\NfactDividedByKfact.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\NfactDividedByKfact\obj\Debug\NfactDividedByKfact.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\NfactDividedByKfact\obj\Debug\NfactDividedByKfact.csprojResolveAssemblyReference.cache

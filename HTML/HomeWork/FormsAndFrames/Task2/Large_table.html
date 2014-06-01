@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Large table</title>
+		<style type="text/css">
+			table {				
+				border-collapse:collapse;
+			}
+			
+			table td {
+				border:1px solid black;
+			}
+			
+			thead {
+				text-align:center;
+				font-weight:bold;
+			}
+			
+			tbody {
+				counter-reset: rowNumber;
+			}
+
+			tbody tr {
+				counter-increment: rowNumber;
+			}
+
+			tbody tr td:first-child::before {
+				content: counter(rowNumber);
+				min-width: 1em;
+				margin-right: 0.5em;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<thead>
+				<tr>
+					<td rowspan="2">Order</td>
+					<td colspan="3">Personal Info</td>
+					<td colspan="5">University Marks</td>
+				</tr>
+				<tr>
+					<td>First Name</td>
+					<td>Last Name</td>
+					<td>Faculty Number</td>
+					<td>English</td>
+					<td>Math</td>
+					<td>Biology</td>
+					<td>Physics</td>
+					<td>Total</td>
+				</tr>
+			</thead>
+			<tfoot>
+				<form>
+					<td colspan="9">
+						<input type="button" value="Previous">
+						<a href="#">1</a>,
+						<a href="#">2</a>,
+						<a href="#">3</a>,
+						<a href="#">4</a>, ...,
+						<a href="#">10</a>
+						<input type="button" value="Next">
+					</td>
+				</form>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td></td>
+					<td>Pesho</td>
+					<td>Yordanov</td>
+					<td>123456</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>3.50</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Pesho</td>
+					<td>Yordanov</td>
+					<td>123456</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>3.50</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Pesho</td>
+					<td>Yordanov</td>
+					<td>123456</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>3.50</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Pesho</td>
+					<td>Yordanov</td>
+					<td>123456</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>3.50</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Pesho</td>
+					<td>Yordanov</td>
+					<td>123456</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>3.50</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Pesho</td>
+					<td>Yordanov</td>
+					<td>123456</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>3.50</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Pesho</td>
+					<td>Yordanov</td>
+					<td>123456</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>3.50</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Pesho</td>
+					<td>Yordanov</td>
+					<td>123456</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>3.50</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Pesho</td>
+					<td>Yordanov</td>
+					<td>123456</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>3.50</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Pesho</td>
+					<td>Yordanov</td>
+					<td>123456</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>3.50</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

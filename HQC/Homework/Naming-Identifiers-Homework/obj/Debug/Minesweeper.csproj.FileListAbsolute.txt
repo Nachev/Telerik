@@ -1,0 +1,5 @@
+D:\HQC\Homework\Naming-Identifiers-Homework\obj\Debug\Minesweeper.exe
+D:\HQC\Homework\Naming-Identifiers-Homework\obj\Debug\Minesweeper.pdb
+D:\HQC\Homework\Naming-Identifiers-Homework\obj\Debug\Minesweeper.csprojResolveAssemblyReference.cache
+D:\HQC\Homework\Naming-Identifiers-Homework\bin\Debug\Minesweeper.exe
+D:\HQC\Homework\Naming-Identifiers-Homework\bin\Debug\Minesweeper.pdb

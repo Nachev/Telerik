@@ -1,0 +1,6 @@
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\StudentsList\bin\Debug\StudentsList.exe.config
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\StudentsList\obj\Debug\StudentsList.exe
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\StudentsList\obj\Debug\StudentsList.pdb
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\StudentsList\bin\Debug\StudentsList.exe
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\StudentsList\bin\Debug\StudentsList.pdb
+F:\Telerik\OOP\HomeWork\Extension-Methods-Delegates-Lambda-LINQ\StudentsList\obj\Debug\Ex09-15.StudentsList.csprojResolveAssemblyReference.cache

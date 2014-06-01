@@ -1,0 +1,6 @@
+F:\Telerik_BackUp\Telerik\OOP\TeamWork\SimpleRPG\XRpgLibrary\bin\x86\Debug\XTankWarsLibrary.dll
+F:\Telerik_BackUp\Telerik\OOP\TeamWork\SimpleRPG\XRpgLibrary\bin\x86\Debug\XTankWarsLibrary.pdb
+F:\Telerik_BackUp\Telerik\OOP\TeamWork\SimpleRPG\XRpgLibrary\obj\x86\Debug\XTankWarsLibrary.csprojResolveAssemblyReference.cache
+F:\Telerik_BackUp\Telerik\OOP\TeamWork\SimpleRPG\XRpgLibrary\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Telerik_BackUp\Telerik\OOP\TeamWork\SimpleRPG\XRpgLibrary\obj\x86\Debug\XTankWarsLibrary.dll
+F:\Telerik_BackUp\Telerik\OOP\TeamWork\SimpleRPG\XRpgLibrary\obj\x86\Debug\XTankWarsLibrary.pdb

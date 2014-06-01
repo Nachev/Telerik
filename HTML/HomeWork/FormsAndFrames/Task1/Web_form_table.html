@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Web form</title>
+		<style type="text/css">
+			body{
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font-size: 100%;
+				font: inherit;
+				vertical-align: baseline;
+			}
+			table{
+				margin:2px;
+				border-collapse:collapse;
+			}
+			td{			 
+				border:1px solid grey;
+			}
+			.left_col{
+				font-weight:bold;
+				text-align:right;
+				width:150px;
+			}
+			.right_col{
+				width:350px;
+			}
+			.footer{
+				text-align:center;
+				background-color:#99FFFF;
+			}
+			input[type="text"] {
+				width: 320px;
+			}
+			#city{
+				width: 280px;
+			}
+			#state{
+				width:25px;
+			}
+			#postal_code{
+				width:70px;
+			}
+			#area_code, #country_code{
+				width:50px;
+			}
+			#phone_number{
+				width:170px;
+			}
+			#birth_month, #birth_day{
+				width:20px;
+			}
+			#birth_year{
+				width:70px;
+			}
+			#address, #comments{
+				width:320px;
+				height:100px;
+				resize:none;
+			}
+		</style>
+		<script type="text/javascript">
+
+		</script>
+	</head>
+	<body>
+		<form id="input_form" name="input_form" action="someScript.php" method="post">
+			<table>
+				<tfoot>
+					<tr class="footer">
+						<td colspan="4">
+							<button type="submit" name="submit">Submit</button>
+							<button type="reset" name="reset">Clear this form</button>
+						</td>
+					</tr>
+				</tfoot>
+				<tbody>
+					<tr>
+						<td class="left_col">
+							<label for="last_name">Last Name</label>
+						</td>
+						<td class="right_col" colspan="3">
+							<input type="text"  id="last_name" class="text_field"/>
+						</td>
+					</tr>
+					<tr>
+						<td class="left_col">
+							<label for="first_name">First Name</label>
+						</td>
+						<td class="right_col" colspan="3">
+							<input type="text" id="first_name" class="text_field"/>
+						</td>
+					</tr>
+					<tr>
+						<td class="left_col">
+							<label for="address">Address</label>
+						</td>
+						<td class="right_col" colspan="3">
+							<textarea name="address" id="address"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td class="left_col">
+							<label for="city">City</label>
+						</td>
+						<td>
+							<input type="text" name="city" id="city"/>
+						</td>
+						<td>
+							<label for="state">State</label>
+						</td>
+						<td>
+							<input type="text" name="state" id="state"/>
+						</td>
+					</tr>
+					<tr>
+						<td class="left_col">
+							<label for="postal_code">Zip/Postal Code</label>
+						</td>
+						<td class="right_col" colspan="3">
+							<input type="text" name="postal_code" id="postal_code"/>
+						</td>
+					</tr>
+					<tr>
+						<td class="left_col">
+							<label for="country">Country</label>
+						</td>
+						<td class="right_col" colspan="3">
+							<select name="country" id="country"/>
+								<option value="value1" selected="selected">Bulgaria</option>
+								<option value="value2">Bangladesh</option>
+								<option value="value3">Bali</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="left_col">
+							<label for="country_code">Phone (country code, area code, number)</label>
+						</td>
+						<td class="right_col" colspan="3">
+							(+
+							<input type="tel" name="country_code" id="country_code"/>
+							)
+							<input type="tel" name="area_code" id="area_code"/>
+							-
+							<input type="tel" name="phone_number" id="phone_number"/>
+						</td>
+					</tr>
+					<tr>
+						<td class="left_col">
+							<label for="email">E-mail</label>
+						</td>
+						<td class="right_col" colspan="3">
+							<input type="email" name="email" id="email"/>
+						</td>
+					</tr>
+					<tr>
+						<td class="left_col">
+							<label for="birth_month">Birth date</label>
+						</td>
+						<td class="right_col" colspan="3">
+							<label for="birth_month">Month</label>
+							<input type="text" name="birth_month" id="birth_month"/>
+							<label for="birth_day">Day</label>
+							<input type="text" name="birth_day" id="birth_day"/>
+							<label for="birth_year">Year(4 digit)</label>
+							<input type="text" name="birth_year" id="birth_year"/>
+						</td>
+					</tr>
+					<tr>
+						<td class="left_col">
+							<label for="gender">Gender</label>
+						</td>
+						<td class="right_col" colspan="3">
+							<select name="gender" id="gender"/>
+								<option value="male">Male</option>
+								<option value="female">Female</option>
+						</td>
+					</tr>
+					<tr>
+						<td class="left_col">
+							Starting date
+						</td>
+						<td class="right_col" colspan="3">
+							<input type="radio" name="starting_date" id="spring" value="spring"/>
+							<label for="spring">Spring 2006</label>
+							<input type="radio" name="starting_date" id="summer" value="summer"/>
+							<label for="summer">Summer 2006</label>
+						</td>
+					</tr>
+					<tr>
+						<td class="left_col">
+							<label for="comments">Comments / Questions</label>
+						</td>
+						<td class="right_col" colspan="3">
+							<textarea name="comments" id="comments"></textarea>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</body>
+</html>

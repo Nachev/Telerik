@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\4.FireInTheMatrix\bin\Debug\4.FireInTheMatrix.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\4.FireInTheMatrix\bin\Debug\4.FireInTheMatrix.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\4.FireInTheMatrix\bin\Debug\4.FireInTheMatrix.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\4.FireInTheMatrix\obj\Debug\4.FireInTheMatrix.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\4.FireInTheMatrix\obj\Debug\4.FireInTheMatrix.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\4.FireInTheMatrix\obj\Debug\4.FireInTheMatrix.pdb

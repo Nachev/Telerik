@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\MinMaxOfNNumbers\bin\Debug\MinMaxOfNNumbers.exe.config
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\MinMaxOfNNumbers\bin\Debug\MinMaxOfNNumbers.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\MinMaxOfNNumbers\bin\Debug\MinMaxOfNNumbers.pdb
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\MinMaxOfNNumbers\obj\Debug\Ex03.MinMaxOfNNumbers.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\MinMaxOfNNumbers\obj\Debug\MinMaxOfNNumbers.exe
+C:\Users\Nachev\Documents\Telerik\Course_C#Part1\Homework\Loops-Homework\MinMaxOfNNumbers\obj\Debug\MinMaxOfNNumbers.pdb

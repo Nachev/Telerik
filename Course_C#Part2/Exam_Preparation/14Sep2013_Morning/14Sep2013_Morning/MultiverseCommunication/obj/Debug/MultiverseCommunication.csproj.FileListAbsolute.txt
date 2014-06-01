@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\MultiverseCommunication\bin\Debug\MultiverseCommunication.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\MultiverseCommunication\obj\Debug\MultiverseCommunication.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\MultiverseCommunication\bin\Debug\MultiverseCommunication.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\MultiverseCommunication\bin\Debug\MultiverseCommunication.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\MultiverseCommunication\obj\Debug\MultiverseCommunication.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\MultiverseCommunication\obj\Debug\MultiverseCommunication.pdb

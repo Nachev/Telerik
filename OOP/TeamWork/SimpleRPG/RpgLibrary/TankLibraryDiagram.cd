@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TankWarsLibrary.Common.IlligalOperationException" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\IlligalOperationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWarsLibrary.Common.Machine" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAIAACAQgAAgEIAQBAAAEAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Common\Machine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TankWarsLibrary.Engine.TankFactory" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\TankFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWars.Player.Player" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player\Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TankWarsLibrary.Tanks.HeavyDutyTank" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIBAEAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Tanks\HeavyDutyTank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWarsLibrary.Tanks.StealthTank" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACACAAAAAAAAAAIBAEAAAAAIAQAAAAAAAA=</HashCode>
+      <FileName>Tanks\StealthTank.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TankWarsLibrary.Tanks.SwinTank" Collapsed="true">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAIAEAAAAAIAAAIIBAMAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Tanks\SwimTank.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TankWarsLibrary.Tanks.Tank" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAIIEAACAAAAAAAAAIAABAAIQAAACAAAAAAA=</HashCode>
+      <FileName>Tanks\Tank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWars.Weapons.Bullet" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgCAAAIAgAAAAAAAAAAAAAAAAAAAAABgAAAAYAA=</HashCode>
+      <FileName>Weapons\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWars.Weapons.Megagun" Collapsed="true">
+    <Position X="8.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Weapons\Megagun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWars.Weapons.Minigun" Collapsed="true">
+    <Position X="11" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\Minigun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWars.Weapons.OneShot" Collapsed="true">
+    <Position X="6.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAACA=</HashCode>
+      <FileName>Weapons\OneShot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWars.Weapons.PrimaryWeapon" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\PrimaryWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWars.Weapons.SecondaryWeapon" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Weapons\SecondaryWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWars.Weapons.SuperShot" Collapsed="true">
+    <Position X="4.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAACA=</HashCode>
+      <FileName>Weapons\SuperShot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankWars.Weapons.Weapon" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgCAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\Weapon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="TankWars.Common.ItemPosition" Collapsed="true">
+    <Position X="13.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Common\ItemPosition.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="TankWars.Common.IMovable" Collapsed="true">
+    <Position X="13.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TankWars.Player.IPlayer" Collapsed="true">
+    <Position X="15.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player\IPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TankWars.Tanks.IStealth" Collapsed="true">
+    <Position X="13.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Tanks\IStealth.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TankWars.Tanks.ISwim" Collapsed="true">
+    <Position X="15.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAIAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tanks\ISwim.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TankWars.Weapons.IShootSpeed" Collapsed="true">
+    <Position X="17" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\IShootSpeed.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TankWars.Tanks.TankModeEnum" Collapsed="true">
+    <Position X="13.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Tanks\TankModeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

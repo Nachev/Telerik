@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\FeaturingWithGrisko\bin\Debug\FeaturingWithGrisko.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\FeaturingWithGrisko\bin\Debug\FeaturingWithGrisko.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\FeaturingWithGrisko\bin\Debug\FeaturingWithGrisko.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\FeaturingWithGrisko\obj\Debug\FeaturingWithGrisko.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\FeaturingWithGrisko\obj\Debug\FeaturingWithGrisko.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\Csharp2\14Sep2013_Morning\14Sep2013_Morning\FeaturingWithGrisko\obj\Debug\FeaturingWithGrisko.pdb

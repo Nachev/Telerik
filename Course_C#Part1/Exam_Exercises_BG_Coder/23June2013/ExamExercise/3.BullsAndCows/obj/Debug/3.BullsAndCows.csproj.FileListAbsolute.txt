@@ -1,0 +1,6 @@
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\3.BullsAndCows\bin\Debug\3.BullsAndCows.exe.config
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\3.BullsAndCows\bin\Debug\3.BullsAndCows.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\3.BullsAndCows\bin\Debug\3.BullsAndCows.pdb
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\3.BullsAndCows\obj\Debug\3.BullsAndCows.csprojResolveAssemblyReference.cache
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\3.BullsAndCows\obj\Debug\3.BullsAndCows.exe
+C:\Users\Nachev\Documents\Telerik\Exam_Exercises_BG_Coder\23June2013\ExamExercise\3.BullsAndCows\obj\Debug\3.BullsAndCows.pdb

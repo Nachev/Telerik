@@ -1,0 +1,6 @@
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SerarchInStudents\obj\Debug\Ex03.04.SerarchInStudents.csprojResolveAssemblyReference.cache
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SerarchInStudents\obj\Debug\SerarchInStudents.exe
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SerarchInStudents\obj\Debug\SerarchInStudents.pdb
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SerarchInStudents\bin\Debug\SerarchInStudents.exe.config
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SerarchInStudents\bin\Debug\SerarchInStudents.exe
+F:\Telerik\OOP\TeamWork\Extension-Methods-Delegates-Lambda-LINQ\SerarchInStudents\bin\Debug\SerarchInStudents.pdb
