@@ -1,0 +1,22 @@
+{
+  "name": "KineticJS",
+  "version": "0.0.0",
+  "authors": [
+    "Nachev <n.n.nachev@gmail.com>"
+  ],
+  "main": "js/main.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "kineticjs": "~5.1.0"
+  }
+}

@@ -1,0 +1,5 @@
+D:\HQC\Homework\Code-Tuning-and-Optimization-Homework\CompareSqrtLogSinPerformance\bin\Debug\CompareSqrtLogSinPerformance.exe.config
+D:\HQC\Homework\Code-Tuning-and-Optimization-Homework\CompareSqrtLogSinPerformance\bin\Debug\CompareSqrtLogSinPerformance.exe
+D:\HQC\Homework\Code-Tuning-and-Optimization-Homework\CompareSqrtLogSinPerformance\bin\Debug\CompareSqrtLogSinPerformance.pdb
+D:\HQC\Homework\Code-Tuning-and-Optimization-Homework\CompareSqrtLogSinPerformance\obj\Debug\CompareSqrtLogSinPerformance.exe
+D:\HQC\Homework\Code-Tuning-and-Optimization-Homework\CompareSqrtLogSinPerformance\obj\Debug\CompareSqrtLogSinPerformance.pdb

@@ -1,0 +1,15 @@
+{
+  "name": "Slider_Control",
+  "version": "0.0.0",
+  "authors": [
+    "Nachev <n.n.nachev@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

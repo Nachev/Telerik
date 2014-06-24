@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JS DOM and UI Handlebars Homework Dynamic select</title>
+</head>
+<body>
+    <div id="container"></div>
+    <script src="handlebars.js"></script>
+
+    <script type="text/x-handlebars-template" id="post-template">
+        <select>
+            {{#each items}}
+    			<option value="{{value}}">{{text}}</option>
+            {{/each}}
+        </select>
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>

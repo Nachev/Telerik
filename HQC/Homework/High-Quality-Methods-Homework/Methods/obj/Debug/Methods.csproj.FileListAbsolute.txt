@@ -1,0 +1,5 @@
+D:\HQC\Homework\High-Quality-Methods-Homework\Methods\bin\Debug\Methods.exe
+D:\HQC\Homework\High-Quality-Methods-Homework\Methods\bin\Debug\Methods.pdb
+D:\HQC\Homework\High-Quality-Methods-Homework\Methods\obj\Debug\Methods.csprojResolveAssemblyReference.cache
+D:\HQC\Homework\High-Quality-Methods-Homework\Methods\obj\Debug\Methods.exe
+D:\HQC\Homework\High-Quality-Methods-Homework\Methods\obj\Debug\Methods.pdb

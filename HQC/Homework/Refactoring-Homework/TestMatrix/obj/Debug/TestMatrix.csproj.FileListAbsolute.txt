@@ -1,0 +1,7 @@
+D:\HQC\Homework\Refactoring-Homework\TestMatrix\bin\Debug\TestMatrix.dll
+D:\HQC\Homework\Refactoring-Homework\TestMatrix\bin\Debug\TestMatrix.pdb
+D:\HQC\Homework\Refactoring-Homework\TestMatrix\bin\Debug\Matrix.exe
+D:\HQC\Homework\Refactoring-Homework\TestMatrix\bin\Debug\Matrix.pdb
+D:\HQC\Homework\Refactoring-Homework\TestMatrix\obj\Debug\TestMatrix.csprojResolveAssemblyReference.cache
+D:\HQC\Homework\Refactoring-Homework\TestMatrix\obj\Debug\TestMatrix.dll
+D:\HQC\Homework\Refactoring-Homework\TestMatrix\obj\Debug\TestMatrix.pdb

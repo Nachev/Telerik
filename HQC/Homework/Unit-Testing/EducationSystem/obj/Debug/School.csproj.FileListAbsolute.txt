@@ -1,0 +1,8 @@
+D:\HQC\Homework\Unit-Testing\EducationSystem\obj\Debug\School.csprojResolveAssemblyReference.cache
+D:\HQC\Homework\Unit-Testing\EducationSystem\bin\Debug\School.dll.config
+D:\HQC\Homework\Unit-Testing\EducationSystem\bin\Debug\School.dll
+D:\HQC\Homework\Unit-Testing\EducationSystem\bin\Debug\School.pdb
+D:\HQC\Homework\Unit-Testing\EducationSystem\bin\Debug\nunit.framework.dll
+D:\HQC\Homework\Unit-Testing\EducationSystem\bin\Debug\nunit.framework.xml
+D:\HQC\Homework\Unit-Testing\EducationSystem\obj\Debug\School.dll
+D:\HQC\Homework\Unit-Testing\EducationSystem\obj\Debug\School.pdb

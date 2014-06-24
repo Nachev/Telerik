@@ -1,0 +1,6 @@
+D:\HQC\Homework\Refactoring-Homework\bin\Debug\Matrix.exe
+D:\HQC\Homework\Refactoring-Homework\bin\Debug\Matrix.pdb
+D:\HQC\Homework\Refactoring-Homework\obj\x86\Debug\Matrix.csprojResolveAssemblyReference.cache
+D:\HQC\Homework\Refactoring-Homework\obj\x86\Debug\Matrix.exe
+D:\HQC\Homework\Refactoring-Homework\obj\x86\Debug\Matrix.pdb
+D:\HQC\Homework\Refactoring-Homework\bin\Debug\Matrix.exe.config

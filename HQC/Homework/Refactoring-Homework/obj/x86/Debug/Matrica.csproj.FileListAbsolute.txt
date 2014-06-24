@@ -1,0 +1,5 @@
+D:\HQC\Homework\Refactoring-Homework\bin\Debug\GameFifteen.exe
+D:\HQC\Homework\Refactoring-Homework\bin\Debug\GameFifteen.pdb
+D:\HQC\Homework\Refactoring-Homework\obj\x86\Debug\Matrica.csprojResolveAssemblyReference.cache
+D:\HQC\Homework\Refactoring-Homework\obj\x86\Debug\GameFifteen.exe
+D:\HQC\Homework\Refactoring-Homework\obj\x86\Debug\GameFifteen.pdb
