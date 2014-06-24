@@ -1,0 +1,20 @@
+{
+  "name": "SVG Homework",
+  "version": "0.0.0",
+  "authors": [
+    "Nachev <n.n.nachev@gmail.com>"
+  ],
+  "description": "Telerik Academy SVG Homework",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,6 @@
+D:\HQC\Homework\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\obj\Debug\ObjectManipulation.csprojResolveAssemblyReference.cache
+D:\HQC\Homework\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\bin\Debug\ObjectManipulation.dll.config
+D:\HQC\Homework\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\bin\Debug\ObjectManipulation.dll
+D:\HQC\Homework\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\bin\Debug\ObjectManipulation.pdb
+D:\HQC\Homework\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\obj\Debug\ObjectManipulation.dll
+D:\HQC\Homework\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\obj\Debug\ObjectManipulation.pdb

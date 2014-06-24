@@ -1,0 +1,7 @@
+D:\HQC\Homework\Test-Driven-Development\TestPoker\bin\Debug\TestPoker.dll
+D:\HQC\Homework\Test-Driven-Development\TestPoker\bin\Debug\TestPoker.pdb
+D:\HQC\Homework\Test-Driven-Development\TestPoker\bin\Debug\Poker.exe
+D:\HQC\Homework\Test-Driven-Development\TestPoker\bin\Debug\Poker.pdb
+D:\HQC\Homework\Test-Driven-Development\TestPoker\obj\Debug\TestPoker.csprojResolveAssemblyReference.cache
+D:\HQC\Homework\Test-Driven-Development\TestPoker\obj\Debug\TestPoker.dll
+D:\HQC\Homework\Test-Driven-Development\TestPoker\obj\Debug\TestPoker.pdb

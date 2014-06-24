@@ -1,0 +1,6 @@
+D:\HQC\Homework\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\Statistics\bin\Debug\Statistics.exe.config
+D:\HQC\Homework\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\Statistics\obj\Debug\Statistics.csprojResolveAssemblyReference.cache
+D:\HQC\Homework\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\Statistics\bin\Debug\Statistics.exe
+D:\HQC\Homework\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\Statistics\bin\Debug\Statistics.pdb
+D:\HQC\Homework\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\Statistics\obj\Debug\Statistics.exe
+D:\HQC\Homework\Variables-Data-Expressions-Constants\Variables-Data-Expressions-Constants\Statistics\obj\Debug\Statistics.pdb

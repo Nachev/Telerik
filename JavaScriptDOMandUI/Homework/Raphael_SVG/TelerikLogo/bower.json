@@ -1,0 +1,17 @@
+{
+  "name": "TelerikLogo",
+  "version": "0.0.0",
+  "authors": [
+    "Nachev <n.n.nachev@gmail.com>"
+  ],
+  "description": "JS DOM & UI HW",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

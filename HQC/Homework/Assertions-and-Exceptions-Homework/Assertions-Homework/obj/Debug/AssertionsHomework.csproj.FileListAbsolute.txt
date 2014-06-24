@@ -1,0 +1,4 @@
+D:\HQC\Homework\Assertions-and-Exceptions-Homework\Assertions-Homework\bin\Debug\AssertionsHomework.exe
+D:\HQC\Homework\Assertions-and-Exceptions-Homework\Assertions-Homework\bin\Debug\AssertionsHomework.pdb
+D:\HQC\Homework\Assertions-and-Exceptions-Homework\Assertions-Homework\obj\Debug\AssertionsHomework.exe
+D:\HQC\Homework\Assertions-and-Exceptions-Homework\Assertions-Homework\obj\Debug\AssertionsHomework.pdb
