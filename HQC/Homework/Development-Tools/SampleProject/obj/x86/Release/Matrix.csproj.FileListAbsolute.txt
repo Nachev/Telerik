@@ -1,0 +1,5 @@
+D:\Git\Telerik\HQC\Homework\Development-Tools\Refactoring-Homework\bin\Release\Matrix.exe.config
+D:\Git\Telerik\HQC\Homework\Development-Tools\Refactoring-Homework\bin\Release\Matrix.exe
+D:\Git\Telerik\HQC\Homework\Development-Tools\Refactoring-Homework\bin\Release\Matrix.pdb
+D:\Git\Telerik\HQC\Homework\Development-Tools\Refactoring-Homework\obj\x86\Release\Matrix.exe
+D:\Git\Telerik\HQC\Homework\Development-Tools\Refactoring-Homework\obj\x86\Release\Matrix.pdb

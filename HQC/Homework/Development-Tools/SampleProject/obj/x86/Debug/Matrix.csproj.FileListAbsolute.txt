@@ -1,0 +1,9 @@
+D:\Git\Telerik\HQC\Homework\Development-Tools\Refactoring-Homework\bin\Debug\Matrix.exe.config
+D:\Git\Telerik\HQC\Homework\Development-Tools\Refactoring-Homework\bin\Debug\Matrix.exe
+D:\Git\Telerik\HQC\Homework\Development-Tools\Refactoring-Homework\bin\Debug\Matrix.pdb
+D:\Git\Telerik\HQC\Homework\Development-Tools\Refactoring-Homework\obj\x86\Debug\Matrix.csprojResolveAssemblyReference.cache
+D:\Git\Telerik\HQC\Homework\Development-Tools\Refactoring-Homework\obj\x86\Debug\Matrix.exe
+D:\Git\Telerik\HQC\Homework\Development-Tools\Refactoring-Homework\obj\x86\Debug\Matrix.pdb
+D:\Git\Telerik\HQC\Homework\Development-Tools\SampleProject\bin\Debug\Matrix.exe.config
+D:\Git\Telerik\HQC\Homework\Development-Tools\SampleProject\obj\x86\Debug\Matrix.exe
+D:\Git\Telerik\HQC\Homework\Development-Tools\SampleProject\obj\x86\Debug\Matrix.pdb
