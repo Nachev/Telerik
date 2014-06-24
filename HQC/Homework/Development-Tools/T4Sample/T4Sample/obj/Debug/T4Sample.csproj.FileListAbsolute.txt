@@ -1,0 +1,6 @@
+D:\Git\Telerik\HQC\Homework\Development-Tools\T4Sample\T4Sample\bin\Debug\T4Sample.exe.config
+D:\Git\Telerik\HQC\Homework\Development-Tools\T4Sample\T4Sample\obj\Debug\T4Sample.csprojResolveAssemblyReference.cache
+D:\Git\Telerik\HQC\Homework\Development-Tools\T4Sample\T4Sample\bin\Debug\T4Sample.exe
+D:\Git\Telerik\HQC\Homework\Development-Tools\T4Sample\T4Sample\bin\Debug\T4Sample.pdb
+D:\Git\Telerik\HQC\Homework\Development-Tools\T4Sample\T4Sample\obj\Debug\T4Sample.exe
+D:\Git\Telerik\HQC\Homework\Development-Tools\T4Sample\T4Sample\obj\Debug\T4Sample.pdb
