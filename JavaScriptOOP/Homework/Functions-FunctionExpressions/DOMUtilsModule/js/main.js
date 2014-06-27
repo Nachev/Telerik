@@ -4,6 +4,7 @@ window.onload = function () {
     'use strict';
     var domModule = (function domUtils() {
         var MAX_BUFFER_SIZE = 100,
+            bufferCount,
             internalBuffer = {};
 
         function appendElementTo(elementToAppend, parentSelector) {
@@ -32,21 +33,27 @@ window.onload = function () {
         }
 
         function appendToBuffer(parentSelector, element) {
-            var parentDom = document.querySelector(parentSelector),
+            var parentDom = null,
                 i = 0,
-                len = 0;
+                len = 0,
+                prop;
 
-            if (!internalBuffer[parentSelector]) {
-                internalBuffer[parentSelector] = [];
-            }
-
+            internalBuffer[parentSelector] = internalBuffer[parentSelector] || [];
+            bufferCount = bufferCount || 0;
+            bufferCount += 1;
             internalBuffer[parentSelector].push(element);
-            if (internalBuffer[parentSelector].length >= MAX_BUFFER_SIZE) {
-                for (i = 0, len = internalBuffer[parentSelector].length; i < len; i += 1) {
-                    parentDom.appendChild(internalBuffer[parentSelector][i]);
+            if (bufferCount >= MAX_BUFFER_SIZE) {
+                for (prop in internalBuffer) {
+                    if (internalBuffer.hasOwnProperty(prop)) {
+                        parentDom = document.querySelector(prop);
+                        for (i = 0, len = internalBuffer[prop].length; i < len; i += 1) {
+                            parentDom.appendChild(internalBuffer[prop][i]);
+                        }
+                    }
                 }
 
-                internalBuffer[parentSelector] = null;
+                internalBuffer = {};
+                bufferCount = 0;
             }
         }
 
@@ -59,23 +66,11 @@ window.onload = function () {
     }());
 
     (function testFunction() {
-        /*
-         var div = document.createElement("div");
-         //appends div to #wrapper
-         domModule.appendChild(div,"#wrapper");
-         //removes li:first-child from ul
-         domModule.removeChild("ul","li:first-child");
-         //add handler to each a element with class button
-         domModule.addHandler("a.button", 'click',
-         function(){alert("Clicked")});
-         domModule.appendToBuffer("container", div.cloneNode(true));
-         domModule.appendToBuffer("#main-nav ul", navItem);
-         */
         window.setTimeout(function () {
-            domModule.removeChild('div.divs:first-child', '.spans');
-
             var i = 0,// Append to buffer test counter.
                 div = document.createElement("div");
+
+            domModule.removeChild('div.divs:first-child', '.spans');
             div.style.width = "5px";
             div.style.height = "4px";
             div.style.border = '3px solid green';
@@ -86,6 +81,7 @@ window.onload = function () {
                     alert("Clicked");
                 });
 
+            domModule.appendToBuffer("#wrapper div:nth-child(2)", div.cloneNode(true));
             for (i = 0; i < 100; i += 1) {
                 domModule.appendToBuffer("#wrapper", div.cloneNode(true));
             }
