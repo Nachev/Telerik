@@ -1,0 +1,1 @@
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\AbstractFactory\bin\Debug\AbstractFactory.exe.config
