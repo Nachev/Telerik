@@ -3,24 +3,22 @@ namespace AbstractFactory
     /// <summary>
     /// The 'Client' class
     /// </summary>
-    class AnimalWorld
+    public class AnimalWorld
     {
-        private Herbivore herbivore;
+        private readonly Herbivore herbivore;
 
-        private Carnivore carnivore;
+        private readonly Carnivore carnivore;
 
-        // Constructor
-
+        // Constructor.
         public AnimalWorld(ContinentFactory factory)
         {
-            carnivore = factory.CreateCarnivore();
-
-            herbivore = factory.CreateHerbivore();
+            this.carnivore = factory.CreateCarnivore();
+            this.herbivore = factory.CreateHerbivore();
         }
 
         public void RunFoodChain()
         {
-            carnivore.Eat(herbivore);
+            this.carnivore.Eat(this.herbivore);
         }
     }
 }

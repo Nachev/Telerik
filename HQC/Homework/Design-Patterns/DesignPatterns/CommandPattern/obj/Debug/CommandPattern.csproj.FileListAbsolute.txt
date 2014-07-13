@@ -1,0 +1,6 @@
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\CommandPattern\bin\Debug\CommandPattern.exe.config
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\CommandPattern\obj\Debug\CommandPattern.csprojResolveAssemblyReference.cache
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\CommandPattern\bin\Debug\CommandPattern.exe
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\CommandPattern\bin\Debug\CommandPattern.pdb
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\CommandPattern\obj\Debug\CommandPattern.exe
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\CommandPattern\obj\Debug\CommandPattern.pdb

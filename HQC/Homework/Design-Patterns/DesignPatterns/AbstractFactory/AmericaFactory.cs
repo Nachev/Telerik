@@ -3,7 +3,7 @@ namespace AbstractFactory
     /// <summary>
     /// The 'ConcreteFactory2' class
     /// </summary>
-    class AmericaFactory : ContinentFactory
+    public class AmericaFactory : ContinentFactory
     {
         public override Herbivore CreateHerbivore()
         {

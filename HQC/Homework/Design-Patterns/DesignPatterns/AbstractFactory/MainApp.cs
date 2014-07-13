@@ -6,7 +6,7 @@ namespace AbstractFactory
     /// <summary>
     /// MainApp startup class for Abstract Factory Design Pattern.
     /// </summary>
-    class MainApp
+    public class MainApp
     {
         /// <summary>
         /// Entry point into console application.

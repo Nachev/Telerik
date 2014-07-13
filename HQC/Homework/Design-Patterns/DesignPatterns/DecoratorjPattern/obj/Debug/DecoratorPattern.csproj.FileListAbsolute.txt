@@ -1,0 +1,5 @@
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\DecoratorjPattern\bin\Debug\DecoratorPattern.exe.config
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\DecoratorjPattern\bin\Debug\DecoratorPattern.exe
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\DecoratorjPattern\bin\Debug\DecoratorPattern.pdb
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\DecoratorjPattern\obj\Debug\DecoratorPattern.exe
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\DecoratorjPattern\obj\Debug\DecoratorPattern.pdb

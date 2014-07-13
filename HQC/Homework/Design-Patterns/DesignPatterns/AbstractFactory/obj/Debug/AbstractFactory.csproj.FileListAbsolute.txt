@@ -1,1 +1,6 @@
 D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\AbstractFactory\bin\Debug\AbstractFactory.exe.config
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\AbstractFactory\bin\Debug\AbstractFactory.exe
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\AbstractFactory\bin\Debug\AbstractFactory.pdb
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\AbstractFactory\obj\Debug\AbstractFactory.csprojResolveAssemblyReference.cache
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\AbstractFactory\obj\Debug\AbstractFactory.exe
+D:\Git\Telerik\HQC\Homework\Design-Patterns\DesignPatterns\AbstractFactory\obj\Debug\AbstractFactory.pdb
