@@ -1,99 +1,152 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Minesweeper
+﻿namespace Minesweeper.Game
 {
+    using System.Collections.Generic;
+    using System.Collections.ObjectModel;
+    using System.Text;
+    using Minesweeper.Lib;
+
+    /// <summary>
+    /// Class that handles drawing of the game board. This includes the minefield and game table.
+    /// </summary>
     public class BoardDrawer
     {
-        // strings
-        private const string TabSpace = "    ";
+        /// <summary>Value of empty cell.</summary>
+        private const string EmptyCell = " ";
 
+        /// <summary>Format for column enumeration in table.</summary>
+        private const string ColumnEnumerationFormat = "{0} ";
+
+        /// <summary>Format for row enumeration in table.</summary>
+        private const string RowEnumerationFormat = "{0} | ";
+
+        /// <summary>Space in intervals occupied by a cell on screen.</summary>
+        private const int CellSpaceOnScreen = 2;
+
+        /// <summary>Board offset by row relative to table.</summary>
+        private const int BoardOffsetByRow = 3;
+
+        /// <summary>Board offset by column relative to table.</summary>
+        private const int BoardOffsetByColumn = 4;
+
+        /// <summary>Renderer instance.</summary>
+        private readonly IRenderer renderer;
+
+        /// <summary>Number of rows of the minefield.</summary>
         private int minefieldCols;
-        private int mineFieldRows;
-        private int gameFieldWidth;
-        private CellPos topLeft;
 
-        public BoardDrawer(int minefieldRows, int mineFieldCols, CellPos topLeft)
+        /// <summary>Number of columns of the minefield.</summary>
+        private int mineFieldRows;
+
+        /// <summary>Position of the top left corner of the board.</summary>
+        private ICellPosition boardTopLeft;
+
+        /// <summary>Cell image alphabet.</summary>
+        private IReadOnlyDictionary<CellImage, string> symbols = new ReadOnlyDictionary<CellImage, string>(
+            new Dictionary<CellImage, string>()
+            {
+                { CellImage.Bomb, "*" },
+                { CellImage.NoBomb, "-" },
+                { CellImage.NotFlagged, "#" },
+                { CellImage.Flagged, "!" },
+            });
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="BoardDrawer"/> class. Used for drawing game table and minefield on screen.
+        /// </summary>
+        /// <param name="renderer">Renderer for the game.</param>
+        /// <param name="minefieldRows">Number of rows of the minefield.</param>
+        /// <param name="mineFieldCols">Number of columns of the minefield.</param>
+        /// <param name="topLeft">Top left coordinates of the board.</param>
+        public BoardDrawer(IRenderer renderer, int minefieldRows, int mineFieldCols, ICellPosition topLeft)
         {
             this.mineFieldRows = minefieldRows;
             this.minefieldCols = mineFieldCols;
-            this.gameFieldWidth = (mineFieldCols * 2) - 1;
-            this.topLeft = topLeft;
+            this.boardTopLeft = topLeft;
+            this.renderer = renderer;
         }
 
-        public void DrawInitialGameField()
+        /// <summary>
+        /// Draw table on screen.
+        /// </summary>
+        /// <param name="left">Left coordinate on screen.</param>
+        /// <param name="top">Top coordinate on screen.</param>
+        public void DrawTable(int left, int top)
         {
             var gameField = new StringBuilder();
             gameField.AppendLine();
 
+            string tabSpace = "    ";
+            int gameFieldWidth = (this.minefieldCols * CellSpaceOnScreen) - 1;
+
             // Draw first row 
-            gameField.Append(TabSpace);
+            gameField.Append(tabSpace);
             for (int col = 0; col < this.minefieldCols; col++)
             {
-                gameField.AppendFormat("{0} ", col);
+                gameField.AppendFormat(ColumnEnumerationFormat, col);
             }
 
             gameField.AppendLine();
 
             // Draw second row.
-            gameField.Append(TabSpace);
-            gameField.AppendLine(new string('-', this.gameFieldWidth));
+            gameField.Append(tabSpace);
+            gameField.AppendLine(new string('-', gameFieldWidth));
 
             // Draw minefield rows.
             for (int row = 0; row < this.mineFieldRows; row++)
             {
-                gameField.AppendFormat("{0} | ", row);
-                for (int col = 0; col < this.minefieldCols; col++)
-                {
-                    gameField.Append("? ");
-                }
-
+                gameField.AppendFormat(RowEnumerationFormat, row);
                 gameField.AppendLine();
             }
 
             // Draw final row.
-            gameField.Append(TabSpace);
-            gameField.AppendLine(new string('-', this.gameFieldWidth));
+            gameField.Append(tabSpace);
+            gameField.AppendLine(new string('-', gameFieldWidth));
 
             gameField.AppendLine();
-
-            Console.Write(gameField);
+            string result = gameField.ToString();
+            this.renderer.WriteAt(left, top, result);
         }
 
-        public void DrawOpenCell(int rowOnField, int colOnField, int neighborMinesCount)
+        /// <summary>
+        /// Draws game minefield on screen via given IRenderer.
+        /// </summary>
+        /// <param name="minefield">Image of the minefield represented by two dimensional array of CellImage enumeration.</param>
+        /// <param name="neighborMines">Two dimensional array of numbers representing neighbor mines for each cell.</param>
+        public void DrawGameField(CellImage[,] minefield, int[,] neighborMines)
         {
-            int rowOnScreen = topLeft.Row + rowOnField;
-            int colOnScreen = topLeft.Col + (colOnField * 2);
-            this.DrawCell(rowOnScreen, colOnScreen, neighborMinesCount.ToString());
-        }
-
-        public void DrawFinalGameField(bool[,] minefield, bool[,] openedCells)
-        {
-            for (int row = 0; row < minefield.GetLength(0); row++)
+            for (int row = 0; row < this.mineFieldRows; row++)
             {
-                for (int col = 0; col < minefield.GetLength(1); col++)
+                for (int col = 0; col < this.minefieldCols; col++)
                 {
-                    int rowOnScreen = topLeft.Row + row;
-                    int colOnScreen = topLeft.Col + (col * 2);
-                    if (minefield[row, col])
+                    int rowOnScreen = this.boardTopLeft.Row + BoardOffsetByRow + row;
+                    int colOnScreen = this.boardTopLeft.Col + BoardOffsetByColumn + (col * CellSpaceOnScreen);
+
+                    string symbol;
+                    var symbolType = minefield[row, col];
+                    if (symbolType == CellImage.Num)
                     {
-                        this.DrawCell(rowOnScreen, colOnScreen, "*");
+                        int num = neighborMines[row, col];
+                        symbol = (num == 0) ? EmptyCell : num.ToString();
                     }
-                    else if (!openedCells[row, col])
+                    else
                     {
-                        this.DrawCell(rowOnScreen, colOnScreen, "-");
+                        symbol = this.symbols[symbolType];
                     }
+
+                    this.DrawCell(rowOnScreen, colOnScreen, symbol);
                 }
             }
         }
 
+        /// <summary>
+        /// Draws cell at given coordinates.
+        /// </summary>
+        /// <param name="rowOnScreen">Coordinates by row on screen.</param>
+        /// <param name="colOnScreen">Coordinates by column on screen.</param>
+        /// <param name="cellValue">Value to be drawn.</param>
         private void DrawCell(int rowOnScreen, int colOnScreen, string cellValue)
         {
-            Console.SetCursorPosition(colOnScreen, rowOnScreen);
-            Console.Write(cellValue);
+            this.renderer.WriteAt(colOnScreen, rowOnScreen, cellValue);
         }
     }
 }

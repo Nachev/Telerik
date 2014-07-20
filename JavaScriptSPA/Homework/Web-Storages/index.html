@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css"/>
+    <title>Web Storages Homework</title>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Sheep and Rams</h1>
+        <div id="ui-container">
+            <div class="label">
+                Secret number
+            </div>
+            <div class="field-container">
+                <div id="secret-number">&nbsp;</div>
+            </div>
+            <div class="label">
+                Player number
+            </div>
+            <div class="field-container">
+                <input id="player-input" type="text" placeholder="Enter four digit number"/>
+            </div>
+            <div class="label">
+                Result
+            </div>
+            <div class="field-container">
+                <div id="result">&nbsp;</div>
+            </div>
+            <div class="label">
+                Penalty points
+            </div>
+            <div class="field-container">
+                <div id="points">&nbsp;</div>
+            </div>
+        </div>
+        <div id="options">
+            <button id="high-scores">Show high scores</button>
+            <button id="reset">Start new game</button>
+        </div>
+    </div>
+    <script src="scripts/libs/require.js" data-main="scripts/app"></script>
+</body>
+</html>

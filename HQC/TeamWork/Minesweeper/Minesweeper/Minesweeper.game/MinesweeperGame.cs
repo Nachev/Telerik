@@ -1,125 +1,118 @@
-﻿namespace Minesweeper
+﻿namespace Minesweeper.Game
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using Minesweeper.Lib;
 
+    // The 'Receiver' class
     public class MinesweeperGame
     {
-        private readonly List<KeyValuePair<string, int>> topScores = new List<KeyValuePair<string, int>>();
-        private bool gameEnded = false;
-        private UIManager consoleManager;
+        private List<KeyValuePair<string, int>> topScores = new List<KeyValuePair<string, int>>();
+        private UIManager uiManager;
         private Minefield minefield;
         private IDictionary<ErrorType, string> errorMessages;
         private IDictionary<UserMsg, string> userMessages;
 
-        private const float MinesCountCoeficient = 0.3F;
-        private const int MinefieldRows = 5;
-        private const int MinefieldColumns = 10;
+        private const decimal MinesCountCoeficient = 0.16m; // 0.2m -> 10 mines; 0.16m -> 8 mines
 
         private int minefieldRows;
         private int minefieldCols;
 
         public MinesweeperGame()
         {
-            this.minefieldRows = MinefieldRows;
-            this.minefieldCols = MinefieldColumns;
+            this.minefieldRows = 5;
+            this.minefieldCols = 10;
             this.InitializeMessages();
-        }
-
-        public void Run()
-        {
             int cmdLineCol = this.userMessages[UserMsg.EnterRowCol].Length;
-            this.consoleManager = new UIManager(this.minefieldRows, this.minefieldCols, cmdLineCol);
-            this.consoleManager.DisplayIntro(this.userMessages[UserMsg.Intro]);
+            this.uiManager = new UIManager(this.minefieldRows, this.minefieldCols, cmdLineCol);
 
-            this.MakeNewMinefield();
-
-            var commandReader = new CommandReader();
-            while (!this.gameEnded)
-            {
-                CellPos cellToOpen;
-                var command = commandReader.ReadCommand(this.consoleManager, out cellToOpen);
-
-                switch (command)
-                {
-                    case Command.Restart:
-                        this.MakeNewMinefield();
-                        break;
-                    case Command.ShowTopScores:
-                        this.ShowScores();
-                        break;
-                    case Command.Exit:
-                        this.EndGame();
-                        break;
-                    case Command.Invalid:
-                        this.consoleManager.DisplayError(this.errorMessages[ErrorType.IvalidCommand]);
-                        this.consoleManager.WaitForKey(this.userMessages[UserMsg.PressAnyKey]);
-                        break;
-                    case Command.OpenCell:
-                        this.OpenCell(cellToOpen);
-                        break;
-                    default:
-                        throw new ArgumentException("Unrecognized command!");
-                }
-            }
+            // Show game
+            this.uiManager.DisplayIntro(this.userMessages[UserMsg.Intro]);
+            this.uiManager.DrawTable(this.userMessages[UserMsg.EnterRowCol]);
+            this.GenerateMinefield();
         }
 
-        private void MakeNewMinefield()
+        public void OpenCell(CellPos cell)
         {
-            this.consoleManager.DrawInitialGameField(this.userMessages[UserMsg.EnterRowCol]);
-            int minesCount = (int)(this.minefieldRows * this.minefieldCols * MinesCountCoeficient);
-            var randomNumberProvider = RandomGeneratorProvider.GetInstance();
-            this.minefield = new Minefield(this.minefieldRows, this.minefieldCols, minesCount, randomNumberProvider);
-        }
-
-        private void OpenCell(CellPos cell)
-        {
-            var result = this.minefield.OpenNewCell(cell);
+            var result = this.minefield.OpenCellHandler(cell);
 
             switch (result)
             {
                 case MinefieldState.OutOfRange:
-                    this.consoleManager.DisplayError(this.errorMessages[ErrorType.CellOutOfRange]);
-                    this.consoleManager.WaitForKey(this.userMessages[UserMsg.PressAnyKey]);
+                    this.uiManager.DisplayError(this.errorMessages[ErrorType.CellOutOfRange]);
                     break;
                 case MinefieldState.AlreadyOpened:
-                    this.consoleManager.DisplayError(this.errorMessages[ErrorType.AlreadyOpened]);
-                    this.consoleManager.WaitForKey(this.userMessages[UserMsg.PressAnyKey]);
+                    this.uiManager.DisplayError(this.errorMessages[ErrorType.AlreadyOpened]);
                     break;
                 case MinefieldState.Boom:
                     this.MineBoomed();
                     break;
                 case MinefieldState.Normal:
-                    int neighborMinesCount = this.minefield.CountNeighborMines(cell);
-                    this.consoleManager.DrawOpenCell(cell.Row, cell.Col, neighborMinesCount);
+                    this.UpdateGameStatus();                  
                     break;
                 default:
                     break;
             }
+
+            this.uiManager.ClearCommandLine();
         }
 
-        private void MineBoomed()
+        public void FlagCell(CellPos cell)
         {
-            // subtract the boomed mine that was opened
-            int numberOfOpenedCells = this.minefield.CountOpen() - 1;
+            var result = this.minefield.FlagCellHandler(cell);
 
-            this.consoleManager.DrawFinalGameField(this.minefield.Mines, this.minefield.OpenedCells);
-            this.consoleManager.DisplayEnd(this.userMessages[UserMsg.Boom], numberOfOpenedCells);
+            switch (result)
+            {
+                case MinefieldState.OutOfRange:
+                    this.uiManager.DisplayError(this.errorMessages[ErrorType.CellOutOfRange]);
+                    break;
+                case MinefieldState.AlreadyOpened:
+                    this.uiManager.DisplayError(this.errorMessages[ErrorType.AlreadyOpened]);
+                    break;
+                case MinefieldState.Normal:
+                    this.RedrawMinefield(false);
+                    break;
+                default:
+                    break;
+            }
 
-            string name = this.consoleManager.ReadName();
-            this.topScores.Add(new KeyValuePair<string, int>(name, numberOfOpenedCells));
-
-            this.ShowScores();
-
-            //this.EndGame();
-            this.MakeNewMinefield();
+            this.uiManager.ClearCommandLine();
         }
 
-        private void EndGame()
+        public void MineBoomed()
         {
-            this.consoleManager.GoodBye(this.userMessages[UserMsg.Bye]);
-            this.gameEnded = true;
+            this.FinishGame(UserMsg.Boom);
+        }
+
+        public void ExitGame()
+        {
+            this.uiManager.GoodBye(this.userMessages[UserMsg.Bye]);
+            // the caller of this method will stop the game
+        }
+
+        public void ShowScores()
+        {
+            this.uiManager.DisplayHighScores(this.topScores);
+            this.uiManager.ClearCommandLine();
+        }
+
+        public void GenerateMinefield()
+        {
+            // Create new minefield
+            int minesCount = (int)(this.minefieldRows * this.minefieldCols * MinesCountCoeficient);
+            var randomNumberProvider = RandomGeneratorProvider.GetInstance();
+            this.minefield = new Minefield(this.minefieldRows, this.minefieldCols, minesCount, randomNumberProvider);
+
+            // Show minefield
+            this.RedrawMinefield(false);
+            this.uiManager.ClearCommandLine();
+        }
+
+        public void DisplayError()
+        {
+            this.uiManager.DisplayError(this.errorMessages[ErrorType.IvalidCommand]);
+            this.uiManager.ClearCommandLine();
         }
 
         private void InitializeMessages()
@@ -135,16 +128,55 @@
             {
                 { UserMsg.PressAnyKey, "Press any key to continue."},
                 { UserMsg.EnterRowCol, "Enter row and column: " },
-                { UserMsg.Intro, "Welcome to the game “Minesweeper”.\nTry to open all cells without mines. Use 'top' to view the scoreboard,\n'restart' to start a new game and 'exit' to quit the game." },
+                { UserMsg.Intro, "Welcome to the game “Minesweeper”.\nTry to open all cells without mines. Use 'top' to view the scoreboard,\n'restart' to start a new game and 'exit' to quit the game. Use 'm' to flag a cell.\n" },
                 { UserMsg.Boom, "Booooom! You were killed by a mine. You opened {0} cells without mines.\nPlease enter your name for the top scoreboard: "},
-                { UserMsg.Bye, "Good bye!" }
+                { UserMsg.Bye, "Good bye!" },
+                { UserMsg.Success, "Success! You opened all cells without mines.\nPlease enter your name for the top scoreboard: " }
             };
         }
 
-        private void ShowScores()
+        private void RedrawMinefield(bool showAll)
         {
-            var sorted = topScores.OrderBy(kvp => -kvp.Value);
-            this.consoleManager.DisplayHighScores(sorted);
+            var minefield = this.minefield.GetImage(showAll);
+            var neighborMines = this.minefield.AllNeighborMines;
+            this.uiManager.DrawGameField(minefield, neighborMines);
+        }
+
+        private void UpdateGameStatus()
+        {
+            if (this.minefield.IsDisarmed())
+            {
+                // End game when all cells without mines are opened
+                this.FinishGame(UserMsg.Success);
+            }
+            else
+            {
+                this.RedrawMinefield(false);
+            }
+        }
+
+        private void FinishGame(UserMsg msg)
+        {
+            // A boomed mine does not have an OPEN state, so CountOpen() is correct
+            int numberOfOpenedCells = this.minefield.GetOpenedCells;
+
+            this.RedrawMinefield(true);
+            this.uiManager.DisplayEnd(this.userMessages[msg], numberOfOpenedCells);
+
+            string name = this.uiManager.ReadName();
+            this.AddScore(numberOfOpenedCells, name);
+            this.ShowScores();
+
+            // Start new game
+            this.GenerateMinefield();
+            this.uiManager.ClearCommandLine();
+        }
+
+        private void AddScore(int numberOfOpenedCells, string name)
+        {
+            this.topScores.Add(new KeyValuePair<string, int>(name, numberOfOpenedCells));
+            // Limit the scoreboard to only the top five players by score
+            this.topScores = this.topScores.OrderBy(kvp => -kvp.Value).Take(5).ToList();
         }
     }
 }
