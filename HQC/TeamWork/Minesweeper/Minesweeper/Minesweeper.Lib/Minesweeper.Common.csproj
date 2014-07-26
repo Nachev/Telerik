@@ -39,17 +39,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtensionMethods\ArrayExtensions.cs" />
     <Compile Include="Cell.cs" />
     <Compile Include="CellPos.cs" />
     <Compile Include="ConsoleReader.cs" />
     <Compile Include="ConsoleRenderer.cs" />
-    <Compile Include="ICellPosition.cs" />
+    <Compile Include="Interfaces\ICellPosition.cs" />
     <Compile Include="Interfaces\ICell.cs" />
     <Compile Include="Interfaces\IRandomGeneratorProvider.cs" />
     <Compile Include="Interfaces\IRenderer.cs" />
     <Compile Include="Interfaces\IUserInputReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomGeneratorProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CommonClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

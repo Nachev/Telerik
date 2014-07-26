@@ -1,4 +1,11 @@
-﻿namespace Minesweeper.Game
+﻿//-----------------------------------------------------------------------
+// <copyright file="BoardDrawer.cs" company="Telerik Academy">
+//     Copyright (c) 2014 Telerik Academy. All rights reserved.
+// </copyright>
+// <summary>Class that handles drawing of the game board.</summary>
+//-----------------------------------------------------------------------
+
+namespace Minesweeper.Game
 {
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
@@ -31,17 +38,8 @@
         /// <summary>Renderer instance.</summary>
         private readonly IRenderer renderer;
 
-        /// <summary>Number of rows of the minefield.</summary>
-        private int minefieldCols;
-
-        /// <summary>Number of columns of the minefield.</summary>
-        private int mineFieldRows;
-
-        /// <summary>Position of the top left corner of the board.</summary>
-        private ICellPosition boardTopLeft;
-
         /// <summary>Cell image alphabet.</summary>
-        private IReadOnlyDictionary<CellImage, string> symbols = new ReadOnlyDictionary<CellImage, string>(
+        private readonly IReadOnlyDictionary<CellImage, string> symbols = new ReadOnlyDictionary<CellImage, string>(
             new Dictionary<CellImage, string>()
             {
                 { CellImage.Bomb, "*" },
@@ -54,14 +52,8 @@
         /// Initializes a new instance of the <see cref="BoardDrawer"/> class. Used for drawing game table and minefield on screen.
         /// </summary>
         /// <param name="renderer">Renderer for the game.</param>
-        /// <param name="minefieldRows">Number of rows of the minefield.</param>
-        /// <param name="mineFieldCols">Number of columns of the minefield.</param>
-        /// <param name="topLeft">Top left coordinates of the board.</param>
-        public BoardDrawer(IRenderer renderer, int minefieldRows, int mineFieldCols, ICellPosition topLeft)
+        public BoardDrawer(IRenderer renderer)
         {
-            this.mineFieldRows = minefieldRows;
-            this.minefieldCols = mineFieldCols;
-            this.boardTopLeft = topLeft;
             this.renderer = renderer;
         }
 
@@ -70,17 +62,19 @@
         /// </summary>
         /// <param name="left">Left coordinate on screen.</param>
         /// <param name="top">Top coordinate on screen.</param>
-        public void DrawTable(int left, int top)
+        /// <param name="minefieldRows">Number of rows of the minefield.</param>
+        /// <param name="minefieldCols">Number of columns of the minefield.</param>
+        public void DrawTable(int left, int top, int minefieldRows, int minefieldCols)
         {
             var gameField = new StringBuilder();
             gameField.AppendLine();
 
             string tabSpace = "    ";
-            int gameFieldWidth = (this.minefieldCols * CellSpaceOnScreen) - 1;
+            int gameFieldWidth = (minefieldCols * CellSpaceOnScreen) - 1;
 
             // Draw first row 
             gameField.Append(tabSpace);
-            for (int col = 0; col < this.minefieldCols; col++)
+            for (int col = 0; col < minefieldCols; col++)
             {
                 gameField.AppendFormat(ColumnEnumerationFormat, col);
             }
@@ -92,7 +86,7 @@
             gameField.AppendLine(new string('-', gameFieldWidth));
 
             // Draw minefield rows.
-            for (int row = 0; row < this.mineFieldRows; row++)
+            for (int row = 0; row < minefieldRows; row++)
             {
                 gameField.AppendFormat(RowEnumerationFormat, row);
                 gameField.AppendLine();
@@ -112,14 +106,15 @@
         /// </summary>
         /// <param name="minefield">Image of the minefield represented by two dimensional array of CellImage enumeration.</param>
         /// <param name="neighborMines">Two dimensional array of numbers representing neighbor mines for each cell.</param>
-        public void DrawGameField(CellImage[,] minefield, int[,] neighborMines)
+        /// <param name="topLeft">Top left coordinates of the board.</param>
+        public void DrawGameField(CellImage[,] minefield, int[,] neighborMines, ICellPosition topLeft)
         {
-            for (int row = 0; row < this.mineFieldRows; row++)
+            for (int row = 0; row < minefield.GetLength(0); row++)
             {
-                for (int col = 0; col < this.minefieldCols; col++)
+                for (int col = 0; col < minefield.GetLength(1); col++)
                 {
-                    int rowOnScreen = this.boardTopLeft.Row + BoardOffsetByRow + row;
-                    int colOnScreen = this.boardTopLeft.Col + BoardOffsetByColumn + (col * CellSpaceOnScreen);
+                    int rowOnScreen = topLeft.Row + BoardOffsetByRow + row;
+                    int colOnScreen = topLeft.Col + BoardOffsetByColumn + (col * CellSpaceOnScreen);
 
                     string symbol;
                     var symbolType = minefield[row, col];

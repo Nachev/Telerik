@@ -19,7 +19,7 @@
         {
             randomGenerator = new Mock<IRandomGeneratorProvider>();
             cellPosition = new Mock<ICellPosition>();
-            randomGenerator.Setup(x => x.GetRandomNumber(5)).Returns(0);
+            randomGenerator.Setup(x => x.Next(5)).Returns(0);
         }
 
         [TestInitialize]
@@ -66,8 +66,8 @@
         {
             // Arrange
             int[,] expectedNeighborMinesArray = new int[,] {
-                {1, 0, 1, 0, 0}, 
-                {1, 1, 1, 0, 0},
+                {0, 1, 0, 0, 0}, 
+                {1, 1, 0, 0, 0},
                 {0, 0, 0, 0, 0},
                 {0, 0, 0, 1, 1},
                 {0, 0, 0, 1, 0}
@@ -91,7 +91,7 @@
             var result = testMinefield.OpenCellHandler(cellPosition.Object);
 
             // Assert
-            Assert.AreNotEqual(MinefieldState.Boom, result);
+            Assert.AreNotEqual(CellActionResult.Boom, result);
         }
 
         [TestMethod]
@@ -103,7 +103,7 @@
 
             var result = testMinefield.OpenCellHandler(cellPosition.Object);
 
-            Assert.AreNotEqual(MinefieldState.Boom, result);
+            Assert.AreNotEqual(CellActionResult.Boom, result);
 
             cellPosition.Setup(x => x.Col).Returns(4);
             cellPosition.Setup(x => x.Row).Returns(4);
@@ -112,7 +112,7 @@
             result = testMinefield.OpenCellHandler(cellPosition.Object);
 
             // Assert
-            Assert.AreEqual(MinefieldState.Boom, result);
+            Assert.AreEqual(CellActionResult.Boom, result);
         }
 
         [TestMethod]
@@ -124,15 +124,15 @@
 
             // Act
             var result = testMinefield.OpenCellHandler(cellPosition.Object);
-            var opened = testMinefield.GetOpenedCells;
+            var opened = testMinefield.OpenedCellsCount;
 
             // Assert
             Assert.AreEqual(1, opened);
-            Assert.AreEqual(MinefieldState.Normal, result);
+            Assert.AreEqual(CellActionResult.Normal, result);
         }
 
         [TestMethod]
-        public void OpenCellHandlerShouldReturnCorrectStateEnumerationValueNormalWthChainedOpening()
+        public void OpenCellHandlerShouldReturnCorrectStateEnumerationValueNormal()
         {
             // Arrange;
             cellPosition.Setup(x => x.Col).Returns(2);
@@ -140,11 +140,11 @@
 
             // Act
             var result = testMinefield.OpenCellHandler(cellPosition.Object);
-            var opened = testMinefield.GetOpenedCells;
+            var opened = testMinefield.OpenedCellsCount;
 
             // Assert
-            Assert.AreEqual(22, opened);
-            Assert.AreEqual(MinefieldState.Normal, result);
+            Assert.AreEqual(1, opened);
+            Assert.AreEqual(CellActionResult.Normal, result);
         }
 
         [TestMethod]
@@ -163,7 +163,7 @@
             result = testMinefield.OpenCellHandler(cellPosition.Object);
 
             // Assert
-            Assert.AreEqual(MinefieldState.AlreadyOpened, result);
+            Assert.AreEqual(CellActionResult.AlreadyOpened, result);
         }
 
         [TestMethod]
@@ -177,7 +177,7 @@
             var result = testMinefield.OpenCellHandler(cellPosition.Object);
 
             // Assert
-            Assert.AreEqual(MinefieldState.OutOfRange, result);
+            Assert.AreEqual(CellActionResult.OutOfRange, result);
         }
 
         [TestMethod]
@@ -211,14 +211,14 @@
         public void GetImageShouldReturnProperTwoDimensionalArrayOfCellImageEnumsTrueShowAll()
         {
             // Arrange
-            cellPosition.Setup(x => x.Col).Returns(0);
+            cellPosition.Setup(x => x.Col).Returns(1);
             cellPosition.Setup(x => x.Row).Returns(0);
             Mock<ICellPosition> secondCell = new Mock<ICellPosition>();
             secondCell.Setup(c => c.Row).Returns(1);
             secondCell.Setup(c => c.Col).Returns(0);
 
             CellImage[,] expectedImageArray = new CellImage[,] {
-                {CellImage.Num, CellImage.Bomb, CellImage.NoBomb, CellImage.NoBomb, CellImage.NoBomb}, 
+                {CellImage.Bomb, CellImage.Num, CellImage.NoBomb, CellImage.NoBomb, CellImage.NoBomb}, 
                 {CellImage.Num, CellImage.NoBomb, CellImage.NoBomb, CellImage.NoBomb, CellImage.NoBomb},
                 {CellImage.NoBomb, CellImage.NoBomb, CellImage.NoBomb, CellImage.NoBomb, CellImage.NoBomb},
                 {CellImage.NoBomb, CellImage.NoBomb, CellImage.NoBomb, CellImage.NoBomb, CellImage.NoBomb},

@@ -1,7 +1,6 @@
-- run StyleCop
-- add unit testing
-- add source code documentation
-- add refactoring documentation
+* 
+
+
 
 
 

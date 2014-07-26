@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BoardDrawer.cs" />
-    <Compile Include="Commands\CmdCmdExit.cs" />
+    <Compile Include="Commands\CmdExit.cs" />
     <Compile Include="Commands\CmdInvalid.cs" />
     <Compile Include="Commands\CmdFlagCell.cs" />
     <Compile Include="Commands\CmdShowScores.cs" />
@@ -53,11 +53,14 @@
     <Compile Include="CommandParser.cs" />
     <Compile Include="Commands\CmdRestart.cs" />
     <Compile Include="Enums\CellImage.cs" />
+    <Compile Include="IUIManager.cs" />
+    <Compile Include="Messages.cs" />
+    <Compile Include="MinefieldEasy.cs" />
     <Compile Include="MinesweeperGame.cs" />
+    <Compile Include="MinesweeperGameEasy.cs" />
+    <Compile Include="ScoreBoard.cs" />
     <Compile Include="UIManager.cs" />
-    <Compile Include="Enums\ErrorType.cs" />
-    <Compile Include="Enums\MinefieldState.cs" />
-    <Compile Include="Enums\UserMsg.cs" />
+    <Compile Include="Enums\CellActionResult.cs" />
     <Compile Include="Minefield.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="Program.cs" />
@@ -65,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="GameClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
