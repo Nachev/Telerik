@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/CrowdChat/node_modules/milk/test/object_methods.js" />
+        <item url="file://$PROJECT_DIR$/CrowdChat/scripts/controller.js" />
+        <item url="file://$PROJECT_DIR$/CrowdChat/node_modules/milk/test/helpers.js" />
+        <item url="file://$PROJECT_DIR$/CrowdChat/main.js" />
+        <item url="file://$PROJECT_DIR$/CrowdChat/node_modules/milk/test/parse_errors_test.js" />
+        <item url="file://$PROJECT_DIR$/CrowdChat/node_modules/milk/test/escape_method.js" />
+        <item url="file://$PROJECT_DIR$/CrowdChat/node_modules/milk/milk.js" />
+        <item url="file://$PROJECT_DIR$/CrowdChat/scripts/view.js" />
+        <item url="file://$PROJECT_DIR$/CrowdChat/scripts/persister.js" />
+        <item url="file://$PROJECT_DIR$/CrowdChat/node_modules/milk/test/partials_method.js" />
+        <item url="file://$PROJECT_DIR$/CrowdChat/node_modules/milk/test/partials_parameter.js" />
+        <item url="file://$PROJECT_DIR$/CrowdChat/scripts/httpRequester.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/CrowdChat/node_modules/milk/test/object_methods.js" />
+      <root url="file://$PROJECT_DIR$/CrowdChat/scripts/controller.js" />
+      <root url="file://$PROJECT_DIR$/CrowdChat/node_modules/milk/test/helpers.js" />
+      <root url="file://$PROJECT_DIR$/CrowdChat/main.js" />
+      <root url="file://$PROJECT_DIR$/CrowdChat/node_modules/milk/test/parse_errors_test.js" />
+      <root url="file://$PROJECT_DIR$/CrowdChat/node_modules/milk/test/escape_method.js" />
+      <root url="file://$PROJECT_DIR$/CrowdChat/scripts/httpRequester.js" />
+      <root url="file://$PROJECT_DIR$/CrowdChat/node_modules/milk/milk.js" />
+      <root url="file://$PROJECT_DIR$/CrowdChat/scripts/view.js" />
+      <root url="file://$PROJECT_DIR$/CrowdChat/scripts/persister.js" />
+      <root url="file://$PROJECT_DIR$/CrowdChat/node_modules/milk/test/partials_method.js" />
+      <root url="file://$PROJECT_DIR$/CrowdChat/node_modules/milk/test/partials_parameter.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="JS SAP Consuming remote data homework">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Twitter API application</title>
+        <!--<link rel="stylesheet" href="styles/style.css">-->
+    </head>
+    <body>
+        <form id="requestForm" action="#" method="get">
+            <label>
+                <input class="properties" type="text" placeholder="Consumer key" required="required"/>
+            </label>
+            <label>
+                <input class="properties" type="text" placeholder="Consumer secret" required="required"/>
+            </label>
+            <label>
+                <input class="properties" type="text" placeholder="Access token" required="required"/>
+            </label>
+            <label>
+                <input class="properties" type="text" placeholder="Access token secret" required="required"/>
+            </label>
+            <label>
+                <input class="properties" type="text" placeholder="User name" required="required"/>
+            </label>
+            <label>
+                <input class="properties" type="text" placeholder="Number of posts" required="required"/>
+            </label>
+            <button id="submit">Get posts</button>
+        </form>
+        <div id="target-display"></div>
+        <script src="bower_components/requirejs/require.js" data-main="csmain"></script>
+    </body>
+</html>

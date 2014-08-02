@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="JS SAP Consuming remote data homework">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Students API application</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <form id="student-input" action="#" method="get">
+            <label>
+                Name
+                <input id="tb-st-name" type="text" placeholder="Name" required="required"/>
+            </label>
+            <label>
+                Grade
+                <input id="tb-st-grade" type="number" placeholder="Grade" required="required"/>
+            </label>
+            <button id="btn-add">Add student</button>
+        </form>
+        <form id="get-del-student" action="#" method="get">
+            <label>
+                ID of student for deletion
+                <input id="tb-del-id" type="text" placeholder="ID to delete"/>
+            </label>
+            <button id="btn-del">Delete student</button>
+            <button id="btn-get">Get students</button>
+        </form>
+        <div id="target-display"></div>
+        <script src="bower_components/requirejs/require.js" data-main="main"></script>
+    </body>
+</html>
