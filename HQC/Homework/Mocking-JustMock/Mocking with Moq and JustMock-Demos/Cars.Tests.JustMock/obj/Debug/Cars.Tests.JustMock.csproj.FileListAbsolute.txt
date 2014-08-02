@@ -1,0 +1,11 @@
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars.Tests.JustMock\bin\Debug\Cars.Tests.JustMock.dll
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars.Tests.JustMock\bin\Debug\Cars.Tests.JustMock.pdb
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars.Tests.JustMock\bin\Debug\Cars.dll
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars.Tests.JustMock\bin\Debug\Moq.dll
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars.Tests.JustMock\bin\Debug\Telerik.JustMock.dll
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars.Tests.JustMock\bin\Debug\Cars.pdb
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars.Tests.JustMock\bin\Debug\Moq.xml
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars.Tests.JustMock\bin\Debug\Telerik.JustMock.xml
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars.Tests.JustMock\obj\Debug\Cars.Tests.JustMock.csprojResolveAssemblyReference.cache
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars.Tests.JustMock\obj\Debug\Cars.Tests.JustMock.dll
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars.Tests.JustMock\obj\Debug\Cars.Tests.JustMock.pdb

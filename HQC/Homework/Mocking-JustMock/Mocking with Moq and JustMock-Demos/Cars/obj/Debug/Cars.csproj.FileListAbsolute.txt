@@ -1,0 +1,5 @@
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars\bin\Debug\Cars.dll
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars\bin\Debug\Cars.pdb
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars\obj\Debug\Cars.csprojResolveAssemblyReference.cache
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars\obj\Debug\Cars.dll
+D:\Git\Telerik\HQC\Homework\Mocking-JustMock\Mocking with Moq and JustMock-Demos\Cars\obj\Debug\Cars.pdb
