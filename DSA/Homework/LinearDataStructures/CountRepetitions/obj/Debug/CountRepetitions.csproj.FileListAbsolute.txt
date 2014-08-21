@@ -1,0 +1,6 @@
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\CountRepetitions\bin\Debug\CountRepetitions.exe.config
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\CountRepetitions\bin\Debug\CountRepetitions.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\CountRepetitions\bin\Debug\CountRepetitions.pdb
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\CountRepetitions\obj\Debug\CountRepetitions.csprojResolveAssemblyReference.cache
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\CountRepetitions\obj\Debug\CountRepetitions.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\CountRepetitions\obj\Debug\CountRepetitions.pdb

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0" Timestamp="4e265e8a-ff5a-4df1-8a8e-a90cec514e4c">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings Version="2">
+      <FilePath>
+        <FileRelativePath>FirstFiftyMembersOfSequence/SampleProgram.cs</FileRelativePath>
+        <ProjectRelativePath>FirstFiftyMembersOfSequence/FirstFiftyMembersOfSequence.csproj</ProjectRelativePath>
+        <IgnoredElement>
+          <TextualIdentifier>9256926877291086940</TextualIdentifier>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>

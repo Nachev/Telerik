@@ -1,0 +1,6 @@
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FirstFiftyMembersOfSequence\bin\Debug\FirstFiftyMembersOfSequence.exe.config
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FirstFiftyMembersOfSequence\bin\Debug\FirstFiftyMembersOfSequence.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FirstFiftyMembersOfSequence\bin\Debug\FirstFiftyMembersOfSequence.pdb
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FirstFiftyMembersOfSequence\obj\Debug\FirstFiftyMembersOfSequence.csprojResolveAssemblyReference.cache
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FirstFiftyMembersOfSequence\obj\Debug\FirstFiftyMembersOfSequence.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FirstFiftyMembersOfSequence\obj\Debug\FirstFiftyMembersOfSequence.pdb

@@ -1,0 +1,5 @@
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\ReverseStack\bin\Debug\ReverseStack.exe.config
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\ReverseStack\bin\Debug\ReverseStack.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\ReverseStack\bin\Debug\ReverseStack.pdb
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\ReverseStack\obj\Debug\ReverseStack.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\ReverseStack\obj\Debug\ReverseStack.pdb

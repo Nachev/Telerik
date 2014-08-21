@@ -1,0 +1,6 @@
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\CalculateTheAverageOfSequence\bin\Debug\CalculateTheAverageOfSequence.exe.config
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\CalculateTheAverageOfSequence\bin\Debug\CalculateTheAverageOfSequence.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\CalculateTheAverageOfSequence\bin\Debug\CalculateTheAverageOfSequence.pdb
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\CalculateTheAverageOfSequence\obj\Debug\T01.CalculateTheAverageOfSequence.csprojResolveAssemblyReference.cache
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\CalculateTheAverageOfSequence\obj\Debug\CalculateTheAverageOfSequence.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\CalculateTheAverageOfSequence\obj\Debug\CalculateTheAverageOfSequence.pdb

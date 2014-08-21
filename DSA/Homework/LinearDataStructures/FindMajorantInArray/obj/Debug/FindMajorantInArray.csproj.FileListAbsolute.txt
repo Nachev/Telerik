@@ -1,0 +1,6 @@
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FindMajorantInArray\bin\Debug\FindMajorantInArray.exe.config
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FindMajorantInArray\bin\Debug\FindMajorantInArray.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FindMajorantInArray\bin\Debug\FindMajorantInArray.pdb
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FindMajorantInArray\obj\Debug\FindMajorantInArray.csprojResolveAssemblyReference.cache
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FindMajorantInArray\obj\Debug\FindMajorantInArray.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FindMajorantInArray\obj\Debug\FindMajorantInArray.pdb

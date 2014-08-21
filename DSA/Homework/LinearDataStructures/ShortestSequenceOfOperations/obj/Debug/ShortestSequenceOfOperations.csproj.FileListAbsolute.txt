@@ -1,0 +1,1 @@
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\ShortestSequenceOfOperations\bin\Debug\ShortestSequenceOfOperations.exe.config

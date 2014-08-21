@@ -1,0 +1,6 @@
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FindLongestSubsequence\bin\Debug\FindLongestSubsequence.exe.config
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FindLongestSubsequence\obj\Debug\FindLongestSubsequence.csprojResolveAssemblyReference.cache
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FindLongestSubsequence\bin\Debug\FindLongestSubsequence.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FindLongestSubsequence\bin\Debug\FindLongestSubsequence.pdb
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FindLongestSubsequence\obj\Debug\FindLongestSubsequence.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\FindLongestSubsequence\obj\Debug\FindLongestSubsequence.pdb

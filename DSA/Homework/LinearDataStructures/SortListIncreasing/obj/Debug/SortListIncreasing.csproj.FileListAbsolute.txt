@@ -1,0 +1,6 @@
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\SortListIncreasing\bin\Debug\SortListIncreasing.exe.config
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\SortListIncreasing\bin\Debug\SortListIncreasing.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\SortListIncreasing\bin\Debug\SortListIncreasing.pdb
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\SortListIncreasing\obj\Debug\SortListIncreasing.csprojResolveAssemblyReference.cache
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\SortListIncreasing\obj\Debug\SortListIncreasing.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\SortListIncreasing\obj\Debug\SortListIncreasing.pdb

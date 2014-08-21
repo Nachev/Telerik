@@ -1,0 +1,1 @@
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\CalculateTheAverageOfSequence\bin\Debug\CalculateTheAverageOfSequence.exe.config

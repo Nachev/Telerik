@@ -1,0 +1,6 @@
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\RemoveNegatives\bin\Debug\RemoveNegatives.exe.config
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\RemoveNegatives\bin\Debug\RemoveNegatives.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\RemoveNegatives\bin\Debug\RemoveNegatives.pdb
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\RemoveNegatives\obj\Debug\RemoveNegatives.csprojResolveAssemblyReference.cache
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\RemoveNegatives\obj\Debug\RemoveNegatives.exe
+D:\Git\Telerik\DSA\Homework\LinearDataStructures\RemoveNegatives\obj\Debug\RemoveNegatives.pdb
