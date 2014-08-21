@@ -1,0 +1,17 @@
+1.
+* What is SQL?
+	- Structured Query Language (SQL). Declarative language for query and manipulation of relational data.
+* What is DDL?
+	- A data definition language or data description language (DDL) is a syntax similar to a computer programming language for defining data structures, especially database schemas.
+* What is DML?
+	- A data manipulation language (DML) is a family of syntax elements similar to a computer programming language used for selecting, inserting, deleting and updating data in a database. Performing read-only queries of data is sometimes also considered a component of DML.
+* Recite the most important SQL commands.
+	- SELECT, WHERE, INSERT, UPDATE, DELETE
+	- CREATE, DROP, ALTER
+	- GRANT, REVOKE
+	
+2. What is Transact-SQL (T-SQL)?
+	- Transact-SQL (T-SQL) is Microsoft's and Sybase's proprietary extension to SQL. T-SQL expands on the SQL standard to include procedural programming, local variables, various support functions for string processing, date processing, mathematics, etc. and changes to the DELETE and UPDATE statements.
+	
+3. Start SQL Management Studio and connect to the database  TelerikAcademy. Examine the major tables in the "TelerikAcademy" database.
+	- Checked :)
