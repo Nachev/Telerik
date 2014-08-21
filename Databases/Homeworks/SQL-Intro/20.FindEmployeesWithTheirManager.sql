@@ -1,0 +1,2 @@
+-- 20. Write a SQL query to find all employees along with their manager. --
+SELECT em.EmployeeID, em.FirstName + ' ' + em.LastName AS [Employee Name], m.EmployeeID, m.FirstName + ' ' + m.LastName AS [Manager Name] 	FROM [TelerikAcademy].[dbo].[Employees] em	INNER JOIN [TelerikAcademy].[dbo].[Employees] m ON em.ManagerID = m.EmployeeID
