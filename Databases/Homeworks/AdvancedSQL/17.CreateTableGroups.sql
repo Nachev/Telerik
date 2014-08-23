@@ -4,7 +4,7 @@ USE TelerikAcademy
 CREATE TABLE Groups
 (
 	[GroupID] int NOT NULL IDENTITY,
-	[Name] varchar(10) NOT NULL
+	[Name] nvarchar(40) NOT NULL
 	CONSTRAINT PK_GroupID PRIMARY KEY ([GroupID]),
 	CONSTRAINT UC_GroupName UNIQUE ([Name])
 );

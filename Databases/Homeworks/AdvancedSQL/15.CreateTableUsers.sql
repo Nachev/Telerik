@@ -9,9 +9,9 @@ USE TelerikAcademy
 CREATE TABLE Users
 (
 	[UserID] int NOT NULL IDENTITY,
-	[Username] varchar(10) NOT NULL,
-	[Password] varchar(50),
-	[FullName] varchar(50),
+	[Username] nvarchar(50) NOT NULL,
+	[Password] nvarchar(50),
+	[FullName] nvarchar(50),
 	[LastLogin] datetime,
 	CONSTRAINT PK_UsreID PRIMARY KEY (UserID),
 	CONSTRAINT uc_Username UNIQUE (Username),

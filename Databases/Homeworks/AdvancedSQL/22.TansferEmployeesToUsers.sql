@@ -5,8 +5,8 @@
 --for the password, and NULL for last login time.
 
 INSERT INTO TelerikAcademy.dbo.Users(Username, [Password], FullName, LastLogin, GroupID)
-SELECT LOWER(e.FirstName + '.' + e.LastName) AS Username, -- Constraint does not allow duplicate names
-	LOWER(LEFT(e.FirstName, 1) + e.LastName + 'qwerty') AS [Password],  -- Constraint does not allow pass length < 5
+SELECT LOWER(LEFT(e.FirstName, 3) + '.' + e.LastName) AS Username, -- Constraint does not allow duplicate names
+	LOWER(LEFT(e.FirstName, 1) + e.LastName + 'pass') AS [Password],  -- Constraint does not allow pass length < 5
 	e.FirstName + ISNULL( ' ' + e.MiddleName, '') + ' ' + e.LastName AS [FullName],
 	NULL,
 	NULL
