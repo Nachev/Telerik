@@ -10,7 +10,7 @@ USE TelerikAcademy
 CREATE TABLE WorkHours
 (
 	[WorkHoursID] int IDENTITY NOT NULL,
-	[EmployeeID] int,
+	[EmployeeID] int NOT NULL,
 	[Date] date,
 	[Hours] time,
 	[Task] nvarchar(50),
