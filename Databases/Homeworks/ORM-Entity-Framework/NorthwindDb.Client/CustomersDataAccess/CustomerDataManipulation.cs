@@ -133,5 +133,42 @@
 
             return result;
         }
+
+        /*Implement previous by using native SQL query and 
+        executing it through the DbContext.*/
+        public static IEnumerable<Customer> GetCustomersByOrderMadeIn1997SShippedToCanadaSqlQuery()
+        {
+            IEnumerable<Customer> result;
+            using (var northwindEntities = new NorthwindEntities())
+            {
+                string sqlQuery = "SELECT DISTINCT c.* FROM Customers c " +
+                                  "INNER JOIN Orders o " +
+                                  "ON c.CustomerID = o.CustomerID " +
+                                  "WHERE (1997 = (DATEPART (year, o.OrderDate)))" +
+                                  "AND (o.ShipCountry = 'Canada')";
+                result = northwindEntities.Customers.SqlQuery(sqlQuery).ToList();
+            }
+
+            return result;
+        }
+
+        /*Write a method that finds all the sales by specified 
+        region and period (start / end dates). */
+        public static IEnumerable<Order> SalesByRegionAndPeriod(string region, DateTime startDate, DateTime endDate)
+        {
+            var result = new List<Order>();
+            using (var northwindEntities = new NorthwindEntities())
+            {
+                result = northwindEntities
+                    .Orders
+                    .Where(
+                        o =>
+                            (o.ShippedDate.Value >= startDate && o.ShippedDate.Value <= endDate) &&
+                            (o.ShipRegion == region)
+                    ).ToList();
+            }
+
+            return result;
+        }
     }
 }
