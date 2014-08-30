@@ -2,11 +2,17 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
-    using NorthwindDb.Client.CustomersDataAccess;
-    using NorthwindDbContext;
     using System.Data.Entity.Validation;
+    using System.Data.Linq;
     using System.Diagnostics;
+    using System.Linq;
+
+    using NorthwindDb.Client.CustomersDataAccess;
+    using NorthwindDb.Client.GenerateTwin;
+    using NorthwindDbContext;
+    using NorthwindDb.Client.ConcurentDbContexts;
+    using NorthwindDb.Client.CreateOrderWithTransaction;
+    using NorthwindDb.Client.CreateStoredProcedure;
 
     internal class TestCustomerManipulation
     {
@@ -17,7 +23,7 @@
                 /*
                 var bugsId = NorthwindDb.Client.CustomersDataAccess.CustomerDataManipulation.InsertCustomer(
                     "ACME Inc", "Bugs Bunny", "Rabbit", "Hole in the ground", "Cartoon city", "West", "0000", "USA", "555-555-555", "same as phone"
-                    );*/
+                    );
                 var bugsId = "ACMEI";
                 Console.WriteLine("Added customer with Id: {0}", bugsId);
                 CustomerDataManipulation.ModifyCustomer(bugsId, CustomerProperty.Region, "Bulgaria");
@@ -31,7 +37,7 @@
 
                 Console.WriteLine("Task 04");
                 var customersOrderedIn1997ToCanadaSqlQuery = CustomerDataManipulation.GetCustomersByOrderMadeIn1997SShippedToCanadaSqlQuery();
-                PrintCustomers(customersOrderedIn1997ToCanada);
+                PrintCustomers(customersOrderedIn1997ToCanadaSqlQuery);
 
                 Console.WriteLine("Task 05");
                 var salesByRegionAndPeriod = CustomerDataManipulation.SalesByRegionAndPeriod(
@@ -40,6 +46,33 @@
                 {
                     Console.WriteLine("Ship name: {0}, region: {1}, date: {2}", sale.ShipName, sale.ShipRegion, sale.ShippedDate);
                 }
+
+                Console.WriteLine("Task 06");
+                GenerateNorthwindTwin.GenerateTwinDb();
+
+                Console.WriteLine("Task 07");
+                ConcurentContexts.Process();
+
+                Console.WriteLine("Task 08");
+                using (var dbContext = new NorthwindEntities())
+                {
+                    var employee = dbContext.Employees.FirstOrDefault();
+                    var territories = employee.TerritoriesSet;
+                    foreach (var territory in territories)
+                    {
+                        Console.WriteLine(territory.Region.RegionDescription);
+                    }
+                }
+
+                Console.WriteLine("Task 09");
+                CreateOrder.NewOrder("ACMEI", 2, new DateTime(2014, 09, 08), 1, "ACME Inc.", "Cartoon City");
+                
+                Console.WriteLine("Task 10");
+                // StoredProcedureCreator.CreateFindIncomesForSupplierInPeriod();
+                var income = StoredProcedureCreator.UseFindIncomesForSupplierInPeriod();
+                Console.WriteLine(income);*/
+
+
             }
             catch (DbEntityValidationException dbEx)
             {
@@ -54,7 +87,7 @@
                 Trace.Flush();
             }
         }
- 
+
         private static void PrintCustomers(IEnumerable<Customer> customers)
         {
             Console.WriteLine(new string('-', 45));

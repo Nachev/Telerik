@@ -25,6 +25,12 @@
             int[] arr = new int[6];
             testList.CopyTo(arr, 0);
             Console.WriteLine("Copied to array " + string.Join(", ", arr));
+
+            testList.AddAfter(6, 13);
+            Console.WriteLine("Add after result " + string.Join(", ", testList));
+
+            testList.AddBefore(6, 13);
+            Console.WriteLine("Add before result " + string.Join(", ", testList));
         }
     }
 }

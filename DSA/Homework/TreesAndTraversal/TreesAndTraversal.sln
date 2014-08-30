@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "T01.TreeTask", "T01.TreeTask", "{BC20832C-D355-4B15-8A36-DEB4BBCF4318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree", "Tree\Tree.csproj", "{B7B9031B-EBD4-4505-ADA0-F5287DEE01F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeTasks", "TreeTasks\TreeTasks.csproj", "{23FA05B2-D619-475C-9B7E-93BD4D208D0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02.TraverseWindowsDirectory", "TraverseWindowsDirectory\T02.TraverseWindowsDirectory.csproj", "{0F9DFD08-5B79-4BFA-95D8-7F546C2117DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileFolderTask", "FileFolderTask", "{D24F1819-56C7-4230-8040-7FEE44C364F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileFolderTree", "FileFolderTree\FileFolderTree.csproj", "{9FDB6568-A936-4922-8F81-A6B341911289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraverseTask", "TraverseTask\TraverseTask.csproj", "{2F7D1EAF-1D33-4036-96AF-7B02FA91EF67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7B9031B-EBD4-4505-ADA0-F5287DEE01F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B9031B-EBD4-4505-ADA0-F5287DEE01F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B9031B-EBD4-4505-ADA0-F5287DEE01F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B9031B-EBD4-4505-ADA0-F5287DEE01F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23FA05B2-D619-475C-9B7E-93BD4D208D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23FA05B2-D619-475C-9B7E-93BD4D208D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23FA05B2-D619-475C-9B7E-93BD4D208D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23FA05B2-D619-475C-9B7E-93BD4D208D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9DFD08-5B79-4BFA-95D8-7F546C2117DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9DFD08-5B79-4BFA-95D8-7F546C2117DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9DFD08-5B79-4BFA-95D8-7F546C2117DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9DFD08-5B79-4BFA-95D8-7F546C2117DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDB6568-A936-4922-8F81-A6B341911289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDB6568-A936-4922-8F81-A6B341911289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDB6568-A936-4922-8F81-A6B341911289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDB6568-A936-4922-8F81-A6B341911289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7D1EAF-1D33-4036-96AF-7B02FA91EF67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7D1EAF-1D33-4036-96AF-7B02FA91EF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7D1EAF-1D33-4036-96AF-7B02FA91EF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7D1EAF-1D33-4036-96AF-7B02FA91EF67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7B9031B-EBD4-4505-ADA0-F5287DEE01F3} = {BC20832C-D355-4B15-8A36-DEB4BBCF4318}
+		{23FA05B2-D619-475C-9B7E-93BD4D208D0B} = {BC20832C-D355-4B15-8A36-DEB4BBCF4318}
+		{9FDB6568-A936-4922-8F81-A6B341911289} = {D24F1819-56C7-4230-8040-7FEE44C364F3}
+		{2F7D1EAF-1D33-4036-96AF-7B02FA91EF67} = {D24F1819-56C7-4230-8040-7FEE44C364F3}
+	EndGlobalSection
+EndGlobal

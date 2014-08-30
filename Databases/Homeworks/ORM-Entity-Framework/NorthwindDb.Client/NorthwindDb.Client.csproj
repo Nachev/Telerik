@@ -42,6 +42,8 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,8 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConcurentDbContexts\ConcurentContexts.cs" />
+    <Compile Include="CreateOrderWithTransaction\CreateOrder.cs" />
+    <Compile Include="CreateStoredProcedure\StoredProcedureCreator.cs" />
     <Compile Include="CustomersDataAccess\CustomerProperty.cs" />
     <Compile Include="CustomersDataAccess\CustomerDataManipulation.cs" />
+    <Compile Include="GenerateTwin\GenerateNorthwindTwin.cs" />
     <Compile Include="TestCustomerManipulation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -64,6 +70,7 @@
       <Name>NorthwindDb.Data</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
