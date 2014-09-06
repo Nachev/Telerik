@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AtmMachine", "AtmMachine", "{D2B54967-3C5A-4D70-8CBF-5296797C542C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Data", "Atm.Data\Atm.Data.csproj", "{C5F60E41-F816-4063-9F7E-862A39F2EAD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Models", "Atm.Models\Atm.Models.csproj", "{873C7C0D-0B30-4CB8-AF44-942142D1783D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Client", "Atm.Client\Atm.Client.csproj", "{4B4032EA-6CE2-4FC3-A40F-47CA923F815C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8A0B6C36-0020-40EF-9D72-31ECE3B04809}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{438472EA-B870-4E4C-ADFA-112CA6E9A38C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomDataGenerator", "RandomDataGenerator\RandomDataGenerator.csproj", "{19B8AF41-BFB4-4583-9676-F723EB4C909F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F60E41-F816-4063-9F7E-862A39F2EAD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F60E41-F816-4063-9F7E-862A39F2EAD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F60E41-F816-4063-9F7E-862A39F2EAD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F60E41-F816-4063-9F7E-862A39F2EAD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{873C7C0D-0B30-4CB8-AF44-942142D1783D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873C7C0D-0B30-4CB8-AF44-942142D1783D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873C7C0D-0B30-4CB8-AF44-942142D1783D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873C7C0D-0B30-4CB8-AF44-942142D1783D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B4032EA-6CE2-4FC3-A40F-47CA923F815C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4032EA-6CE2-4FC3-A40F-47CA923F815C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4032EA-6CE2-4FC3-A40F-47CA923F815C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4032EA-6CE2-4FC3-A40F-47CA923F815C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B8AF41-BFB4-4583-9676-F723EB4C909F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B8AF41-BFB4-4583-9676-F723EB4C909F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B8AF41-BFB4-4583-9676-F723EB4C909F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B8AF41-BFB4-4583-9676-F723EB4C909F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5F60E41-F816-4063-9F7E-862A39F2EAD2} = {D2B54967-3C5A-4D70-8CBF-5296797C542C}
+		{873C7C0D-0B30-4CB8-AF44-942142D1783D} = {D2B54967-3C5A-4D70-8CBF-5296797C542C}
+		{4B4032EA-6CE2-4FC3-A40F-47CA923F815C} = {D2B54967-3C5A-4D70-8CBF-5296797C542C}
+		{19B8AF41-BFB4-4583-9676-F723EB4C909F} = {438472EA-B870-4E4C-ADFA-112CA6E9A38C}
+	EndGlobalSection
+EndGlobal

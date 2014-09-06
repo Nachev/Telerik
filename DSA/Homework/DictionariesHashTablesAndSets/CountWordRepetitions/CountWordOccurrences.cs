@@ -36,21 +36,24 @@
                 if (elementsCount.ContainsKey(arrayElement))
                 {
                     elementsCount[arrayElement]++;
-
                 }
                 else
                 {
                     elementsCount.Add(arrayElement, 1);
                 }
             }
-
+            
             Console.WriteLine();
             Console.WriteLine("Input: {0}", string.Join(", ", splittedInput));
             Console.WriteLine(new string('-', 48));
-            
-            foreach (var pair in elementsCount)
+            foreach (var item in elementsCount)
             {
-                Console.WriteLine("Value: {0}, count: {1}", pair.Key, pair.Value);
+                orderedElements.Add(item.Value, item.Key);
+            }
+
+            foreach (var pair in orderedElements)
+            {
+                Console.WriteLine("Value: {1}, count: {0}", pair.Key, pair.Value);
             }
         }
     }

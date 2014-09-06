@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="StudentSchema"
+    targetNamespace="urn:www.telerikacademy.com:students"
+    elementFormDefault="qualified"
+    xmlns="urn:www.telerikacademy.com:students"
+    xmlns:mstns="http://tempuri.org/StudentSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  
+  <xs:element name="students">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="student" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="student">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="sex" type="xs:string"/>
+        <xs:element name="birth_date" type="xs:date"/>
+        <xs:element name="phone" type ="xs:string"/>
+        <xs:element name="email" type="xs:string"/>
+        <xs:element name="course" type="xs:string"/>
+        <xs:element name="specialty" type="xs:string"/>
+        <xs:element name="faculty_number" type="xs:string"/>
+        <xs:element name="exams">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="exam" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="exam">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="tutor" type="xs:string"/>
+        <xs:element name="score" type="xs:double"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:integer" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>
