@@ -1,95 +1,85 @@
 ﻿namespace Atm.Client
 {
+    using System;
+    using System.Linq;
+
     using Atm.Data;
     using Atm.Data.Repositories;
-    using Atm.Models;
-    using RandomDataGenerator;
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
+    using Atm.Models.Contracts;
 
     public class AtmClientEntry
     {
-        private const int FakeDataCount = 100000;
-
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             using (var dbContext = new AtmEntities())
             {
                 var userRepo = new CardHolderRepository(dbContext);
-                var cardAccountsRepo = new CardAccountRepository(dbContext);
-                //FillCardHoldersWithFakeData(dbContext, userRepo);
+                var cardAccountRepo = new CardAccountRepository(dbContext);
+                var transactionHystoryRepo = new TransactionHistoryRepository(dbContext);
+                var consoleHandler = ConsoleHandler.Instance;
+                FakeDataFiller.FillCardHoldersWithFakeData(dbContext, userRepo);
                 dbContext.SaveChanges();
-                FillCardAccountsWithFakeData(dbContext, cardAccountsRepo);
+                consoleHandler.PrintLine("Card holders faking finished.");
+                var cardHoldersIds = userRepo.GetAll().Select(u => u.Id).ToList();
+                FakeDataFiller.FillCardAccountsWithFakeData(dbContext, cardAccountRepo, cardHoldersIds);
                 dbContext.SaveChanges();
+                consoleHandler.PrintLine("Card accounts faking finished.");
+
+                var card = GetCredentials(cardAccountRepo);
+                if (card != null)
+                {
+                    if(WithdrawSum(dbContext, cardAccountRepo, transactionHystoryRepo, card))
+                    {
+                        consoleHandler.PrintLine("Withdraw successful.");
+                    }
+                }
             }
         }
 
-        private static void FillCardHoldersWithFakeData(AtmEntities dbContext, CardHolderRepository userRepo)
+        private static ICardAccount GetCredentials(CardAccountRepository cardAcountRepo)
         {
-            dbContext.Configuration.AutoDetectChangesEnabled = false;
-            dbContext.Configuration.ValidateOnSaveEnabled = false;
-            var randomDataProvider = new RandomDataProvider();
-            var numberProvider = RandomNumberProvider.GetInstance();
-
-            for (int i = 0; i < FakeDataCount; i++)
+            var consoleHandler = ConsoleHandler.Instance;
+            consoleHandler.Print("Enter card number: ");
+            var cardNumberToFind = consoleHandler.GetStringInput();
+            if(cardNumberToFind.Length < cardAcountRepo.NumberLength || !cardAcountRepo.DoesCardExists(cardNumberToFind))
             {
-                var currentCardHolder = new CardHolder()
-                {
-                    Name = randomDataProvider.GetFirstName() + " " + randomDataProvider.GetStringExact(1, RandomDataGenerator.Enumerations.RandomDataType.BigLetters) + " " + randomDataProvider.GetLastName()
-                };
-
-                userRepo.Insert(currentCardHolder);
-
-                if (i % 133 == 0) // Randomly chosen value
-                {
-                    dbContext.SaveChanges();
-                }
+                consoleHandler.PrintLine("This card does not exists in the database.");
+                return null;
             }
 
-            dbContext.Configuration.AutoDetectChangesEnabled = true;
-            dbContext.Configuration.ValidateOnSaveEnabled = true;
+            consoleHandler.Print("Enter pin: ");
+            var enteredPin = consoleHandler.GetStringInput();
+            if (enteredPin.Length != cardAcountRepo.PinLength)
+            {
+                consoleHandler.PrintLine("Entered pin does not match predefined length: " + cardAcountRepo.PinLength);
+            }
+
+            var result = cardAcountRepo.GetByCardNumberAndPin(cardNumberToFind, enteredPin);
+            if (result == null)
+            {
+                consoleHandler.PrintLine("Entered pin does not match.");
+            }
+
+            return result;
         }
 
-        private static void FillCardAccountsWithFakeData(AtmEntities dbContext, CardAccountRepository cardAccountsRepo)
+        private static bool WithdrawSum(
+            AtmEntities dbContext, 
+            CardAccountRepository cardAcountRepo,
+            TransactionHistoryRepository tarnsactionHystoryRepo, 
+            ICardAccount cardAccount)
         {
-            dbContext.Configuration.AutoDetectChangesEnabled = false;
-            dbContext.Configuration.ValidateOnSaveEnabled = false;
-            var randomDataProvider = new RandomDataProvider();
-            var numberProvider = RandomNumberProvider.GetInstance();
-
-            for (int i = 0; i < FakeDataCount; i++)
+            var transactionsHandler = new TransactionsHandler(dbContext, cardAcountRepo, tarnsactionHystoryRepo);
+            var consoleHandler = ConsoleHandler.Instance;
+            consoleHandler.Print("Enter value to withdraw: ");
+            var withdrawValueInput = consoleHandler.GetStringInput();
+            decimal withdrawValue = new decimal();
+            if(!decimal.TryParse(withdrawValueInput, out withdrawValue))
             {
-                string number = string.Empty;
-                while (string.IsNullOrEmpty(number) || cardAccountsRepo.DoesCardExists(number))
-                {
-                    number = randomDataProvider.GetStringExact(10, RandomDataGenerator.Enumerations.RandomDataType.Numerics);
-                }
-
-                var holderId = numberProvider.GetIntUpTo(FakeDataCount - 1);
-                var pin = randomDataProvider.GetStringExact(4, RandomDataGenerator.Enumerations.RandomDataType.Numerics);
-                var cash = (decimal)numberProvider.GetDoubleInRange(100.00D, 10000.00D);
-
-                CardAccount currentCardAccount = new CardAccount()
-                {
-                    CardNumber = number,
-                    CardHolderId = holderId,
-                    CardPin = pin,
-                    CardCash = cash
-                };
-                    
-                cardAccountsRepo.Insert(currentCardAccount);
-
-                if (i % 133 == 0) // Randomly chosen value
-                {
-                    dbContext.SaveChanges();
-                }
+                return false;
             }
 
-            dbContext.Configuration.AutoDetectChangesEnabled = true;
-            dbContext.Configuration.ValidateOnSaveEnabled = true;
+            return transactionsHandler.WithdrawTransaction(cardAccount.CardNumber, cardAccount.CardPin, withdrawValue);
         }
     }
 }

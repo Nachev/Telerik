@@ -17,5 +17,7 @@ namespace Atm.Data
         public virtual IDbSet<CardHolder> Accounts { get; set; }
 
         public virtual IDbSet<CardAccount> CardAccounts { get; set; }
+
+        public virtual IDbSet<TransactionHistory> TransactionHistory { get; set; }
     }
 }

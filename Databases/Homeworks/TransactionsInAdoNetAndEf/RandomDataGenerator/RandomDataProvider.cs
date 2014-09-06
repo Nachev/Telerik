@@ -6,7 +6,7 @@
     using RandomDataGenerator.Contracts;
     using RandomDataGenerator.Enumerations;
 
-    public class RandomDataProvider
+    public class RandomDataProvider : IRandomDataProvider
     {
         private const int ReasonableYearMaxValue = 9999;
         private const int ReasonableYearMinValue = 1990;

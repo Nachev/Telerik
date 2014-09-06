@@ -56,7 +56,10 @@
     <Compile Include="Repositories\CardAccountRepository.cs" />
     <Compile Include="Repositories\CardHolderRepository.cs" />
     <Compile Include="Repositories\GenericRepository.cs" />
+    <Compile Include="Repositories\ICardAccountRepository.cs" />
     <Compile Include="Repositories\IGenericRepository.cs" />
+    <Compile Include="Repositories\TransactionHistoryRepository.cs" />
+    <Compile Include="TransactionsHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">

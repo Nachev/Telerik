@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Contracts\IRandomNumberProvider.cs" />
     <Compile Include="Enumerations\RandomDataType.cs" />
+    <Compile Include="Contracts\IRandomDataProvider.cs" />
     <Compile Include="RandomDataProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomNumberProvider.cs" />

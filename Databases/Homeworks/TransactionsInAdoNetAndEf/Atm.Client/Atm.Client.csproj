@@ -51,6 +51,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AtmClientEntry.cs" />
+    <Compile Include="ConsoleHandler.cs" />
+    <Compile Include="Contracts\IDataInput.cs" />
+    <Compile Include="Contracts\IPrinter.cs" />
+    <Compile Include="FakeDataFiller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

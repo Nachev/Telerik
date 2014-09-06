@@ -6,16 +6,35 @@
     using Atm.Models;
     using Atm.Models.Contracts;
 
-    public class CardAccountRepository : GenericRepository<CardAccount>
+    public class CardAccountRepository : GenericRepository<CardAccount>, ICardAccountRepository
     {
+        private const int CardNumberLength = 10;
+        private const int CardPinLength = 4;
+
         public CardAccountRepository(DbContext dbContext) 
             : base(dbContext)
         {
         }
 
+        public int PinLength
+        {
+            get
+            {
+                return CardPinLength;
+            }
+        }
+
+        public int NumberLength
+        {
+            get
+            {
+                return CardNumberLength;
+            }
+        }
+
         public bool DoesCardExists(string cardNumber)
         {
-            if (cardNumber.Length != 10)
+            if (cardNumber.Length != CardNumberLength)
             {
                 return false;
             }
@@ -26,7 +45,7 @@
 
         public ICardAccount GetByCardNumberAndPin(string cardNumber, string pin)
         {
-            if (pin.Length > 4 || pin.Length < 4)
+            if (pin.Length > CardPinLength || pin.Length < CardPinLength)
             {
                 throw null;
             }
