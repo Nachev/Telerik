@@ -67,6 +67,83 @@
             this.Count++;
         }
 
+        public void AddAfter(T target, T item)
+        {
+            if (target == null)
+            {
+                throw new ArgumentNullException("Item target value cannot be null.");
+            }
+
+            if (item == null)
+            {
+                throw new ArgumentNullException("Item value to add cannot be null.");
+            }
+
+            var nodeToAdd = new ListItem<T>(item);
+            var targetNode = Find(target);
+            if (targetNode == null)
+            {
+                if (this.firstElement == null)
+                {
+                    this.firstElement = nodeToAdd;
+                    this.firstElement.NextItem = this.firstElement;
+                }
+                else
+                {
+                    throw new ArgumentException("Target item do not exist in this list.");
+                }
+            }
+            else
+            {
+                nodeToAdd.NextItem = targetNode.NextItem;
+                targetNode.NextItem = nodeToAdd;
+            }
+
+            this.Count++;
+        }
+
+        public void AddBefore(T target, T item)
+        {
+            if (target == null)
+            {
+                throw new ArgumentNullException("Item target value cannot be null.");
+            }
+
+            if (item == null)
+            {
+                throw new ArgumentNullException("Item value to add cannot be null.");
+            }
+
+            var nodeToAdd = new ListItem<T>(item);
+            var targetNode = Find(target);
+            if (targetNode == null)
+            {
+                if (this.firstElement == null)
+                {
+                    this.firstElement = nodeToAdd;
+                    this.firstElement.NextItem = this.firstElement;
+                }
+                else
+                {
+                    throw new ArgumentException("Target item do not exist in this list.");
+                }
+            }
+            else
+            {
+                ListItem<T> currentNode = this.firstElement;
+
+                while (currentNode.NextItem != targetNode)
+                {
+                    currentNode = currentNode.NextItem;
+                }
+
+                currentNode.NextItem = nodeToAdd;
+                nodeToAdd.NextItem = targetNode;
+            }
+
+            this.Count++;
+        }
+
         public void Clear()
         {
             ListItem<T> nextNode = this.firstElement;

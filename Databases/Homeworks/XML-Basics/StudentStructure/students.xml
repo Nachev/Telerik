@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root >
+  <students xmlns="urn:www.telerikacademy.com:students">
+    <student>
+      <name>Pesho</name>
+      <sex>Male</sex>
+      <birth_date>1989-09-09</birth_date>
+      <phone>"052-97-25-45"</phone>
+      <email>pesho@gmail.com</email>
+      <course>First winter</course>
+      <specialty>Computer Science</specialty>
+      <faculty_number>423-KN</faculty_number>
+      <exams>
+        <exam id="1">
+          <name>Discrete mathematics</name>
+          <tutor>Prof. Helmut Pottmann</tutor>
+          <score>3</score>
+        </exam>
+        <exam id="2">
+          <name>Linear Algebra</name>
+          <tutor>Prof. Alexander Postnikov</tutor>
+          <score>4</score>
+        </exam>
+        <exam id="3">
+          <name>Introduction to Computer Science</name>
+          <tutor>Prof. Mehran Sahami</tutor>
+          <score>4</score>
+        </exam>
+      </exams>
+    </student>
+    <student>
+      <name>Gosho</name>
+      <sex>Male</sex>
+      <birth_date>1999-02-19</birth_date>
+      <phone>"0700-00-15-45"</phone>
+      <email>gosho@gmail.com</email>
+      <course>First winter</course>
+      <specialty>Information Technology</specialty>
+      <faculty_number>123-IT</faculty_number>
+      <exams>
+        <exam id="1">
+          <name>Discrete mathematics</name>
+          <tutor>Prof. Helmut Pottmann</tutor>
+          <score>5</score>
+        </exam>
+        <exam id="2">
+          <name>Linear Algebra</name>
+          <tutor>Prof. Alexander Postnikov</tutor>
+          <score>3</score>
+        </exam>
+        <exam id="3">
+          <name>Web Technology</name>
+          <tutor>Prof. Timothy D. Stedman</tutor>
+          <score>5</score>
+        </exam>
+      </exams>
+    </student>
+  </students>
+</root>
