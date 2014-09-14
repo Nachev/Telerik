@@ -1,66 +1,109 @@
 ﻿namespace PriorityQueue
 {
     using System;
+    using System.Collections;
+    using System.Collections.Generic;
     using System.Linq;
 
-    public class PriorityQueue<T> where T : IComparable<T>
+    public class PriorityQueue<T> : IEnumerable<T> where T : IComparable<T>
     {
         private const int DefaultCapacity = 8;
         private int capacity;
         private T[] array;
-        private int size;
+        private int count;
+        private bool priorityMax;
 
-        public PriorityQueue()
+        public PriorityQueue(bool priorityMax = true)
         {
             this.capacity = DefaultCapacity;
-            this.array = new T[this.capacity];
-            this.size = 0;
+            Initialize(priorityMax);
         }
 
-        public PriorityQueue(int size)
+        public PriorityQueue(int initialCapacity, bool priorityMax = true)
         {
-            this.array = new T[size];
-            this.size = 0;
-            this.capacity = size;
+            if (initialCapacity < 1)
+            {
+                throw new ArgumentException("Illegal value for initial capacity. Must be non-zero positive value.");
+            }
+
+            this.capacity = initialCapacity;
+            Initialize(priorityMax);
+        }
+
+        public PriorityQueue(ICollection<T> inputArray, bool priorityMax = true)
+        {
+            if (inputArray == null)
+            {
+                throw new ArgumentNullException("Cannot convert null value to priority queue.");
+            }
+
+            this.capacity = inputArray.Count;
+            Initialize(priorityMax);
+
+            foreach (var item in inputArray)
+            {
+                this.Enqueue(item);
+            }
         }
 
         public int Count
         {
             get
             {
-                return this.size;
+                return this.count;
             }
         }
 
         public void Enqueue(T element)
         {
-            if (this.size >= this.capacity)
+            if (element == null)
+            {
+                throw new ArgumentNullException("Cannot add null value to the queue.");
+            }
+
+            if (this.count >= this.capacity)
             {
                 this.Resize();
             }
 
-            this.array[this.size] = element;
-            this.SiftUp();
-            this.size++;
+            this.array[this.count] = element;
+            if (this.priorityMax)
+            {
+                this.ShiftMaxUp();
+            }
+            else
+            {
+                this.ShiftMinUp();
+            }
+
+            this.count++;
         }
 
         public T Dequeue()
         {
-            if (this.size <= 0)
+            if (this.count <= 0)
             {
                 throw new ApplicationException("Cannot dequeue from empty queue!");
             }
 
             T headElement = this.array[0];
-            this.array[0] = this.array[this.size - 1];
-            this.size--;
-            this.SiftDown();
+            this.array[0] = this.array[this.count - 1];
+            this.count--;
+            if (this.priorityMax)
+            {
+                this.ShiftMaxDown();
+            }
+            else
+            {
+                this.ShiftMinDown();
+            }
+
             return headElement;
         }
 
         public T Peek()
         {
-            if (this.size <= 0)
+            if (this.count <= 0)
             {
                 throw new ArgumentException("Cannot peek into empty priority queue!");
             }
@@ -70,14 +113,21 @@
 
         public void Print()
         {
-            Console.WriteLine(string.Join(", ", this.array.Take(this.size)));
+            Console.WriteLine(string.Join(", ", this.array.Take(this.count)));
+        }
+
+        private void Initialize(bool priorityMax)
+        {
+            this.priorityMax = priorityMax;
+            this.array = new T[this.capacity];
+            this.count = 0;
         }
 
         private void Resize()
         {
             this.capacity = this.capacity * 2;
             T[] newArray = new T[this.capacity];
-            for (int i = 0; i < this.size; i++)
+            for (int i = 0; i < this.count; i++)
             {
                 newArray[i] = this.array[i];
             }
@@ -85,15 +135,37 @@
             this.array = newArray;
         }
 
-        private void SiftUp()
+        private void ShiftMinUp()
         {
-            int currentPosition = this.size;
+            this.ShiftUp((x, y) => x.CompareTo(y) < 0);
+        }
+
+        private void ShiftMinDown()
+        {
+
+            this.ShiftDown(((x, y) => x.CompareTo(y) > 0), ((x, y) => x.CompareTo(y) < 0));
+        }
+
+        private void ShiftMaxUp()
+        {
+            this.ShiftUp((x, y) => x.CompareTo(y) > 0);
+        }
+
+        private void ShiftMaxDown()
+        {
+            this.ShiftDown(((x, y) => x.CompareTo(y) < 0), ((x, y) => x.CompareTo(y) > 0));
+        }
+
+        private void ShiftUp(Func<T, T, bool> compare)
+        {
+            int currentPosition = this.count;
             int parentPosition = (currentPosition - 1) / 2;
+
             while (currentPosition > 0)
             {
-                if (this.array[currentPosition].CompareTo(this.array[parentPosition]) > 0)
+                if (compare(this.array[currentPosition], this.array[parentPosition]))
                 {
-                    this.Swap(ref this.array[currentPosition], ref this.array[parentPosition]);
+                    this.Swap(currentPosition, parentPosition);
                 }
                 else
                 {
@@ -105,28 +177,28 @@
             }
         }
 
-        private void SiftDown()
+        private void ShiftDown(Func<T, T, bool> compareChildren, Func<T, T, bool> compareToParent)
         {
             int currentPosition = 0;
             int leftChildPosition = (currentPosition * 2) + 1;
             int rightChildPosition = leftChildPosition + 1;
 
-            while (leftChildPosition < this.size)
+            while (leftChildPosition < this.count)
             {
                 int index = leftChildPosition;
 
-                if (rightChildPosition < this.size &&
-                    this.array[leftChildPosition].CompareTo(this.array[rightChildPosition]) < 0)
+                if (rightChildPosition < this.count &&
+                    compareChildren(this.array[leftChildPosition], this.array[rightChildPosition]))
                 {
                     index = rightChildPosition;
                 }
 
-                if (this.array[currentPosition].CompareTo(this.array[index]) > 0)
+                if (compareToParent(this.array[currentPosition], this.array[index]))
                 {
                     return;
                 }
 
-                this.Swap(ref this.array[currentPosition], ref this.array[index]);
+                this.Swap(currentPosition, index);
 
                 leftChildPosition = (index * 2) + 1;
                 rightChildPosition = leftChildPosition + 1;
@@ -134,11 +206,21 @@
             }
         }
 
-        private void Swap(ref T first, ref T second)
+        private void Swap(int first, int second)
         {
-            T oldValue = first;
-            first = second;
-            second = oldValue;
+            T oldValue = this.array[first];
+            this.array[first] = this.array[second];
+            this.array[second] = oldValue;
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return this.GetEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return this.array.GetEnumerator();
         }
     }
 }

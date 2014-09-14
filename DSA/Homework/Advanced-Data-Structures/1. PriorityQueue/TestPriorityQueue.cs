@@ -6,18 +6,24 @@
     {
         public static void Main(string[] args)
         {
-            PriorityQueue<int> testQueue = new PriorityQueue<int>(5);
+            PriorityQueue<int> testQueue = new PriorityQueue<int>(5, true);
             testQueue.Enqueue(1);
             testQueue.Enqueue(2);
             testQueue.Enqueue(3);
             testQueue.Enqueue(5);
             testQueue.Enqueue(1);
-            testQueue.Dequeue();
+            //testQueue.Dequeue();
             testQueue.Enqueue(25);
-            Console.WriteLine("Dequeue: {0}", testQueue.Dequeue());
+            //Console.WriteLine("Dequeue: {0}", testQueue.Dequeue());
             testQueue.Print();
             testQueue.Enqueue(2);
+            testQueue.Enqueue(7);
             testQueue.Print();
+
+            while (testQueue.Count > 0)
+            {
+                Console.WriteLine("Dequeue: {0}", testQueue.Dequeue());
+            }
         }
     }
 }
