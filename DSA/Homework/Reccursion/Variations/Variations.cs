@@ -5,7 +5,7 @@
 
     public static class Variations
     {
-        private static string[] arr = new string[] { "hi", "a", "b" };
+        private static string[] arr = new string[] { "a", "a", "b", "c" };
 
         public static void Main()
         {

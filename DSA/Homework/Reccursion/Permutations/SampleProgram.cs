@@ -10,7 +10,7 @@
     {
         private static void Main(string[] args)
         {
-            int n = 3;
+            int n = 2;
             int[] arr = new int[n];
             InitializeArray(arr);
             HeapCalcPermutations(arr, n);

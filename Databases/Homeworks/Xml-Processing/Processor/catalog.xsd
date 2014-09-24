@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="catalog"
+    targetNamespace="http://www.wtf.com/catalog"
+    elementFormDefault="qualified"
+    xmlns="http://www.wtf.com/catalog"
+    xmlns:mstns="http://tempuri.org/catalog.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+    <xs:element name="albums" type="albumsType"/>
+
+    <xs:complexType name="albumsType">
+      <xs:sequence>
+        <xs:element type="albumType" name="album" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="albumType">
+      <xs:sequence>
+        <xs:element type="xs:string" name="name"/>
+        <xs:element type="xs:string" name="artist"/>
+        <xs:element type="xs:string" name="producer"/>
+        <xs:element type="songsType" name="songs"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="price" use="required"/>
+      <xs:attribute type="xs:string" name="year" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="songType">
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="title" use="required"/>
+          <xs:attribute type="xs:string" name="duration" use="required"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="songsType">
+      <xs:sequence>
+        <xs:element type="songType" name="song" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+</xs:schema>

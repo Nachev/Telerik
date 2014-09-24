@@ -17,7 +17,7 @@
         private IGenericRepository<TransactionHistory> transactionLogRepo;
         private IList<string> errors;
 
-        public TransactionsHandler(DbContext dbContext, ICardAccountRepository cardAcountRepo, TransactionHistoryRepository transactionLogRepo)
+        public TransactionsHandler(DbContext dbContext, ICardAccountRepository cardAcountRepo, IGenericRepository<TransactionHistory> transactionLogRepo)
         {
             this.dbContext = dbContext;
             this.cardAcountRepo = cardAcountRepo;

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums xmlns="http://www.wtf.com/catalog">
+  <album price="15.00" year="2002">
+    <name>Theory of a Deadman</name>
+    <artist>Theory of a Deadman</artist>
+    <producer>Chad Kroeger</producer>
+    <songs>
+      <song title="Invisible Man" duration="2:41" />
+      <song title="Nothing Could Come Between Us" duration="3:24" />
+      <song title="Make Up Your Mind" duration="4:02" />
+      <song title="Point to Prove" duration="3:38" />
+      <song title="Leg to Stand On" duration="3:26" />
+      <song title="What You Deserve" duration="4:00" />
+      <song title="The Last Song" duration="4:27" />
+      <song title="Say I'm Sorry" duration="3:15" />
+      <song title="Any Other Way" duration="3:47" />
+      <song title="Confession" duration="3:57" />
+    </songs>
+  </album>
+  <album price="15.00" year="2008">
+    <name>Scars &amp; Souvenirs</name>
+    <artist>Theory of a Deadman</artist>
+    <producer>Howard Benson</producer>
+    <songs>
+      <song title="So Happy" duration="4:11" />
+      <song title="By the Way" duration="3:35" />
+      <song title="Got It Made" duration="3:14" />
+      <song title="Not Meant to Be" duration="3:33" />
+      <song title="Crutch" duration="3:16" />
+      <song title="All or Nothing" duration="3:30" />
+      <song title="Heaven (Little by Little)" duration="4:19" />
+      <song title="Bad Girlfriend" duration="3:25" />
+      <song title="Hate My Life" duration="3:10" />
+      <song title="Little Smirk" duration="3:31" />
+      <song title="End of the Summer" duration="3:30" />
+      <song title="Wait for Me" duration="4:03" />
+      <song title="Sacrifice" duration="2:54" />
+    </songs>
+  </album>
+  <album price="10.00" year="2011">
+    <name>The Unforgiving</name>
+    <artist>Within Temptation</artist>
+    <producer>Daniel Gibson</producer>
+    <songs>
+      <song title="Why Not Me" duration="0:34" />
+      <song title="Shot in the Dark" duration="5:02" />
+      <song title="In the Middle of the Night" duration="5:11" />
+      <song title="Faster" duration="4:23" />
+      <song title="Fire and Ice" duration="3:57" />
+      <song title="Iron" duration="5:41" />
+      <song title="Where Is the Edge" duration="3:59" />
+      <song title="Sinéad" duration="4:23" />
+      <song title="Lost" duration="5:14" />
+      <song title="Murder" duration="4:16" />
+      <song title="A Demon's Fate" duration="5:30" />
+      <song title="Stairway to the Skies" duration="5:32" />
+    </songs>
+  </album>
+  <album price="17.00" year="2004">
+    <name>Once</name>
+    <artist>Nightwish</artist>
+    <producer>Tuomas Holopainen</producer>
+    <songs>
+      <song title="Dark Chest of Wonders" duration="4:29" />
+      <song title="Wish I Had an Angel" duration="4:06" />
+      <song title="Nemo" duration="4:36" />
+      <song title="Planet Hell" duration="4:39" />
+      <song title="Creek Mary's Blood" duration="8:30" />
+      <song title="The Siren" duration="4:45" />
+      <song title="Dead Gardens" duration="4:28" />
+      <song title="Romanticide" duration="4:58" />
+      <song title="Ghost Love Score" duration="10:02" />
+      <song title="Kuolema Tekee Taiteilijan" duration="3:59" />
+      <song title="Than Hope" duration="5:37" />
+    </songs>
+  </album>
+</albums>
