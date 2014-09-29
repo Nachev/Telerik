@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://www.book.store.bg" />
+<title>bookStore_testSearchFeatureWithSqlWilds_shouldReturnMessage</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">bookStore_testSearchFeatureWithSqlWilds_shouldReturnMessage</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeElementPresent</td>
+	<td>//html/body/div[3]/div[1]/div[1]/div[@class='lc-container-title-position lc-container-title']</td>
+	<td>allSectionsSelected</td>
+</tr>
+<tr>
+	<td>gotoIf</td>
+	<td>${allSectionsSelected}</td>
+	<td>search</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//html/body/div[3]/div[1]/div[1]/div[2]/form/table/tbody/tr[1]/td[1]/label/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>label</td>
+	<td>search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//html/body/div[3]/div[1]/div[1]/div[2]/form/div[1]/input</td>
+	<td>_%_</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//html/body/div[3]/div[1]/div[1]/div[2]/form/table/tbody/tr[1]/td[2]/input[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//html/body/div[3]/div[2]/div[2]/div[3]/div[6]/table/tbody/tr/td[2]</td>
+	<td>*_%_*</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//html/body/div[3]/div[2]/div[2]/div[3]/div[4]</td>
+	<td>*Търсенето Ви е прекалено общо, моля бъдете по-конкретни.*</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
