@@ -1,0 +1,634 @@
+<html>
+<head><style type='text/css'>
+body, table {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-style: italic;
+}
+
+.selected {
+    background-color: #ffffcc;
+}
+
+.status_done {
+    background-color: #eeffee;
+}
+
+.status_passed {
+    background-color: #ccffcc;
+}
+
+.status_failed {
+    background-color: #ffcccc;
+}
+
+.breakpoint {
+    background-color: #cccccc;
+    border: 1px solid black;
+}
+</style><title>Test suite results</title></head>
+<body>
+<h1>Test suite results </h1>
+
+<table>
+<tr>
+<td>result:</td>
+<td>passed</td>
+</tr>
+<tr>
+<td>totalTime:</td>
+<td>56</td>
+</tr>
+<tr>
+<td>numTestTotal:</td>
+<td>3</td>
+</tr>
+<tr>
+<td>numTestPasses:</td>
+<td>3</td>
+</tr>
+<tr>
+<td>numTestFailures:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandPasses:</td>
+<td>5</td>
+</tr>
+<tr>
+<td>numCommandFailures:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandErrors:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Selenium Version:</td>
+<td>2.32</td>
+</tr>
+<tr>
+<td>Selenium Revision:</td>
+<td>.0</td>
+</tr>
+<tr>
+<td>
+<table id="suiteTable" class="selenium" border="1" cellpadding="1" cellspacing="1"><tbody>
+<tr class="title status_passed"><td><b>Test Suite</b></td></tr>
+<tr class="  status_passed"><td><a href="YahooB&amp;C.html">YahooB&amp;C</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult1">YahooD</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult2">YahooA</a></td></tr>
+</tbody></table>
+
+
+</td>
+<td>&nbsp;</td>
+</tr>
+</table><table><tr>
+<td><a name="testresult0">YahooB&C.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">YahooB&amp;C</td></tr>
+</thead><tbody>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>http://www.yahoo.com/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>gotoIf</td>
+	<td>selenium.isTextPresent("Sign In")==false</td>
+	<td>signed</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>//div[contains(@id, 'default-p_30345710_')]/a/em/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=username</td>
+	<td>georgieva.asya</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=passwd</td>
+	<td>123qweasd</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>id=.save</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>//div[contains(@id, 'default-p_30345789-bd')]/ul/li/a/i</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>//span[contains(@id, 'main-btn-new')]/a</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=to-field</td>
+	<td>georgieva.asya@yahoo.com</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>keyDown</td>
+	<td>id=to-field</td>
+	<td>\13</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=subject-field</td>
+	<td>QA Exam #1</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>//span[@id='btn-send']/a</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>refresh</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>//li[@id='Inbox']/a/i</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>waitForElementPresent</td>
+	<td>//div[@class='subj']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>storeText</td>
+	<td>//div[@class='subj']/span[@class='txt']</td>
+	<td>inboxSubj</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>echo</td>
+	<td>${inboxSubj}</td>
+	<td>QA Exam #1</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>//li[@id='Sent']/a</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>pause</td>
+	<td>5030</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>storeAttribute</td>
+	<td>//div[@class='list-view-items-page']/div[@class='list-view-item&nbsp;&nbsp;&nbsp;btn-msglist resize-columns']/div[@class='flex']/div[@class='from']@title</td>
+	<td>title</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>echo</td>
+	<td>${title}</td>
+	<td>georgieva.asya@yahoo.com</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>storeText</td>
+	<td>//div[@class='subj']/span[@class='txt']</td>
+	<td>sentSubj</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>echo</td>
+	<td>${sentSubj}</td>
+	<td>QA Exam #1</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>assertAttribute</td>
+	<td>//div[@class='list-view-items-page']/div[@class='list-view-item&nbsp;&nbsp;&nbsp;btn-msglist resize-columns']/div[@class='flex']/div[@class='from']@title</td>
+	<td>georgieva.asya@yahoo.com</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>assertEval</td>
+	<td>storedVars['inboxSubj']==storedVars['sentSubj']</td>
+	<td>true</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>http://www.yahoo.com/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>label</td>
+	<td>signed</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>//div[contains(@id, 'default-p_30345710_')]/a/em/</td>
+	<td>Hi, Asya</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>mouseOver</td>
+	<td>//div[contains(@id, 'default-p_30345710_')]/a/em/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>//html/body/div/div/div[2]/div/div/ul/li/div/div/ul/li[4]/a/span</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult1">YahooD.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">YahooD</td></tr>
+</thead><tbody>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>http://www.yahoo.com/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>gotoIf</td>
+	<td>selenium.isTextPresent("Sign In")==false</td>
+	<td>signed</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>//div[contains(@id, 'default-p_30345710_')]/a/em/</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=username</td>
+	<td>georgieva.asya</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=passwd</td>
+	<td>123qweasd</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>click</td>
+	<td>id=.save</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>//div[contains(@id, 'default-p_30345789-bd')]/ul/li/a/i</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>click</td>
+	<td>//span[contains(@id, 'main-btn-new')]/a</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=to-field</td>
+	<td>georgieva.asya@yahoo.com</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>keyDown</td>
+	<td>id=to-field</td>
+	<td>\13</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>storeEval</td>
+	<td>"something"+(Math.random()*10).toString()</td>
+	<td>subject</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=subject-field</td>
+	<td>${subject}</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>click</td>
+	<td>//span[@id='btn-send']/a</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>refresh</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>//li[@id='Inbox']/a/i</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>waitForElementPresent</td>
+	<td>//div[@class='subj']</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>storeText</td>
+	<td>//div[@class='subj']/span[@class='txt']</td>
+	<td>inboxSubj</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>echo</td>
+	<td>${inboxSubj}</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>click</td>
+	<td>//li[@id='Sent']/a</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>pause</td>
+	<td>5030</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>storeAttribute</td>
+	<td>//div[@class='list-view-items-page']/div[@class='list-view-item&nbsp;&nbsp;&nbsp;btn-msglist resize-columns']/div[@class='flex']/div[@class='from']@title</td>
+	<td>title</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>echo</td>
+	<td>${title}</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>storeText</td>
+	<td>//div[@class='subj']/span[@class='txt']</td>
+	<td>sentSubj</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>echo</td>
+	<td>${sentSubj}</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>assertAttribute</td>
+	<td>//div[@class='list-view-items-page']/div[@class='list-view-item&nbsp;&nbsp;&nbsp;btn-msglist resize-columns']/div[@class='flex']/div[@class='from']@title</td>
+	<td>georgieva.asya@yahoo.com</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>assertEval</td>
+	<td>storedVars['inboxSubj']==storedVars['sentSubj']</td>
+	<td>true</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>open</td>
+	<td>http://www.yahoo.com/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>label</td>
+	<td>signed</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>//div[contains(@id, 'default-p_30345710_')]/a/em/</td>
+	<td>Hi, Asya</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>mouseOver</td>
+	<td>//div[contains(@id, 'default-p_30345710_')]/a/em/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>//html/body/div/div/div[2]/div/div/ul/li/div/div/ul/li[4]/a/span</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult2">YahooA.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">LogInYahoo</td></tr>
+</thead><tbody>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>http://www.yahoo.com/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>gotoIf</td>
+	<td>selenium.isTextPresent("Sign In")==false</td>
+	<td>signed</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>//div[contains(@id, 'default-p_30345710_')]/a/em/</td>
+	<td></td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=username</td>
+	<td>georgieva.asya</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=passwd</td>
+	<td>123qweasd</td>
+</tr>
+<tr class="" style="cursor: pointer;">
+	<td>click</td>
+	<td>id=.save</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>label</td>
+	<td>signed</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>//div[contains(@id, 'default-p_30345710_')]/a/em/</td>
+	<td>Hi, Asya</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>mouseOver</td>
+	<td>//div[contains(@id, 'default-p_30345710_')]/a/em/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>//html/body/div/div/div[2]/div/div/ul/li/div/div/ul/li[4]/a/span</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr></table><pre>
+info: Starting test /selenium-server/tests/YahooB&amp;C.html
+info: Executing: |open | http://www.yahoo.com/ |  |
+info: Executing: |gotoIf | selenium.isTextPresent(&quot;Sign In&quot;)==false | signed |
+info: Executing: |clickAndWait | //div[contains(@id, &apos;default-p_30345710_&apos;)]/a/em/ |  |
+info: Executing: |type | id=username | georgieva.asya |
+info: Executing: |type | id=passwd | 123qweasd |
+info: Executing: |click | id=.save |  |
+info: Executing: |pause | 3000 |  |
+info: Executing: |clickAndWait | //div[contains(@id, &apos;default-p_30345789-bd&apos;)]/ul/li/a/i |  |
+info: Executing: |click | //span[contains(@id, &apos;main-btn-new&apos;)]/a |  |
+info: Executing: |pause | 2000 |  |
+info: Executing: |type | id=to-field | georgieva.asya@yahoo.com |
+info: Executing: |keyDown | id=to-field | \13 |
+info: Executing: |type | id=subject-field | QA Exam #1 |
+info: Executing: |pause | 2000 |  |
+info: Executing: |click | //span[@id=&apos;btn-send&apos;]/a |  |
+info: Executing: |pause | 5000 |  |
+info: Executing: |refresh |  |  |
+info: Executing: |clickAndWait | //li[@id=&apos;Inbox&apos;]/a/i |  |
+info: Executing: |pause | 5000 |  |
+info: Executing: |waitForElementPresent | //div[@class=&apos;subj&apos;] |  |
+info: Executing: |storeText | //div[@class=&apos;subj&apos;]/span[@class=&apos;txt&apos;] | inboxSubj |
+info: Executing: |echo | ${inboxSubj} |  |
+info: Executing: |click | //li[@id=&apos;Sent&apos;]/a |  |
+info: Executing: |pause | 5030 |  |
+info: Executing: |storeAttribute | //div[@class=&apos;list-view-items-page&apos;]/div[@class=&apos;list-view-item   btn-msglist resize-columns&apos;]/div[@class=&apos;flex&apos;]/div[@class=&apos;from&apos;]@title | title |
+info: Executing: |pause | 2000 |  |
+info: Executing: |echo | ${title} |  |
+info: Executing: |pause | 2000 |  |
+info: Executing: |storeText | //div[@class=&apos;subj&apos;]/span[@class=&apos;txt&apos;] | sentSubj |
+info: Executing: |echo | ${sentSubj} |  |
+info: Executing: |assertAttribute | //div[@class=&apos;list-view-items-page&apos;]/div[@class=&apos;list-view-item   btn-msglist resize-columns&apos;]/div[@class=&apos;flex&apos;]/div[@class=&apos;from&apos;]@title | georgieva.asya@yahoo.com |
+info: Executing: |assertEval | storedVars[&apos;inboxSubj&apos;]==storedVars[&apos;sentSubj&apos;] | true |
+info: script is: storedVars[&apos;inboxSubj&apos;]==storedVars[&apos;sentSubj&apos;]
+info: Executing: |open | http://www.yahoo.com/ |  |
+info: Executing: |label | signed |  |
+info: Executing: |pause | 2000 |  |
+info: Executing: |verifyText | //div[contains(@id, &apos;default-p_30345710_&apos;)]/a/em/ | Hi, Asya |
+info: Executing: |mouseOver | //div[contains(@id, &apos;default-p_30345710_&apos;)]/a/em/ |  |
+info: Executing: |click | //html/body/div/div/div[2]/div/div/ul/li/div/div/ul/li[4]/a/span |  |
+info: Starting test /selenium-server/tests/YahooD.html
+info: Executing: |open | http://www.yahoo.com/ |  |
+info: Executing: |gotoIf | selenium.isTextPresent(&quot;Sign In&quot;)==false | signed |
+info: Executing: |label | signed |  |
+info: Executing: |pause | 2000 |  |
+info: Executing: |verifyText | //div[contains(@id, &apos;default-p_30345710_&apos;)]/a/em/ | Hi, Asya |
+info: Executing: |mouseOver | //div[contains(@id, &apos;default-p_30345710_&apos;)]/a/em/ |  |
+info: Executing: |click | //html/body/div/div/div[2]/div/div/ul/li/div/div/ul/li[4]/a/span |  |
+info: Starting test /selenium-server/tests/YahooA.html
+info: Executing: |open | http://www.yahoo.com/ |  |
+info: Executing: |gotoIf | selenium.isTextPresent(&quot;Sign In&quot;)==false | signed |
+info: Executing: |label | signed |  |
+info: Executing: |pause | 2000 |  |
+info: Executing: |verifyText | //div[contains(@id, &apos;default-p_30345710_&apos;)]/a/em/ | Hi, Asya |
+info: Executing: |mouseOver | //div[contains(@id, &apos;default-p_30345710_&apos;)]/a/em/ |  |
+info: Executing: |click | //html/body/div/div/div[2]/div/div/ul/li/div/div/ul/li[4]/a/span |  |
+</pre></body></html>
