@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriver.Tests", "WebDriverTests\WebDriver.Tests.csproj", "{9E4FE64C-CD26-4DAE-8728-EEE972A32906}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CAF6D06C-B79F-4A96-B29D-B25A6CC02DF9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriver.Pages", "WebDriver.Pages\WebDriver.Pages.csproj", "{78DCD3D3-3120-4823-83D9-AE737A5084E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriver.Extensions", "WebDriver.Extensions\WebDriver.Extensions.csproj", "{36F4FD35-A490-4A0A-974D-EA74A3EE4BEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Pages", "Telerik.Pages\Telerik.Pages.csproj", "{C8E777FD-1200-4572-B38F-AF4A44603A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Tests", "Telerik.Tests\Telerik.Tests.csproj", "{ACD1B6D3-F064-403C-A81F-88031B25D362}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E4FE64C-CD26-4DAE-8728-EEE972A32906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4FE64C-CD26-4DAE-8728-EEE972A32906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4FE64C-CD26-4DAE-8728-EEE972A32906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4FE64C-CD26-4DAE-8728-EEE972A32906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DCD3D3-3120-4823-83D9-AE737A5084E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DCD3D3-3120-4823-83D9-AE737A5084E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DCD3D3-3120-4823-83D9-AE737A5084E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DCD3D3-3120-4823-83D9-AE737A5084E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F4FD35-A490-4A0A-974D-EA74A3EE4BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F4FD35-A490-4A0A-974D-EA74A3EE4BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F4FD35-A490-4A0A-974D-EA74A3EE4BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F4FD35-A490-4A0A-974D-EA74A3EE4BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E777FD-1200-4572-B38F-AF4A44603A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E777FD-1200-4572-B38F-AF4A44603A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E777FD-1200-4572-B38F-AF4A44603A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E777FD-1200-4572-B38F-AF4A44603A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD1B6D3-F064-403C-A81F-88031B25D362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD1B6D3-F064-403C-A81F-88031B25D362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD1B6D3-F064-403C-A81F-88031B25D362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD1B6D3-F064-403C-A81F-88031B25D362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
