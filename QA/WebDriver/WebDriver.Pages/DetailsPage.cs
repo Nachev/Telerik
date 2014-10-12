@@ -410,7 +410,7 @@
             this.Phone.SendKeys(DefaultUserDetails.Phone, true);
             this.AboutMe.SendKeys(DefaultUserDetails.AboutMe, true);
             this.WebSite.SendKeys(DefaultUserDetails.WebSite, true);
-            this.SelectUniversityByText(DefaultUserDetails.University);
+            this.SelectUniversityByIndex(DefaultUserDetails.University);
             this.Faculty.SendKeys(DefaultUserDetails.Faculty, true);
             this.UniversitySpeciality.SendKeys(DefaultUserDetails.UniversitySpeciality, true);
             this.FacultyNumber.SendKeys(DefaultUserDetails.FacultyNumber, true);
@@ -429,7 +429,7 @@
             this.SexRadio.FindElement(By.Id(id)).Click();
         }
  
-        private void SelectUniversityByText(int index)
+        private void SelectUniversityByIndex(int index)
         {
             this.driver.GetElement(By.XPath("//*[@id=\"SettingsForm\"]/fieldset[3]/div[2]/span[1]/span/span/span")).Click();
             WebDriverWait wait = new WebDriverWait(this.driver, TimeSpan.FromSeconds(30));
