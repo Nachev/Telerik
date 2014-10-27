@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
+
 using ArtOfTest.WebAii.Controls.HtmlControls;
 using ArtOfTest.WebAii.Controls.HtmlControls.HtmlAsserts;
 using ArtOfTest.WebAii.Core;
@@ -16,18 +16,17 @@ using ArtOfTest.WebAii.Silverlight.UI;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace TestSearchFeature
+namespace TestKendoUi
 {
     /// <summary>
-    /// 1.	Test Search in http://telerikacademy.com/ 
-    ///  - WPF returns 2 cources and 1 track
-    ///  - Quality returns 1 user, 5 cources and 1 track
-    ///  - Webaii does not return results
+    /// Summary description for TestKendoDemos
     /// </summary>
     [TestClass]
-    public class TestSearchFeature : BaseTest
+    public class TestKendoDemos : BaseTest
     {
+
         #region [Setup / TearDown]
+
         private TestContext testContextInstance = null;
         /// <summary>
         ///Gets or sets the VS test context which provides
@@ -46,11 +45,13 @@ namespace TestSearchFeature
             }
         }
 
+
         //Use ClassInitialize to run code before running the first test in the class
         [ClassInitialize()]
         public static void MyClassInitialize(TestContext testContext)
         {
         }
+
 
         // Use TestInitialize to run code before running each test
         [TestInitialize()]
@@ -107,7 +108,8 @@ namespace TestSearchFeature
 
             #endregion
 
-            Manager.LaunchNewBrowser(BrowserType.InternetExplorer);
+            Manager.
+
         }
 
         // Use TestCleanup to run code after each test has run
@@ -115,7 +117,9 @@ namespace TestSearchFeature
         public void MyTestCleanup()
         {
 
-            ActiveBrowser.Close();
+            //
+            // Place any additional cleanup here
+            //
 
             #region WebAii CleanUp
 
@@ -138,104 +142,5 @@ namespace TestSearchFeature
 
         #endregion
 
-        [TestMethod]
-        public void TestWithWpf()
-        {
-            int coursesExpectedCount = 2;
-            int tracksExpectedCount = 1;
-
-            string coursesName = "Курсове";
-            string tracksName = "Тракове";
-            string text = "WPF";
-
-            ActiveBrowser.NavigateTo("http://telerikacademy.com/");
-            SearchForText(text);
-
-            var coursesCount = GetResultSubareaCount(coursesName);
-
-            Assert.AreEqual(coursesExpectedCount, coursesCount, "Wrong courses count.");
-
-            var tracksCount = GetResultSubareaCount(tracksName);
-
-            Assert.AreEqual(tracksExpectedCount, tracksCount, "Wrong track count.");
-        }
-
-        [TestMethod]
-        public void TestWithQuality()
-        {
-            int usersExpectedCount = 1;
-            int coursesExpectedCount = 5;
-            int tracksExpectedCount = 1;
-
-            string coursesName = "Курсове";
-            string tracksName = "Тракове";
-            string usersName = "Потребители";
-            string text = "Quality ";
-
-            ActiveBrowser.NavigateTo("http://telerikacademy.com/");
-            SearchForText(text);
-
-            var coursesCount = GetResultSubareaCount(coursesName);
-
-            Assert.AreEqual(coursesExpectedCount, coursesCount, "Wrong courses count.");
-
-            var tracksCount = GetResultSubareaCount(tracksName);
-
-            Assert.AreEqual(tracksExpectedCount, tracksCount, "Wrong track count.");
-
-            var usersCount = GetResultSubareaCount(usersName);
-
-            Assert.AreEqual(usersExpectedCount, usersCount, "Wrong users count.");
-        }
-
-        [TestMethod]
-        public void TestWithWebAii()
-        {
-            int usersExpectedCount = 1;
-            int coursesExpectedCount = 0;
-            int tracksExpectedCount = 0;
-
-            string coursesName = "Курсове";
-            string tracksName = "Тракове";
-            string usersName = "Потребители";
-            string text = "WebAii ";
-
-            ActiveBrowser.NavigateTo("http://telerikacademy.com/");
-            SearchForText(text);
-
-            var coursesCount = GetResultSubareaCount(coursesName);
-
-            Assert.AreEqual(coursesExpectedCount, coursesCount, "Wrong courses count.");
-
-            var tracksCount = GetResultSubareaCount(tracksName);
-
-            Assert.AreEqual(tracksExpectedCount, tracksCount, "Wrong track count.");
-
-            var usersCount = GetResultSubareaCount(usersName);
-
-            Assert.AreEqual(usersExpectedCount, usersCount, "Wrong users count.");
-        }
-
-        private void SearchForText(string text)
-        {
-            Find.ById<HtmlInputText>("SearchTerm").Text = text;
-            Find.ById<HtmlInputSubmit>("SearchButton").Click();
-        }
- 
-        private int GetResultSubareaCount(string tracksName)
-        {
-            var resultDivs = Find.ById<HtmlControl>("MainContent").Find.AllByAttributes<HtmlDiv>("class=SearchResultsCategory");
-            var tracksArea = resultDivs.FirstOrDefault(e => e.Find
-                                                             .ByAttributes<HtmlContainerControl>("class=SearchResultsCategoryTitle")
-                                                             .InnerText
-                                                             .Contains(tracksName));
-            if (tracksArea == null)
-            {
-                return 0;
-            }
-
-            var tracksCount = tracksArea.Find.ByAttributes<HtmlUnorderedList>("class=SearchMetroList").Find.AllByTagName("li").Count;
-            return tracksCount;
-        }
     }
 }
