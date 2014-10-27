@@ -1000,4 +1000,10 @@
   <data name="Courses Change Test Courses Dates to Todayz3kzjlfc.0h3" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
+<<<<<<< HEAD
+  <data name="Courses Change Test Courses Dates to Today2julunjc.pcd" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+=======
+>>>>>>> c13e869b8a78fd8ed52acdec3a575a4dcb054931
 </root>
