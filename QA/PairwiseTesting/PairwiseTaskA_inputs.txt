@@ -1,0 +1,3 @@
+Operating System: Linux, Windows XP
+Browser: Netscape, Internet Explorer, Opera
+Connection: DSL, dial-up, cable

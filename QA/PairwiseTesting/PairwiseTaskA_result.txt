@@ -1,0 +1,10 @@
+Operating System	Browser	Connection
+Linux	Opera	DSL
+Linux	Internet Explorer	cable
+Windows XP	Netscape	DSL
+Linux	Netscape	dial-up
+Windows XP	Internet Explorer	DSL
+Windows XP	Netscape	cable
+Windows XP	Internet Explorer	dial-up
+Windows XP	Opera	dial-up
+Linux	Opera	cable

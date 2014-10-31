@@ -1,0 +1,25 @@
+Browser	Plug-in	Client operating system	Server	Server operating system
+Mozilla	None	Windows XP	IIS	Windows NT
+Netscape	MediaPlayer	Windows 2000	Apache	Linux
+Netscape	RealPlayer	Windows 98	WebLogic	Windows 2000
+Internet Explorer	MediaPlayer	Windows 98	IIS	Linux
+Opera	RealPlayer	Windows 98	Apache	Windows NT
+Netscape	MediaPlayer	Windows 95	WebLogic	Windows NT
+Netscape	None	Windows ME	IIS	Windows 2000
+Netscape	RealPlayer	Windows XP	WebLogic	Linux
+Opera	None	Windows 2000	WebLogic	Windows 2000
+Internet Explorer	None	Windows NT	Apache	Windows 2000
+Internet Explorer	RealPlayer	Windows ME	WebLogic	Windows NT
+Opera	MediaPlayer	Windows XP	IIS	Windows 2000
+Opera	None	Windows ME	Apache	Linux
+Mozilla	MediaPlayer	Windows ME	WebLogic	Linux
+Opera	RealPlayer	Windows 95	IIS	Linux
+Mozilla	None	Windows 95	Apache	Windows 2000
+Mozilla	RealPlayer	Windows NT	WebLogic	Windows NT
+Mozilla	RealPlayer	Windows 2000	IIS	Windows NT
+Internet Explorer	RealPlayer	Windows XP	Apache	Windows NT
+Internet Explorer	None	Windows 95	IIS	Linux
+Internet Explorer	RealPlayer	Windows 2000	IIS	Windows NT
+Opera	MediaPlayer	Windows NT	IIS	Linux
+Mozilla	None	Windows 98	Apache	Windows 2000
+Netscape	RealPlayer	Windows NT	WebLogic	Linux

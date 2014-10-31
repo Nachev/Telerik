@@ -1,0 +1,5 @@
+Browser: Internet Explorer, Netscape, Mozilla, Opera
+Plug-in: None, RealPlayer, MediaPlayer 
+Client operating system: Windows 95, Windows 98, Windows ME, Windows NT, Windows 2000, Windows XP
+Server: IIS, Apache, WebLogic
+Server operating system: Windows NT, Windows 2000, Linux
