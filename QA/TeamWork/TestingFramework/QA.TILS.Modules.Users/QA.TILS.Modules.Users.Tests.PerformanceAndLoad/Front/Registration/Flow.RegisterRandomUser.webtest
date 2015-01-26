@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="Flow.RegisterRandomUser" Id="eac4fd55-21b4-47ec-bf60-38d2a2aad355" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.a0ad4362-b6e6-4273-8a17-23aea5c57bf2.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <IncludedWebTest Name="PageLoad.Registration" Path="pageload.registration.webtest" Id="d74ec7ba-455e-4d02-91bc-48e8c1c89d26" IsCodedWebTest="False" InheritWebTestSettings="False" />
+    <Request Method="POST" Guid="61b12fc8-d29e-489b-9650-46981fcbf451" Version="1.1" Url="{{BaseUrl}}/Users/Auth/Registration" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{BaseUrl}}/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{BaseUrl}}/Users/Auth/Registration" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="Username" Value="{{Username}}" RecordedValue="cbtugherauh443897tgh734" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Password" Value="123456" RecordedValue="123456" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="PasswordAgain" Value="123456" RecordedValue="123456" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FirstName" Value="Име" RecordedValue="Име" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="LastName" Value="Фамилия" RecordedValue="Фамилия" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Email" Value="{{Email}}" RecordedValue="cbth8dh8fh8eh8@email.com" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="TermsAndConditions" Value="true" RecordedValue="true" CorrelationBinding="{{FormPostParam1.TermsAndConditions}}" UrlEncode="True" />
+        <FormPostParameter Name="TermsAndConditions" Value="{{$HIDDEN1.TermsAndConditions}}" RecordedValue="false" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="1b1ab083-1d3f-4361-887a-dbd0f6a372e1" Version="1.1" Url="{{BaseUrl}}/Users/Auth/LogOut" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{BaseUrl}}/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{BaseUrl}}/" />
+      </Headers>
+    </Request>
+  </Items>
+  <ContextParameters>
+    <ContextParameter Name="BaseUrl" Value="http://test.telerikacademy.com" />
+    <ContextParameter Name="Username" Value="testUsername" />
+    <ContextParameter Name="Email" Value="test@mail.com" />
+  </ContextParameters>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="High" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+  <WebTestPlugins>
+    <WebTestPlugin Classname="PerformanceTest.Plugins.RandomUsernamePlugin, PerformanceTest.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="RandomUsernamePlugin" Description="">
+      <RuleParameters>
+        <RuleParameter Name="ParameterName" Value="Username" />
+        <RuleParameter Name="Addition" Value="" />
+      </RuleParameters>
+    </WebTestPlugin>
+    <WebTestPlugin Classname="PerformanceTest.Plugins.RandomUsernamePlugin, PerformanceTest.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="RandomUsernamePlugin" Description="">
+      <RuleParameters>
+        <RuleParameter Name="ParameterName" Value="Email" />
+        <RuleParameter Name="Addition" Value="@mail.com" />
+      </RuleParameters>
+    </WebTestPlugin>
+  </WebTestPlugins>
+</WebTest>

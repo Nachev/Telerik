@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QA.TILS.Modules.Users.Core", "QA.TILS.Modules.Users.Core\QA.TILS.Modules.Users.Core.csproj", "{5B3F0EA2-5768-4388-9EDE-59BF193B6FC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QA.Framework.Core", "QA.Framework.Core\QA.Framework.Core.csproj", "{E633A8A2-559F-4577-B3BF-C575A505559C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QA.TILS.Modules.Users.Tests.Functional", "QA.TILS.Modules.Users.Tests\QA.TILS.Modules.Users.Tests.Functional.csproj", "{B3E27BA2-8022-4D62-AC98-E5B045D8EFA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QA.TILS.Modules.Users.Tests.Performance", "QA.TILS.Modules.Users.Tests.PerformanceAndLoad\QA.TILS.Modules.Users.Tests.Performance.csproj", "{50755CFC-B49F-409E-9568-B61CE6F842C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{80AE60AD-02C5-4EAB-8B0F-EAE310B6E8B8}"
+	ProjectSection(SolutionItems) = preProject
+		CloudBasedTests.testsettings = CloudBasedTests.testsettings
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QA.TILS.Modules.Users.Tests.Load", "QA.TILS.Modules.Users.Tests.Load\QA.TILS.Modules.Users.Tests.Load.csproj", "{D6A15F55-E40B-4670-9059-CD5774BE89BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QA.TILS.Modules.Users.Tests.Stress", "QA.TILS.Modules.Users.Tests.Stress\QA.TILS.Modules.Users.Tests.Stress.csproj", "{073708AC-CD2B-48E2-9412-820DE1BC0433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceTest.Plugins", "PerformanceTest.Plugins\PerformanceTest.Plugins.csproj", "{65FF4867-95E2-43A4-A12F-58391AFB3B39}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://teamcloudberry.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = QA.Framework.Core\\QA.Framework.Core.csproj
+		SccProjectName1 = QA.Framework.Core
+		SccLocalPath1 = QA.Framework.Core
+		SccProjectUniqueName2 = QA.TILS.Modules.Users.Core\\QA.TILS.Modules.Users.Core.csproj
+		SccProjectName2 = QA.TILS.Modules.Users.Core
+		SccLocalPath2 = QA.TILS.Modules.Users.Core
+		SccProjectUniqueName3 = QA.TILS.Modules.Users.Tests.PerformanceAndLoad\\QA.TILS.Modules.Users.Tests.Performance.csproj
+		SccProjectName3 = QA.TILS.Modules.Users.Tests.PerformanceAndLoad
+		SccLocalPath3 = QA.TILS.Modules.Users.Tests.PerformanceAndLoad
+		SccProjectUniqueName4 = QA.TILS.Modules.Users.Tests.Load\\QA.TILS.Modules.Users.Tests.Load.csproj
+		SccProjectName4 = QA.TILS.Modules.Users.Tests.Load
+		SccLocalPath4 = QA.TILS.Modules.Users.Tests.Load
+		SccProjectUniqueName5 = QA.TILS.Modules.Users.Tests.Stress\\QA.TILS.Modules.Users.Tests.Stress.csproj
+		SccProjectName5 = QA.TILS.Modules.Users.Tests.Stress
+		SccLocalPath5 = QA.TILS.Modules.Users.Tests.Stress
+		SccProjectUniqueName6 = QA.TILS.Modules.Users.Tests\\QA.TILS.Modules.Users.Tests.Functional.csproj
+		SccProjectName6 = QA.TILS.Modules.Users.Tests
+		SccLocalPath6 = QA.TILS.Modules.Users.Tests
+		SccProjectUniqueName7 = PerformanceTest.Plugins\\PerformanceTest.Plugins.csproj
+		SccProjectName7 = PerformanceTest.Plugins
+		SccLocalPath7 = PerformanceTest.Plugins
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B3F0EA2-5768-4388-9EDE-59BF193B6FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B3F0EA2-5768-4388-9EDE-59BF193B6FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B3F0EA2-5768-4388-9EDE-59BF193B6FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B3F0EA2-5768-4388-9EDE-59BF193B6FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E633A8A2-559F-4577-B3BF-C575A505559C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E633A8A2-559F-4577-B3BF-C575A505559C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E633A8A2-559F-4577-B3BF-C575A505559C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E633A8A2-559F-4577-B3BF-C575A505559C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E27BA2-8022-4D62-AC98-E5B045D8EFA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E27BA2-8022-4D62-AC98-E5B045D8EFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E27BA2-8022-4D62-AC98-E5B045D8EFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E27BA2-8022-4D62-AC98-E5B045D8EFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50755CFC-B49F-409E-9568-B61CE6F842C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50755CFC-B49F-409E-9568-B61CE6F842C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50755CFC-B49F-409E-9568-B61CE6F842C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50755CFC-B49F-409E-9568-B61CE6F842C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A15F55-E40B-4670-9059-CD5774BE89BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A15F55-E40B-4670-9059-CD5774BE89BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A15F55-E40B-4670-9059-CD5774BE89BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A15F55-E40B-4670-9059-CD5774BE89BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073708AC-CD2B-48E2-9412-820DE1BC0433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073708AC-CD2B-48E2-9412-820DE1BC0433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073708AC-CD2B-48E2-9412-820DE1BC0433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073708AC-CD2B-48E2-9412-820DE1BC0433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65FF4867-95E2-43A4-A12F-58391AFB3B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65FF4867-95E2-43A4-A12F-58391AFB3B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65FF4867-95E2-43A4-A12F-58391AFB3B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65FF4867-95E2-43A4-A12F-58391AFB3B39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

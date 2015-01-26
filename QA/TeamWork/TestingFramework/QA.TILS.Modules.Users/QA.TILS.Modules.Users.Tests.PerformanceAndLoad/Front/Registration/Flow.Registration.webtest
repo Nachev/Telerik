@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="Flow.Registration" Id="1f7bd8d1-c0f5-412d-9323-2360ec5119c0" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.8fa9da2d-c2e8-4a64-802d-4c25770379a0.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <IncludedWebTest Name="PageLoad.Registration" Path="pageload.registration.webtest" Id="d74ec7ba-455e-4d02-91bc-48e8c1c89d26" IsCodedWebTest="False" InheritWebTestSettings="True" />
+    <Request Method="POST" Guid="a493c46d-2caa-4868-8d49-defd9f3fa4f1" Version="1.1" Url="{{BaseUrl}}/Users/Auth/Registration" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="3" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{BaseUrl}}/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{BaseUrl}}/Users/Auth/Registration" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="Username" Value="{{RegistrationInformation.PerformanceTestData#csv.username}}" RecordedValue="potrebitelskoIme" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Password" Value="123456" RecordedValue="123456" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="PasswordAgain" Value="123456" RecordedValue="123456" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FirstName" Value="Име" RecordedValue="Име" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="LastName" Value="Фамилия" RecordedValue="Фамилия" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Email" Value="{{RegistrationInformation.PerformanceTestData#csv.email}}" RecordedValue="email@email.email" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="TermsAndConditions" Value="true" RecordedValue="true" CorrelationBinding="{{FormPostParam1.TermsAndConditions}}" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+  </Items>
+  <DataSources>
+    <DataSource Name="RegistrationInformation" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\..\..\Data\PerformanceTestData.csv">
+      <Tables>
+        <DataSourceTable Name="PerformanceTestData#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+  </DataSources>
+  <ContextParameters>
+    <ContextParameter Name="BaseUrl" Value="http://test.telerikacademy.com" />
+  </ContextParameters>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="High" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
