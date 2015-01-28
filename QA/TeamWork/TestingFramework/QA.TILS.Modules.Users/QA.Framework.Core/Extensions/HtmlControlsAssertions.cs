@@ -2,7 +2,6 @@
 {
     using ArtOfTest.Common.UnitTesting;
     using ArtOfTest.WebAii.Controls.HtmlControls;
-    using Telerik.TestingFramework.Controls.KendoUI;
 
     public static class HtmlControlsAssertions
     {
@@ -50,16 +49,6 @@
         public static T AssertValueEquals<T>(this T control, string expectedValue) where T : HtmlInputControl
         {
             string realValue = control.Value;
-            string exceptionMessage = string.Format("Expected value is {0}, but it was {1}", expectedValue, control.BaseElement.InnerText);
-
-            Assert.AreEqual<string>(expectedValue, realValue, exceptionMessage);
-
-            return control;
-        }
-
-        public static T AssertKendoValueEquals<T>(this T control, string expectedValue) where T : KendoInput
-        {
-            string realValue = control.InputValue;
             string exceptionMessage = string.Format("Expected value is {0}, but it was {1}", expectedValue, control.BaseElement.InnerText);
 
             Assert.AreEqual<string>(expectedValue, realValue, exceptionMessage);

@@ -1,6 +1,5 @@
 ﻿namespace QA.TILS.Modules.Users.Tests.Functional.Admin.Users
 {
-    using ArtOfTest.WebAii.Core;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using QA.Framework.Core.Base;
     using QA.Framework.Core.Data;
@@ -43,33 +42,6 @@
             this.usersPage.DeleteUser(username);
             this.usersPage.Validator.UserIsDeleted(username);
         }
-
-        //[TestMethod]
-        //public void DeleteUsersUntilCondition()
-        //{
-        //    LoginSteps.LoginAdmin();
-        //    this.usersPage.NavigateTo();
-        //    var username = this.usersPage.GetFirstUserUsername();
-        //    int count = new int();
-        //    int userId = new int();
-        //    bool isUserID = int.TryParse(this.usersPage.GetFirstUserId(), out userId);
-        //    while (isUserID && userId > 3000)
-        //    {
-        //        count += 1;
-        //        if (username != null)
-        //        {
-        //            this.usersPage.DeleteUser(username);
-        //        }
-
-        //        username = this.usersPage.GetFirstUserUsername();
-        //        if (count >= 24)
-        //        {
-        //            Manager.Current.ActiveBrowser.Refresh();
-        //            this.usersPage.Elements.RefreshButton.Click();
-        //            count = 0;
-        //        }
-        //    }
-        //}
 
         [TestMethod]
         [Priority(4)]
