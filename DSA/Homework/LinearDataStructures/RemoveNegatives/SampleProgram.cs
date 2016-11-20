@@ -14,7 +14,7 @@
         {
             // var inputSequence = Input();
             // To change input to manual uncomment upper line and comment out lower one.
-            var inputSequence = RandomConsoleInput(-10, 10, 300);
+            var inputSequence = RandomConsoleInput(-10, 10, 30);
             Output(inputSequence.Values, "Input sequence is: ");
             RemoveNegatives(inputSequence);
             Output(inputSequence.Values, "Positive sequence is: ");

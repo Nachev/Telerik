@@ -16,6 +16,7 @@
 
             var reversedStack = ReverseStack(inputSequence);
             Console.WriteLine("Reversed stack is: " + string.Join(", ", reversedStack));
+            Console.ReadLine();
         }
 
         private static int NumberInput(string message = "-> ")
@@ -57,9 +58,9 @@
             return result;
         }
 
-        private static Stack<T> ReverseStack<T>(Stack<T> sequence)
+        private static IEnumerable<T> ReverseStack<T>(Stack<T> sequence)
         {
-            Stack<T> result = new Stack<T>(sequence.Count);
+            var result = new Stack<T>(sequence.Count);
             int length = sequence.Count;
             for (int i = 0; i < length; i++)
             {

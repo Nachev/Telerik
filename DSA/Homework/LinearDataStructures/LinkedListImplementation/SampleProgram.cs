@@ -8,7 +8,7 @@
         private static void Main(string[] args)
         {
             // Creation
-            LinkedList<int> testList = new LinkedList<int>() { 1, 2, 3, 4, 5};
+            ILinkedList<int> testList = new LinkedList<int>() { 1, 2, 3, 4, 5};
 
             // Addition
             testList.Add(6);

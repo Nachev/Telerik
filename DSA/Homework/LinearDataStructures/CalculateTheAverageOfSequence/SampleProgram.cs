@@ -17,6 +17,7 @@
             long sum = CalculateSum(inputSequence);
             double average = CalculateAverage(sum, inputSequence.Count);
             Console.WriteLine("Sum is: {0}, average is: {1}", sum, average);
+            Console.ReadLine();
         }
 
         private static IList<int> Input()

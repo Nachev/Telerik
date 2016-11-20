@@ -8,8 +8,7 @@
     /*Implement the ADT queue as dynamic linked list. 
     Use generics (LinkedQueue<T>) to allow storing 
     different data types in the queue.*/
-    public class LinkedQueue<T> : IEnumerable<T>
-        where T : IComparable<T>
+    public class LinkedQueue<T> : ILinkedQueue<T> where T : IComparable<T>
     {
         private LinkedList<T> container;
         private int size;
@@ -65,6 +64,7 @@
             {
                 throw new ArgumentNullException("Cannot enqueue null item.");
             }
+
             return this.container.Contains(item);
         }
 

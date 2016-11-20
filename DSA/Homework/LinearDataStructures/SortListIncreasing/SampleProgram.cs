@@ -15,7 +15,7 @@
         {
             // var inputSequence = Input();
             // To change input to manual ucomment upper line and comment out lower one.
-            var inputSequence = RandomConsoleInput(-100, 200, 30000);
+            var inputSequence = RandomConsoleInput(-100, 200, 30);
 
             var sortedSequence = MergeSort_Split(inputSequence);
 

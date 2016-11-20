@@ -12,7 +12,7 @@
     {
         private static void Main()
         {
-            StackWithArray<int> testStack = new StackWithArray<int>();
+            IStackWithArray<int> testStack = new StackWithArray<int>();
             Console.WriteLine("Push");
             testStack.Push(23);
             testStack.Push(13);

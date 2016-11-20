@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ILinkedList.cs" />
     <Compile Include="ListItem.cs" />
     <Compile Include="LinkedList.cs">
       <ExcludeFromStyleCop>False</ExcludeFromStyleCop>

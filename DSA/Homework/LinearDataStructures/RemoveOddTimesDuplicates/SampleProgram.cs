@@ -45,8 +45,7 @@
             // Holds the indexes in the main dictionary of repeated elements.
             var repeatedElementsIndexes = new Dictionary<T, IList<int>>();
 
-            var length = inputSequence.Count;
-            for (int i = 0; i < length; i++)
+            for (int i = 0, length = inputSequence.Count; i < length; i++)
             {
                 if (inputSequence.ContainsKey(i))
                 {

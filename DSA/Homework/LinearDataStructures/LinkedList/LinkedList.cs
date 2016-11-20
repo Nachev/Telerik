@@ -5,7 +5,7 @@
     using System.Collections.Generic;
     using System.Diagnostics;
 
-    public class LinkedList<T> : ICollection<T>, IEnumerable<T>
+    public class LinkedList<T> : ILinkedList<T>
     {
         private ListItem<T> firstElement;
         private int count;

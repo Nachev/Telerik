@@ -8,8 +8,7 @@
     /*Implement the ADT stack as auto-resizable array . 
     Resize the capacity on demand (when no space is 
     available to add / insert a new element).*/
-    public class StackWithArray<T> : IEnumerable<T>
-        where T: IComparable<T>
+    public class StackWithArray<T> : IStackWithArray<T> where T: IComparable<T>
     {
         private const int DefaultCapacity = 10;
 

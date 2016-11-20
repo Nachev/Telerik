@@ -3,7 +3,6 @@
     using System;
     using System.Collections.Generic;
     using System.IO;
-    using System.Linq;
     using System.Text;
 
     /*Write a program that finds in given array of integers (all belonging to the range [0..1000]) 
@@ -27,8 +26,7 @@
             // Holds the count of repeated elements.
             var elementsCount = new Dictionary<T, int>();
 
-            var length = inputSequence.Count;
-            for (int i = 0; i < length; i++)
+            for (int i = 0, length = inputSequence.Count; i < length; i++)
             {
                 var currentElement = inputSequence[i];
 

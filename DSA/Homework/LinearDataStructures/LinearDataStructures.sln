@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T01.CalculateTheAverageOfSequence", "CalculateTheAverageOfSequence\T01.CalculateTheAverageOfSequence.csproj", "{60E348EA-98C4-4E1E-98A6-97071E38E19B}"
 EndProject
@@ -35,7 +35,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "T12.StackTask", "T12.StackT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackImplement", "StackImplement\StackImplement.csproj", "{BBA9E2C9-076C-45E9-98DF-BE7D55453964}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QueueTask", "QueueTask", "{1C5B2293-CF2E-495C-82EC-AB5C1B72B440}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "T13.QueueTask", "T13.QueueTask", "{1C5B2293-CF2E-495C-82EC-AB5C1B72B440}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueWithList", "QueueWithList\QueueWithList.csproj", "{99ABCB99-EFDF-4379-A0E5-B8528FF281C6}"
 EndProject
