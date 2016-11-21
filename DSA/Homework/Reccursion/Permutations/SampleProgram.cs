@@ -1,16 +1,12 @@
 ﻿namespace Permutations
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     internal class SampleProgram
     {
         private static void Main(string[] args)
         {
-            int n = 2;
+            int n = 3;
             int[] arr = new int[n];
             InitializeArray(arr);
             HeapCalcPermutations(arr, n);

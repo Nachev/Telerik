@@ -1,10 +1,6 @@
 ﻿namespace CombinationsWithRepetition
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     internal class SampleProgram
     {
@@ -22,7 +18,7 @@
 
             if (currentPosition >= sequenceLength)
             {
-                PrintLoops(arr);
+                PrintArray(arr);
                 return;
             }
 
@@ -33,7 +29,7 @@
             }
         }
 
-        private static void PrintLoops(int[] arr)
+        private static void PrintArray(int[] arr)
         {
             Console.WriteLine(string.Join(", ", arr));
         }

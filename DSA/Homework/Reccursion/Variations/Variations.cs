@@ -1,18 +1,15 @@
 ﻿namespace Variations
 {
     using System;
-    using System.Collections.Generic;
 
     public static class Variations
     {
-        private static string[] arr = new string[] { "a", "a", "b", "c" };
+        private static string[] arr = new string[] { "hi", "a", "b" };
 
         public static void Main()
         {
             int numberOfElementsN = 3;
-
             int sequenceLengthK = 2;
-
             string[] currentArray = new string[sequenceLengthK]; 
 
             // Solve problem

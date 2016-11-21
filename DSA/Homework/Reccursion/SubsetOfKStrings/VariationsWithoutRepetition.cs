@@ -1,19 +1,15 @@
 ﻿namespace SubsetOfKStrings
 {
     using System;
-    using System.Collections.Generic;
 
     public static class VariationsWithoutRepetition
     {
-        private static string[] arr = new string[] { "a", "b", "c", "d" };
-        private static int[] arr2 = { 0, 1, 2, 3 };
+        private static string[] arr = new string[] { "test", "rock", "fun" };
 
         public static void Main()
         {
-            int numberOfElementsN = 8;
-
-            int sequenceLengthK = 4;
-
+            int numberOfElementsN = arr.Length;
+            int sequenceLengthK = 2;
             string[] currentArray = new string[sequenceLengthK];
 
             // Solve problem
@@ -32,14 +28,7 @@
             // Counter calling recursive same method. 
             for (int counter = next + 1; counter < numberOfElements; counter++)
             {
-                if (currentElement % 2 == 0)
-                {
-                    currentArray[currentElement] = arr2[counter % arr2.Length].ToString();
-                }
-                else
-                {
-                    currentArray[currentElement] = arr[counter % arr.Length];
-                }
+                currentArray[currentElement] = arr[counter % arr.Length].ToString();
 
                 CalcVariationsRecursive(currentElement + 1, currentArray, numberOfElements, sequenceLength, counter);
             }
